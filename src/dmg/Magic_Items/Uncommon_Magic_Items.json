@@ -1,0 +1,1756 @@
+[
+  {
+    "name": "Adamantine Armor",
+    "description": "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
+    "rarity": "Uncommon",
+    "effect": ["On Crit", "Armor, medium, heavy"],
+    "type": "Armor",
+    "attunement": "false"
+  },
+  {
+    "name": "Alchemy Jug Basic",
+    "description": "This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty. You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named. Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Table", "Action, Fill or Pour", "Charges"],
+    "uses": "1, Dawn",
+    "type": "Woundrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Alchemy Jug Blue",
+    "description": "This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty. You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named. Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Table", "Action, Fill or Pour", "Charges"],
+    "uses": "1, Dawn",
+    "type": "Woundrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Alchemy Jug Orange",
+    "description": "This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty. You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named. Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Table", "Action, Fill or Pour", "Charges"],
+    "uses": "1, Dawn",
+    "type": "Woundrous",
+    "attunement": "false"
+  },
+  {
+    "name": "All-Purpose Tool +1",
+    "description": "This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice. Whatever form the tool takes, you are proficient with it. While holding this tool, you gain a bonus to the spell attack rolls and the saving throw DCs of your artificer spells. The bonus is determined by the tool's rarity. As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Action, learn a cantrip for 8 hours", "Spells", "Bonus, Spell Attack, Spell Save DC, 1"],
+    "spells": "Any, 0",
+    "uses": "1, Dawn",
+    "type": "Tool",
+    "attunement": "true",
+    "requirement": "Class, Artificer"
+  },
+  {
+    "name": "Ammunition +1",
+    "description": "You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Bonus, Attack, Damage, 1"],
+    "type": "Ammunition",
+    "attunement": "false"
+  },
+  {
+    "name": "Amulet of Proof Against Detection and Location",
+    "description": "While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.",
+    "rarity": "Uncommon",
+    "effect": ["Active"],
+    "type": "Amulet",
+    "attunement": "true"
+  },
+  {
+    "name": "Amulet of the Devout +1",
+    "description": "This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a bonus to spell attack rolls and the saving throw DCs of your spells. The bonus is determined by the amulet's rarity. While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Spell Attack, Spell Save DC, 1", "Requirement", "Charges"],
+    "uses": "1, Dawn",
+    "type": "Amulet",
+    "attunement": "true",
+    "requirement": "Class, cleric, paladin"
+  },
+  {
+    "name": "Amulet of the Drunkard",
+    "description": "This amulet smells of old, ale-stained wood. While wearing it, you can regain 4d4 + 4 hit points when you drink a pint of beer, ale, mead, or wine. Once the amulet has restored hit points, it can't do so again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Heal, 4d4, 4", "Class Feature, Arcane Recovery, 1"],
+    "type": "Amulet",
+    "uses": "1, Dawn",
+    "attunement": "false"
+  },
+  {
+    "name": "Arcane Grimoire +1",
+    "description": "While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a bonus to spell attack rolls and to the saving throw DCs of your wizard spells. The bonus is determined by the book's rarity. You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Spell Attack, Spell Save DC, 1", "Requirement"],
+    "type": "Spell Focus",
+    "requirement": "Class, wizard",
+    "attunement": "true"
+  },
+  {
+    "name": "Bag of Holding",
+    "description": "This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action. If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate. Placing a bag of holding inside an extradimensional space created by a Heward's Handy Haversack, Portable Hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.",
+    "rarity": "Uncommon",
+    "effect": ["Inventory"],
+    "type": "Inventory",
+    "attunement": "false"
+  },
+  {
+    "name": "Bag of Tricks Gray",
+    "description": "This ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound. You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. See the Monster Manual for the creature's statistics. The creature vanishes at the next dawn or when it is reduced to 0 hit points. The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature. Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Action, pull from the bag", "Roll, 1d8", "Table"],
+    "uses": "3, Dawn",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Bag of Tricks Rust",
+    "description": "This ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound. You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. See the Monster Manual for the creature's statistics. The creature vanishes at the next dawn or when it is reduced to 0 hit points. The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature. Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Action, pull from the bag", "Roll, 1d8", "Table"],
+    "uses": "3, Dawn",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Bag of Tricks Tan",
+    "description": "This ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound. You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. See the Monster Manual for the creature's statistics. The creature vanishes at the next dawn or when it is reduced to 0 hit points. The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature. Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Action, pull from the bag", "Roll, 1d8", "Table"],
+    "uses": "3, Dawn",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Balance of Harmony",
+    "description": "This scale bears celestial symbols on one pan and fiendish symbols on the other. You can use the scale to cast Detect Evil and Good as a ritual. Doing so requires you to place the scale on a solid surface, then sprinkle the pans with holy water or place a transparent gem worth 100 gp in each pan. The scale remains motionless if it detects nothing, tips to one side or the other for good (consecrated) or evil (desecrated), and fluctuates slightly if it detects a creature appropriate to the spell but neither good nor evil. By touching the scales after casting the ritual, you instantly learn any information the spell can normally convey, and then the effect ends.",
+    "rarity": "Uncommon",
+    "effect": ["Spells"],
+    "spells": "Detect Evil and Good",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Balloon Pack",
+    "description": "This backpack contains the spirit of an air elemental and a compact leather balloon. While you’re wearing the backpack, you can deploy the balloon as an action and gain the effect of the Levitate spell for 10 minutes, targeting yourself and requiring no concentration. Alternatively, you can use a reaction to deploy the balloon when you’re falling and gain the effect of the Feather Fall spell for yourself. When either spell ends, the balloon slowly deflates as the elemental spirit escapes and returns to the Elemental Plane of Air. As the balloon deflates, you descend gently toward the ground for up to 60 feet. If you are still in the air at the end of this distance, you fall if you have no other means of staying aloft. After the spirit departs, the backpack’s property is unusable unless the backpack is recharged for 1 hour in an elemental air node, which binds another spirit to the backpack.",
+    "rarity": "Uncommon",
+    "effect": ["Spells", "Action, Levitate using the balloon", "Reaction, feather fall using the balloon", "Consumable"],
+    "spells": ["Levitate", "Feather Fall"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Barrier Tattoo",
+    "description": "Tattoo Attunement. To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space. Protection. While you aren't wearing armor, the tattoo grants you an Armor Class depending on the tattoo's rarity, as shown below. You can use a shield and still gain this benefit.",
+    "rarity": "Uncommon",
+    "effect": ["AC, Dex, 12"],
+    "type": "Tattoo",
+    "attunement": "true"
+  },
+  {
+    "name": "Blood of the Lycanthrope Antidote",
+    "description": "This clear potion has dark red flecks within, resembling clotted blood. When you drink this potion, it removes the curse of lycanthropy from you if that curse was imposed by a lycanthrope’s bite or similar effect.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Blood Spear",
+    "description": "Kavan was a ruthless chieftain whose tribe Jived in the Balinok Mountains centuries before the arrival of Strahd von Zarovich. Although he was very much alive, Kavan had some traits in common with vampires: he slept during the day and hunted at night, he drank the blood of his prey, and be lived underground. in battle, he wielded a spear stained with blood. His was the first blood spear, a weapon that drains life from those it kills and transfers that life to its wielder, imbuing that individual with the stamina to keep fighting. When you hit with a melee attack using this magic spear and reduce the target to 0 hit points, you gain 2d6 temporary hit points.",
+    "rarity": "Uncommon",
+    "effect": ["On Kill", "Temp Hp, 2d6"],
+    "type": "Weapon, Spear",
+    "attunement": "true"
+  },
+  {
+    "name": "Bloodwell Vial +1",
+    "description": "To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells. The bonus is determined by the vial's rarity. In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Requirement", "Charges", "Bonus, Spell Attack, Spell Save DC, 1", "Class Feature, Use Hit Die, Sorcery Points, 5"],
+    "type": "Spell Focus",
+    "uses": "1, Dawn",
+    "requirement": "Class, sorcerer",
+    "attunement": "true"
+  },
+  {
+    "name": "Boots of Elvenkind",
+    "description": "While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity (Stealth) checks that rely on moving silently.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Stelth"],
+    "type": "Boots",
+    "attunement": "false"
+  },
+  {
+    "name": "Boots of Striding and Springing",
+    "description": "While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.",
+    "rarity": "Uncommon",
+    "effect": ["Speed, 30"],
+    "type": "Boots",
+    "attunement": "true"
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "description": "These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits: You have resistance to cold damage. You ignore difficult terrain created by ice or snow. You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.",
+    "rarity": "Uncommon",
+    "effect": ["Resistance, cold"],
+    "type": "Boots",
+    "attunement": "true"
+  },
+  {
+    "name": "Bottled Breath",
+    "description": "This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it. If you exhale the breath, you gain the effect of the Gust of Wind spell. If you hold the breath, you don’t need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn’t give you the benefit of exhaling the breath.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Spells"],
+    "spells": "Gust of Wind",
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Brooch of Living Essence",
+    "description": "While wearing this nondescript brooch, spells and anything else that would detect or reveal your creature type treat you as humanoid, and those that would reveal your alignment treat it as neutral.",
+    "rarity": "Uncommon",
+    "effect": ["Active"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Brooch of Shielding",
+    "description": "While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the Magic Missile spell.",
+    "rarity": "Uncommon",
+    "effect": ["Resistance, force", "Immunity, Magic Missle"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Broom of Flying",
+    "description": "This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land. You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you.",
+    "rarity": "Uncommon",
+    "effect": ["Mount"],
+    "type": "Mount",
+    "attunement": "false"
+  },
+  {
+    "name": "Cap of Water Breathing",
+    "description": "While wearing this cap underwater, you can speak its command word as an action to create a bubble of air around your head. It allows you to breathe normally underwater. This bubble stays with you until you speak the command word again, the cap is removed, or you are no longer underwater.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Create air bubble"],
+    "type": "Hat",
+    "attunement": "false"
+  },
+  {
+    "name": "Circlet of Blasting",
+    "description": "While wearing this circlet, you can use an action to cast the Scorching Ray spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Cast Scorching Ray", "Spells", "Charges"],
+    "uses": "1, Dawn",
+    "spells": "Scorching Ray, Attack Bonus, 5",
+    "type": "Circlet",
+    "attunement": "false"
+  },
+  {
+    "name": "Cloak of Elvenkind",
+    "description": "While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Stealth", "Action, Pull Hood Up or Down", "Against You, Disadvantage, Percepetion"],
+    "type": "Cloak",
+    "attunement": "true"
+  },
+  {
+    "name": "Cloak of Protection",
+    "description": "You gain a +1 bonus to AC and saving throws while you wear this cloak.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, AC, Saving Throws, 1"],
+    "type": "Cloak",
+    "attunement": "true"
+  },
+  {
+    "name": "Cloak of the Manta Ray",
+    "description": "While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.",
+    "rarity": "Uncommon",
+    "effect": ["Swim, 60", "Action, Pull Hood Up or Down"],
+    "type": "Cloak",
+    "attunement": "false"
+  },
+  {
+    "name": "Coiling Grasp Tattoo",
+    "description": "Produced by a special needle, this magic tattoo has long intertwining designs. Tattoo Attunement. To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space. Grasping Tendrils. While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take 3d6 force damage and be grappled by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength (Athletics) or Dexterity (Acrobatics) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Grapple Attempt", "Saving Throw, Strength, 14, Damage", "To Escape, Saving Throw, Athletics, Acrobatics, 14"],
+    "damage":"force, 3d6",
+    "type": "Tattoo",
+    "attunement": "true"
+  },
+  {
+    "name": "Cracked Driftglobe",
+    "description": "This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word cause it to emanate the Light spell.",
+    "rarity": "Uncommon",
+    "effect": ["Spells"],
+    "spells": "Light",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Cursed Luckstone",
+    "description": "This flat, gray-and-black river stone is inscribed with an unknown arcane symbol and feels cool to the touch. While carrying the stone. you can gain advantage on one ability check of your choice. The stone can't be used this way again until the next dawn. Curse. This item is cursed. Attuning to it curses you until you are targeted by a remove curse spell or similar magic. As long as you remain cursed, you cannot discard the stone, which immediately teleports back into your pocket or pack. After you use the stone's magic, your next two ability checks are made with disadvantage.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Advantage, Ability Check, Any", "Curse, On Use, Disadvantage, Ability Checks, 2"],
+    "uses": "1, Dawn",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "description": "This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds. You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options: \"Stream\" produces 1 gallon of water. \"Fountain\" produces 5 gallons of water. \"Geyser\" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall prone. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Uncork Decanter", "Bonus Action, Aim Geyser", "Saving Throw, Strength, 13, Damage, Fall Prone"],
+    "damage": "bludgeoning, 1d4",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Deck of Illusions",
+    "description": "This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing 1d20 - 1 cards. The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use an action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of you. An illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature (as presented in the Monster Manual), except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can use an action to move it magically anywhere within 30 feet of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as illusory with a successful DC 15 Intelligence (Investigation) check. The creature then appears translucent. The illusion lasts until its card is moved or the illusion is dispelled. When the illusion ends, the image on its card disappears, and that card can't be used again.",
+    "rarity": "Uncommon",
+    "effect": ["Table", "Roll, Deck of Cards", "Ability Check, Investigation, 15"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Slumbering Dragon Vessel",
+    "description": "As a bonus action, if the vessel is empty, you can speak the command word to fill the vessel with one of the following (your choice): Ale, Olive Oil, a Potion of Healing, or a Potion of Climbing. Once this property is used, it can’t be used until the next dawn. A potion you create in this way loses its magical properties if it isn’t imbibed within 24 hours.",
+    "rarity": "Uncommon",
+    "effect": ["Charges"],
+    "uses": "1, Dawn",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Dragonhide Belt +1",
+    "description": "",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Requirement", "Bonus, Saving Throw DC, 1", "Roll, Martial Arts Die", "Class Feature, Regain Ki Points"],
+    "requirment": "Class, monk",
+    "uses": "1, Dawn",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Slumbering Dragon's Wrath Weapon",
+    "description": "This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon’s hoard, it absorbs the energy of the dragon’s breath weapon and deals damage of that type with its special properties. Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon’s breath weapon.",
+    "rarity": "Uncommon",
+    "effect": ["On Crit, Damage", "Dragon Type"],
+    "damage": "Dragon Type, 5",
+    "type": "Weapon",
+    "attunement": "true"
+  },
+  {
+    "name": "Slumbering Dragon Touched Focus",
+    "description": "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons’ wings, claws, teeth, or scales. Slumbering (Uncommon). You have advantage on initiative rolls. While you are holding the focus, it can function as a spellcasting focus for all your spells.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Initiative"],
+    "requirment": "Spellcaster",
+    "type": "Spell Focus",
+    "attunement": "true"
+  },
+  {
+    "name": "Driftglobe",
+    "description": "This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the Light or Daylight spell. Once used, the Daylight effect can't be used again until the next dawn. You can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Spells"],
+    "uses": "1 Dawn",
+    "spells": ["Daylight", "Light"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Dust of Corrosion",
+    "description": "As an action, you can throw this dust into the air, filling a 10-foot cube that extends out from you. Surfaces and objects made of nonmagical ferrous metal in the area instantly corrode and turn to dust, becoming useless and unsalvageable. Any creature in the area that is made wholly or partly out of ferrous metal must make a DC 13 Constitution saving throw, taking 4d8 necrotic damage on a failed save, or half as much damage on a successful one. Found in a small packet, this dust is made from finely ground rust monster antennae. There is enough dust in each packet for one use.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Throw Dust", "Saving Throw, Constitution, 13, Damage, Half on Success"],
+    "damage": "necrotic, 4d8",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Dust of Deliciousness",
+    "description": "This reddish brown dust can be sprinkled over any edible substance to greatly improve the flavor. The dust also dulls the eater's senses: anyone eating food treated with this dust has disadvantage on Wisdom ability checks and Wisdom saving throws for 1 hour. There is enough dust to flavor six servings.",
+    "rarity": "Uncommon",
+    "effect": ["Disadvantage, Ability Checks, Wisdom, Saving Throws, Wisdom"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Dust of Disappearance",
+    "description": "Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become invisible for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Throw Dust", "Roll, 2d4", "Spells"],
+    "spells": "Invisibility",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Dust of Dryness",
+    "description": "This small packet contains 1d6 + 4 pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible. Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pellet's magic. An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic damage on a failed save, or half as much damage on a successful one.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Sprinkle Dust", "Action, Smash Pellet", "Saving Throw, Constitution, 13, Damage, Half on Save"],
+    "damage": "necrotic, 10d6",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Dust of Sneezing and Choking",
+    "description": "Found in a small container, this powder resembles very fine sand. It appears to be Dust of Disappearance, and an Identify spell reveals it to be such. There is enough of it for one use. When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe, while sneezing uncontrollably. A creature affected in this way is incapacitated and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The Lesser Restoration spell can also end the effect on a creature.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Throw Dust", "Saving Throw, Constitution, 15, Incapacitated", "To End, End of Turn, Saving Throw, Constitution, 15"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Earworm",
+    "description": "To attune to this symbiont, you must hold it against the skin behind your ear for the entire attunement period, whereupon it burrows into your head and bonds to your skull. While the earworm is inside you, you can speak, read, and write Deep Speech. Spells. The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): Detect Thoughts (2 charges) or Dissonant Whispers (1 charge). Each time you use the earworm to cast the Detect Thought spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr. The earworm regains 1d4 expended charges daily at dawn. Symbiotic Nature. The earworm can't be removed from you while you're attuned to it, and you can't voluntarily end your attunement to it. If you're targeted by a spell that ends a curse, your attunement to the earworm ends, and it exits your body.",
+    "rarity": "Uncommon",
+    "effect": ["Language, Deep Speech", "Charges", "Spells, Spell Save DC, 15"],
+    "uses": ["4, 1d4, Dawn", "Detect Thoughts, 2", "Dissonant Whispers, 1"],
+    "spells": ["Detect Thoughts", "Dissonant Whispers"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Eldritch Claw Tattoo",
+    "description": "Produced by a special needle, this magic tattoo depicts clawlike forms and other jagged shapes. Tattoo Attunement. To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space. Magical Strikes. While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes. Eldritch Maul. As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra 1d6 force damage on a hit. Once used, this bonus action can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Unarmed Strikes, Magical", "Bonus, Unarmed Stikes, 1", "Bonus Action, 1 minute, Melee Range, 15, Damage Bonus"],
+    "uses": "1, Dawn",
+    "damage": "force, 1d6",
+    "type": "Tattoo",
+    "attunement": "true"
+  },
+  {
+    "name": "Elemental Gem, Blue Sapphire",
+    "description": "This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the Conjure Elemental spell, and the gem's magic is lost. The Blue Sappire contains an Air Elemental.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Spells"],
+    "spells": "Conjure ELemental",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Elemental Gem, Yellow Diamond",
+    "description": "This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the Conjure Elemental spell, and the gem's magic is lost. The Yellow Diamond contains an Earth Elemental.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Spells"],
+    "spells": "Conjure ELemental",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Elemental Gem, Red Corundum",
+    "description": "This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the Conjure Elemental spell, and the gem's magic is lost. The Red Corundum contains a Fire Elemental.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Spells"],
+    "spells": "Conjure ELemental",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Elemental Gem, Emerald",
+    "description": "This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the Conjure Elemental spell, and the gem's magic is lost. The Emerald contains a Water Elemental.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Spells"],
+    "spells": "Conjure ELemental",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Emerald Pen",
+    "description": "This pen is tipped with an emerald nib and requires no ink to write. While holding this pen, you can cast Illusory Script at will, requiring no material components.",
+    "rarity": "Uncommon",
+    "effect": ["Spells"],
+    "spells": "Illusory Script",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Eversmoking Bottle",
+    "description": "Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloud's area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet. The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Open or Close Bottle"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Eyes of Charming",
+    "description": "These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the Charm Person spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Spells, Spell Save DC, 13"],
+    "uses": "3, Dawn",
+    "spells": "Charm Person",
+    "type": "Glasses",
+    "attunement": "true"
+  },
+  {
+    "name": "Eyes of Minute Seeing",
+    "description": "These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying an object within that range.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Investigation"],
+    "type": "Glasses",
+    "attunement": "false"
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "description": "These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Perception"],
+    "type": "Glasses",
+    "attunement": "true"
+  },
+  {
+    "name": "Feywild Shard",
+    "description": "This warm crystal glints with the sunset colors of the Feywild sky and evokes whispers of emotional memory. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can roll on the Wild Magic Surge table in the Player's Handbook. If the result is a spell, it is too wild to be affected by your Metamagic, and if it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration. If you don't have the Wild Magic Sorcerous Origin, once this property is used to roll on the Wild Magic Surge table, it can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Action, Put On or Take Off", "Class Feature, On Metamagic, Roll Wild Magic", "Subclass, Wild Magic Sorcerer, No Charges", "Charges"],
+    "uses": "1, Dawn",
+    "requirment": "Class, sorcerer",
+    "type": "Spell Focus",
+    "attunement": "false"
+  },
+  {
+    "name": "Figurine of Wondrous Power, Silver Raven",
+    "description": "A Figurine of Wondrous Power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature. The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions. See the Monster Manuel for the creature's statistics. The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description. This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the Animal Messenger spell on it at will.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Summon Creature", "Duration, 12 hours", "Spells", "Charges"],
+    "spells": "Animal Messenger",
+    "uses": "1, 2 Days",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Finder's Goggles",
+    "description": "The lenses of these garish goggles are carved from Siberys dragonshards. While wearing these lenses, you gain the following benefits: When you make a Wisdom (Insight) check, you can roll a d4 and add the number rolled to the check. As an action, you can use the goggles to examine an object to identify the aura of the last creature that touched it. Make a Wisdom (Insight) check against a DC of 13 + the number of days since the last contact occurred. On a success, you learn the creature's type and can immediately use the goggles to cast Locate Creature to find that creature. This property can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Bonus, Wisdom Check, 1d4", "Spells", "Action, Insight Check to Detect Creature"],
+    "spells": "Locate Creature",
+    "uses": "1, Dawn",
+    "requirment": "Mark of Finding",
+    "type": "Glasses",
+    "attunement": "true"
+  },
+  {
+    "name": "Gauntlets of Ogre Power",
+    "description": "Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.",
+    "rarity": "Uncommon",
+    "effect": ["Stat, Strength, 19"],
+    "type": "Gauntlets",
+    "attunement": "true"
+  },
+  {
+    "name": "Gem of Brightness",
+    "description": "This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects: The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem. The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The third command word expends 5 charges and causes the gem to flare with blinding light in a 30-foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word. When all of the gem's charges are expended, the gem becomes a non magical jewel worth 50 gp.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable, Charges", "Charges, 0, 1, 5", "Action, Use One of the Command Words", "Saving THrow, Constitution, 15, Blinded, 1 Minute"],
+    "uses": "50",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Glamerweave",
+    "description": "Glamerweave is clothing imbued with harmless illusory magic. While wearing the common version of these clothes, you can use a bonus action to create a moving illusory pattern within the cloth. Uncommon glamerweave can have the pattern rise from the cloth. For example, a glamerweave gown might be wreathed in harmless, illusory flames, while a glamerweave hat might have illusory butterflies fluttering around it. When you make a Charisma (Performance) or Charisma (Persuasion) check while wearing the uncommon version of glamerweave, you can roll a d4 and add the number rolled to the check. Once you use this property, it can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Ability Check, Performance, Persuassion, 1d4", "charges"],
+    "uses": "1, Dawn",
+    "type": "Clothes",
+    "attunement": "false"
+  },
+  {
+    "name": "Gloves of Missle Snaring",
+    "description": "These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.",
+    "rarity": "Uncommon",
+    "effect": ["Reaction, Ranged Weapon Attack, Roll", "Roll, 1d10, Dex"],
+    "type": "Gloves",
+    "attunement": "true"
+  },
+  {
+    "name": "Gloves of Swimming and Climbing",
+    "description": "While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Ability Check, Athletics, 5"],
+    "type": "Gloves",
+    "attunement": "true"
+  },
+  {
+    "name": "Gloves of Thievery",
+    "description": "These gloves are invisible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and Dexterity checks made to pick locks.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Ability Check, Sleight of Hand, 5"],
+    "type": "Gloves",
+    "attunement": "false"
+  },
+  {
+    "name": "Goggles of Night",
+    "description": "While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet.",
+    "rarity": "Uncommon",
+    "effect": ["Darkvision"],
+    "type": "Goggles",
+    "attunement": "false"
+  },
+  {
+    "name": "Goggles of Object Reading",
+    "description": "These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence (Arcana) checks made to reveal information about a creature or object you can see. In addition, you can cast the Identify spell using the googles. Once you do so, you can't do so again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Ability Check, Arcana", "Spells", "Charges"],
+    "uses": "1, Dawn",
+    "spells": "Identify",
+    "type": "Goggles",
+    "attunement": "true"
+  },
+  {
+    "name": "Gaurdian Emblem",
+    "description": "This emblem is the symbol of a deity or a spiritual tradition. As an action, you can attach the emblem to a suit of armor or a shield or remove it. The emblem has 3 charges. When you or a creature you can see within 30 feet of you suffers a critical hit while you're wearing the armor or wielding the shield that bears the emblem, you can use your reaction to expend 1 charge to turn the critical hit into a normal hit instead. The emblem regains all expended charges daily at dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Action, Put On or Take Off", "On Crit, Cancle the Critical Hit"],
+    "uses": "3, Dawn",
+    "requirment": "Class, cleric, paladin",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Keyrune, Rakdos",
+    "description": "Associated with a particular guild, a guild keyrune is a ceremonial, stylized key, about 1 foot long, made from carved stone. Not a literal key, the item is a badge of authority that gives its bearer access to privileged places in its guild's headquarters and outposts. At the DM's discretion, a character might be given a keyrune upon attaining a renown score of 25 in their guild. When you use an action to speak the item's command word and place the keyrune on the ground in an unoccupied space within 5 feet of you, the keyrune transforms into a creature. If there isn't enough space for the creature, the keyrune doesn't transform. See the Monster Manual for the creature's stat block — the name of which is given in bold in the keyrune's description — unless you're directed to chapter 6 of this book instead. The creature is friendly to you, your companions, and other members of your guild (unless those guild members are hostile to you). It understands your languages and obeys your spoken commands. If you issue no commands, the creature takes the Dodge action and moves to avoid danger. The creature exists for a duration specific to each keyrune. At the end of the duration, the creature reverts to its keyrune form. It reverts early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature reverts to its keyrune form, it can't transform again until 36 hours have passed. This dark granite keyrune is marbled with scarlet veins and carved with the leering visage of a mischievous demon. When activated, it transforms into a cackler (see chapter 6 for the stat block) for up to 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Summon Creature", "Charges"],
+    "uses": "1, 36 hours",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Keyrune, Simic",
+    "description": "Associated with a particular guild, a guild keyrune is a ceremonial, stylized key, about 1 foot long, made from carved stone. Not a literal key, the item is a badge of authority that gives its bearer access to privileged places in its guild's headquarters and outposts. At the DM's discretion, a character might be given a keyrune upon attaining a renown score of 25 in their guild. When you use an action to speak the item's command word and place the keyrune on the ground in an unoccupied space within 5 feet of you, the keyrune transforms into a creature. If there isn't enough space for the creature, the keyrune doesn't transform. See the Monster Manual for the creature's stat block — the name of which is given in bold in the keyrune's description — unless you're directed to chapter 6 of this book instead. The creature is friendly to you, your companions, and other members of your guild (unless those guild members are hostile to you). It understands your languages and obeys your spoken commands. If you issue no commands, the creature takes the Dodge action and moves to avoid danger. The creature exists for a duration specific to each keyrune. At the end of the duration, the creature reverts to its keyrune form. It reverts early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature reverts to its keyrune form, it can't transform again until 36 hours have passed. This keyrune is assembled from coral, mother-of pearl, and chrome and adorned with the spirals and curves characteristic of Simic ornamentation. The head resembles the shell of a sea creature. On command, the keyrune turns into a category 1 krasis (see chapter 6 for the stat block) that has the Grabber and Stabilizing Legs adaptations. The transformation lasts for up to 5 hours.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Summon Creature", "Charges"],
+    "uses": "1, 36 hours",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Azorious",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Ensnaring Strike",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Boros",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Heroism",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Dimir",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Disguise Self",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Golgari",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Entangle",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Gruul",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Compelled Duel",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Izzet",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Chaos Bolt",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Orzhov",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Command",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Rakdos",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Hellish Rebuke",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Selensnya",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Charm Person",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Guild Signet, Simic",
+    "description": "This ring, adorned with the symbol of a guild, allows you to cast one spell closely associated with that guild, as shown in the Guild Signet Spells table. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor. A signet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13).",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Charges"],
+    "spells": "Expeditious Retreat",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Harkon's Bite",
+    "description": "A dire wolf tooth dangles from this simple cord necklace. While you wear it, the necklace grants you a +1 bonus to ability checks and saving throws. Curse. Attuning to Harkon's Bite curses you until either Harkon Lukas removes the necklace from you or you are targeted by a Remove Curse spell or similar magic. As long as you remain cursed, you cannot remove the necklace. Upon donning or removing the necklace, whether you are attuned to it or not, you are afflicted with werewolf lycanthropy as detailed in the Monster Manual. The curse lasts until the dawn after the next full moon. If you are still wearing the necklace at this time, you are afflicted with lycanthropy again.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Ability Check, All, Saving Throw, All, 1"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Hat of Disguise",
+    "description": "While wearing this hat, you can use an action to cast the Disguise Self spell from it at will. The spell ends if the hat is removed.",
+    "rarity": "Uncommon",
+    "effect": ["Spells"],
+    "spells": "Disguise Self",
+    "type": "Hat",
+    "attunement": "true"
+  },
+  {
+    "name": "Headband of Intellect",
+    "description": "Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is 19 or higher without it.",
+    "rarity": "Uncommon",
+    "effect": ["Stat, Intelligence, 19"],
+    "type": "Headband",
+    "attunement": "false"
+  },
+  {
+    "name": "Hellfire Weapon",
+    "description": "This weapon is fashioned from infernal iron and traced with veins of hellfire that shed dim light in a 5-foot-radius. Any humanoid killed by an attack made with this weapon has its soul funneled into the River Styx, where it's reborn instantly as a lemure devil (described in the Monster Manual).",
+    "rarity": "Uncommon",
+    "effect": ["Enchant"],
+    "type": "Weapon",
+    "attunement": "false"
+  },
+  {
+    "name": "Helm of Comprehending Languages",
+    "description": "While wearing this helm, you can use an action to cast the Comprehend Languages spell from it at will.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Cast Comprehend Languages", "Spells"],
+    "spells": "Comprehend Languages",
+    "type": "Helm",
+    "attunement": "false"
+  },
+  {
+    "name": "Helm of Telepathy",
+    "description": "While wearing this helm, you can use an action to cast the Detect Thoughts spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply — using a bonus action to do so — while your focus on it continues. While focusing on a creature with Detect Thoughts, you can use an action to cast the Suggestion spell (save DC 13) from the helm on that creature. Once used, the Suggestion property can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Spells, Spell Save DC, 13", "Action, Cast Detect Thoughts or Suggestion", "Charges", "Bonus Action, Communicate Using Detect Thoughts"],
+    "uses": "1, Dawn",
+    "Spells": ["Detect Thoughts", "Suggestion"],
+    "type": "Helm",
+    "attunement": "true"
+  },
+  {
+    "name": "Helm of Underwater Action",
+    "description": "While wearing this brass helmet, you can breathe underwater, you gain dark vision with a range of 60 feet, and you gain a swimming speed of 30 feet.",
+    "rarity": "Uncommon",
+    "effect": ["Darkvision, 60 feet", "Speed, Swim, 30"],
+    "type": "Helm",
+    "attunement": "true"
+  },
+  {
+    "name": "Immovable Rod",
+    "description": "This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Press Button", "Against, Ability Check, Strength, 30"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Infernal Puzzle Box",
+    "description": "An infernal puzzle box is a cube-shaped container 5 to 6 inches on a side, composed of airtight, interlocking parts made from materials found in the Nine Hells. Most of these boxes are made of infernal iron, though some are carved from bone or horn. Infernal puzzle boxes are used to safeguard diabolical contracts signed between devils and mortals, even after the terms of these contracts are fulfilled. An empty infernal puzzle box weighs 3 pounds regardless of the materials used to fashion it. When an object small enough to fit inside an infernal puzzle box is placed in it, the container magically seals shut around the object, and no magic can force the box open. The sealed box becomes immune to all damage as well. Every infernal puzzle box is constructed with a unique means of opening it. The trick to solving the puzzle is always mundane, never magical. Once a creature figures out the trick or sequence of steps needed to open a particular infernal puzzle box, that creature can open the box as an action, allowing access to the box's contents. A creature that spends 1 hour holding an infernal puzzle box while trying to open it can make a DC 30 Intelligence (Investigation) check. If the check succeeds, the creature figures out the trick or sequence of steps needed to open the box. If the check fails by 5 or more, the creature must make a DC 18 Wisdom saving throw, taking 42 (12d6) psychic damage on a failed save, or half as much damage on a successful one.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Open Box When Trick is Known", "Against, Ability Check, Intellegence, 30, On Fail", "On Fail, Saving Throwm, Wisdom, 18, Damage, Half on Success"],
+    "damage": "psychic, 12d6",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Insignia of Claws",
+    "description": "The jewels in this insignia of the Cult of the Dragon flare with purple light when you enter combat, empowering your natural fists or natural weapons. While wearing the insignia, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Unarmed Strikes, Natural Weapons, 1", "Unarmed Strikes, Magical", "Natural Weapons, Magical"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Doss Lute of the Bards",
+    "description": "An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage. You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC. You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+    "rarity": "Uncommon",
+    "effect": ["Saving Throw, Wisdom, 15, Damage", "Action, Cast One of the Instrument Spells", "Charges, Per Spell", "Charm Spell, Disadvantage on Target Save"],
+    "spells": ["Fly", "Invisibility", "Levitate", "Protection from Evil and Good", "Animal Friendship", "Protection from Energy, fire", "Protection from Poison"],
+    "damage": "psychic, 2d4",
+    "uses": "1, Dawn",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Fochlucan Bandore of the Bards",
+    "description": "An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage. You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC. You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+    "rarity": "Uncommon",
+    "effect": ["Saving Throw, Wisdom, 15, Damage", "Action, Cast One of the Instrument Spells", "Charges, Per Spell", "Charm Spell, Disadvantage on Target Save"],
+    "spells": ["Fly", "Invisibility", "Levitate", "Protection from Evil and Good", "Entangle", "Faerie Fire", "Shillelagh", "Speak with Animals"],
+    "damage": "psychic, 2d4",
+    "uses": "1, Dawn",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Mac-Fuirmidh Cittern of the Bards",
+    "description": "An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage. You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC. You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+    "rarity": "Uncommon",
+    "effect": ["Saving Throw, Wisdom, 15, Damage", "Action, Cast One of the Instrument Spells", "Charges, Per Spell", "Charm Spell, Disadvantage on Target Save"],
+    "spells": ["Fly", "Invisibility", "Levitate", "Protection from Evil and Good", "Barkskin", "Cure Wounds", "Fog Cloud"],
+    "damage": "psychic, 2d4",
+    "uses": "1, Dawn",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Javelin of Lightning",
+    "description": "This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage. The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Saving Throw, Dexterity, 13, Damage, Half on Success", "Ranged Weapon Attack, Bonus Damage"],
+    "damage": "lightning, 4d6",
+    "uses": "1, Dawn",
+    "type": "Weapon, Javelin",
+    "attunement": "false"
+  },
+  {
+    "name": "Keoghtom's Ointment",
+    "description": "This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound. As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Use Ointment, Heal, Cure Poison, Cure Disease"],
+    "heal": "2d8, 2",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Lantern of Revealing",
+    "description": "While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Raise or Lower the Hood"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Living Gloves",
+    "description": "These symbiotic gloves — made of thin chitin and sinew — pulse with a life of their own. To attune to them, you must wear them for the entire attunement period, during which the gloves bond with your skin. While attuned to these gloves, you gain one of the following proficiencies (your choice when you attune to the gloves): Sleight of Hand. Thieves' tools. One kind of artisan's tools of your choice. One kind of musical instrument of your choice. When you make an ability check using the chosen proficiency, you add double your proficiency bonus to the check, instead of your normal proficiency bonus. Symbiotic Nature. The gloves can't be removed from you while you're attuned to them, and you can't voluntarily end your attunement to them. If you're targeted by a spell that ends a curse, your attunement to the gloves ends, and they can be removed.",
+    "rarity": "Uncommon",
+    "effect": ["Choice"],
+    "choice": ["Expertise, Slight of Hand", "Expertise, Thieve's Tools", "Expertise, Artisan's Tools, Any", "Expertise, Instrument, Any"],
+    "type": "Gloves",
+    "attunement": "true"
+  },
+  {
+    "name": "Lorehold Primer",
+    "description": "The Lorehold Primer is a magic textbook created at Strixhaven's Lorehold College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (History) or Intelligence (Religion) check while holding the primer, you can expend 1 charge to give yourself 1d4 bonus to the check, immediately after you roll the d20. In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the Cleric or Wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Spells, Spellcasting Ability, Intelligence, Wisdom, Charisma", "Bonus, Ability Check, History, Religion, 1d4"],
+    "uses": "3, 1d3, Dawn",
+    "spells": "Cleric, Wizard, Any 1st Level",
+    "requirement": "Spellcaster",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Mariner's Armor",
+    "description": "While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.",
+    "rarity": "Uncommon",
+    "effect": ["Active"],
+    "type": "Armor, Light, Medium, Heavy",
+    "attunement": "false"
+  },
+  {
+    "name": "Mask of the Beast",
+    "description": "This wooden mask is shaped in the likeness of a beast's visage and has 3 charges. While wearing the mask, you can expend 1 charge and use the mask to cast the Animal Friendship spell as an action. The mask regains all expended charges at dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Spells", "Action, Cast Animal Friendship"],
+    "spells": "Animal Friendship",
+    "uses": "3, Dawn",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Medallion of Thoughts",
+    "description": "The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the Detect Thoughts spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Spells, Spell Save DC, 13"],
+    "uses": "3, 1d3, Dawn",
+    "spells": "Detect Thoughts",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Mind Carapace Armor",
+    "description": "Any nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intelligence, Wisdom, and Charisma saving throws and makes its wearer immune to the frightened condition.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Saving Throws, Intelligence, Wisdom, Charisma", "Immunity, Frightened"],
+    "type": "Armor, Heavy",
+    "attunement": "true"
+  },
+  {
+    "name": "Mithral Armor",
+    "description": "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.",
+    "rarity": "Uncommon",
+    "effect": ["Remove, Disadvantage, Stealth"],
+    "type": "Armor, Medium, Heavy",
+    "attunement": "false"
+  },
+  {
+    "name": "Mizzium Apparatus",
+    "description": "Innovation is a dangerous pursuit, at least the way the mages of the Izzet League engage in it. As protection against the risk of an experiment going awry, they have developed a device to help channel and control their magic. This apparatus is a collection of leather straps, flexible tubing, glass cylinders, and plates, bracers, and fittings made from a magic-infused metal alloy called mizzium, all assembled into a harness. The item weighs 8 pounds. While you are wearing the mizzium apparatus, you can use it as an arcane focus. In addition, you can attempt to cast a spell that you do not know or have prepared. The spell you choose must be on your class's spell list and of a level for which you have a spell slot, and you must provide the spell's components. You expend a spell slot to cast the spell as normal, but before resolving it you must make an Intelligence (Arcana) check. The DC is 10 + twice the level of the spell slot you expend to cast the spell. On a successful check, you cast the spell as normal, using your spell save DC and spellcasting ability modifier. On a failed check, you cast a different spell from the one you intended. Randomly determine the spell you cast by rolling on the table for the level of the spell slot you expended. If the slot is 6th level or higher, roll on the table for 5th-level spells. If you try to cast a cantrip you don't know, the DC for the Intelligence (Arcana) check is 10, and on a failed check, there is no effect.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Ability Check, Arcana, 10, 2*(level), On Fail", "On Fail, Table, level", "Table"],
+    "requirment": "Class, sorcerer, wizard, warlock",
+    "type": "Spell Focus",
+    "attunement": "true"
+  },
+  {
+    "name": "Moon Sickle +1",
+    "description": "This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. The bonus is determined by the weapon's rarity. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells. When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the sickle.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Bonus, Attack Roll, Damage, 1", "Bonus, Spell Attack Roll, Spell Save DC, 1", "Bonus, Heal, 1d4"],
+    "requirment": "Class, druid, ranger",
+    "type": "Weapon, Sickle",
+    "attunement": "true"
+  },
+  {
+    "name": "Mummy Rot Antidote",
+    "description": "White dust swirls constantly within this pale gray potion. When you drink the potion, it cures you of mummy rot.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Nature's Mantle",
+    "description": "This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a spellcasting focus for your druid and ranger spells. While you are in an area that is lightly obscured, you can Hide as a bonus action even if you are being directly observed.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus Action, Hide"],
+    "requirement": "Class, druid, ranger",
+    "type": "Spell Focus",
+    "attunement": "true"
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "description": "While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as Cloudkill and Stinking Cloud effects, inhaled poisons, and the breath weapons of some dragons).",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Saving Throw, Harmful Gasses"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Night Caller",
+    "description": "This whistle is carved from transparent crystal, and it resembles a tiny dragon curled up like a snail. The name Night Caller is etched on the whistle in Dwarvish runes. If a character succeeds on a DC 20 Intelligence (Arcana or History) check, the character recalls lore that says the duergar made several such whistles for various groups in an age past. If you blow the whistle in darkness or under the night sky, it allows you to cast the Animate Dead spell. The target can be affected through up to 10 feet of soft earth or similar material, and if it is, it takes 1 minute to claw its way to the surface to serve you. Once the whistle has animated an undead creature, it can't do so again until 7 days have passed. Once every 24 hours, you can blow the whistle to reassert control over one or two creatures you animated with it",
+    "rarity": "Uncommon",
+    "effect": ["Ability Check, Arcana, History, 20", "Charges", "Spells"],
+    "spells": "Animate Dead",
+    "uses": "1, 7 Days",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Oil of Slipperiness",
+    "description": "This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a Freedom of Movement spell for 8 hours. Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the Grease spell in that area for 8 hours.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Spells", "Action, Pour on Ground"],
+    "spells": ["Freedom of Movement", "Grease"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Paper Bird",
+    "description": "After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight. The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (-5) in all other abilities, and it is immune to poison and psychic damage. It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash. Paper Birds usually come in small, flat boxes containing 1d6 + 3 sheets of the parchment.",
+    "rarity": "Uncommon",
+    "effect": ["Free Action, Send Bird with its Command Word"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Pearl of Power",
+    "description": "While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you have used the pearl, it can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Action, Regain Spellslot", "Regain Spellslot, 1, 2, 3"],
+    "requirment": "Spellcaster",
+    "uses": "1, Dawm",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Periapt of Health",
+    "description": "You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed you while you wear the pendant.",
+    "rarity": "Uncommon",
+    "effect": ["Immunmity, Disease"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Periapt of Wound Closure",
+    "description": "While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Hit Die Regen, Double", "Death Save, Stabalize, Start of Turn"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Philter of Love",
+    "description": "The next time you see a creature within 10 minutes after drinking this philter, you become charmed by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are charmed. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Charmed, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Pipes of Haunting",
+    "description": "You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain 1d3 expended charges daily at dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Saving Throw, Wisdom, 15, Frightened", "Range, 30", "Charges", "To Escape, Repeate Save, End of Turn"],
+    "requirement": "Proficiency, Instrument, Wind",
+    "uses": "3, 1d3, Dawn",
+    "type": "Instrument",
+    "attunement": "false"
+  },
+  {
+    "name": "Pipes of the Sewers",
+    "description": "You must be proficient with wind instruments to use these pipes. While you are attuned to the pipes, ordinary rats and giant rats are indifferent toward you and will not attack you unless you threaten or harm them. The pipes have 3 charges. If you play the pipes as an action, you can use a bonus action to expend 1 to 3 charges, calling forth one swarm of rats (see the Monster Manual for statistics) with each expended charge, provided that enough rats are within half a mile of you to be called in this fashion (as determined by the DM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise. The pipes regain ld3 expended charges daily at dawn. Whenever a swarm of rats that isn't under another creature's control comes within 30 feet of you while you are playing the pipes, you can make a Charisma check contested by the swarm's Wisdom check. If you lose the contest, the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours. If you win the contest, the swarm is swayed by the pipes' music and becomes friendly to you and your companions for as long as you continue to play the pipes each round as an action. A friendly swarm obeys your commands. If you issue no commands to a friendly swarm, it defends itself but otherwise takes no actions. If a friendly swarm starts its turn and can't hear the pipes' music, your control over that swarm ends, and the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Action, Summon Rats", "Contested Ability Check, Charisma, Wisdom, Make the Rats Friendly"],
+    "uses": "3, 1d3, Dawn",
+    "requirement": "Proficiency, Instrument, Wind",
+    "type": "Instrument",
+    "attunement": "true"
+  },
+  {
+    "name": "Piwafwi",
+    "description": "This dark spider-silk cloak is made by drow. It is a Cloak of Elvenkind. It loses its magic if exposed to sunlight for 1 hour without interruption. While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Ability Check, Stealth", "Action, Pull Up Hood", "Against You, Disadvantage, Ability Check, Perception"],
+    "type": "Cloak",
+    "attunement": "true"
+  },
+  {
+    "name": "Pixie Dust",
+    "description": "As an action, you can sprinkle this dust on yourself or another creature you can see within 5 feet of you. The recipient gains a flying speed of 30 feet and the ability to hover for 1 minute. If the creature is airborne when this effect ends, it falls safely to the ground, taking no damage and landing on its feet. A small packet holds enough pixie dust for one use.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Action, Sprinkle Dust", "Speed, Flying, 30", "Duration, 1 minute"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Advantage",
+    "description": "When you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour. This potion takes the form of a sparkling, golden mist that moves and pours like water",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Choice", "Consumable", "Duration, 1 hour"],
+    "choice": ["Ability Check, Any", "Attack Roll, Any", "Saving Throw, Any"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Animal Friendship",
+    "description": "When you drink this potion, you can cast the Animal Friendship spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Spells, Spell Save DC, 13", "Duration, 1 hour"],
+    "spells": "Animal Friendship",
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Fire Breath",
+    "description": "After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed. This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Charges", "Duration, 1 hour", "Bonus Action, Breath Fire, Saving Throw, Dexterity, 13, Damage, Half on Success"],
+    "damage": "fire, 4d6",
+    "uses": "3",
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Hill Giant Strength",
+    "description": "When you drink this potion, your Strength score changes for 1 hour. The Hill Giant type gives you a Strength score of 21. This potion has no effect on you if your Strength is equal to or greater than that score. This potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Duration, 1 hour", "Stat, Strength, 21"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Growth",
+    "description": "When you drink this potion, you gain the 'enlarge' effect of the Enlarge/Reduce spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously expands from a tiny beat to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Spells", "Roll, 1d4"],
+    "spells": "Enlarge/Reduce",
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Greater Healing",
+    "description": "You regain hit points when you drink this potion. The number of hit points depends on the potion's rarity, 4d4 + 4 for a Greater Healing Potion. Whatever its potency, the potion's red liquid glimmers when agitated.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Heal"],
+    "heal": "4d4, 4",
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Poison",
+    "description": "This concoction looks, smells, and tastes like a Potion of Healing or other beneficial potion. However, it is actually poison masked by illusion magic. An Identify spell reveals its true nature. If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.",
+    "rarity": "Uncommon",
+    "effect": ["Damage", "Saving Throw, Constitution, 13, Poisoned", "Continuous, Start of Turn, Damage", "To Escape, Repeat Save, End of Turn, Reduce Damage, 1d6"],
+    "damage": "poison, 3d6",
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Acid Resistance",
+    "description": "When you drink this potion, you gain resistance to Acid damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Acid", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Thunder Resistance",
+    "description": "When you drink this potion, you gain resistance to Thunder damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Thunder", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Radiant Resistance",
+    "description": "When you drink this potion, you gain resistance to Radiant damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Radiant", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Psychic Resistance",
+    "description": "When you drink this potion, you gain resistance to Psychic damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Psychic", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Poison Resistance",
+    "description": "When you drink this potion, you gain resistance to Poison damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Poison", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Necrotic Resistance",
+    "description": "When you drink this potion, you gain resistance to Necrotic damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Necrotic", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Lightning Resistance",
+    "description": "When you drink this potion, you gain resistance to Lightning damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Lightning", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Force Resistance",
+    "description": "When you drink this potion, you gain resistance to Force damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Force", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Fire Resistance",
+    "description": "When you drink this potion, you gain resistance to Fire damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Fire", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Cold Resistance",
+    "description": "When you drink this potion, you gain resistance to Cold damage for 1 hour.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Resistance, Cold", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Potion of Water Breathing",
+    "description": "You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Duration, 1 hour"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Prismari Primer",
+    "description": "The Prismari Primer is a magic textbook created at Strixhaven's Prismari College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make a Dexterity (Acrobatics) or a Charisma (Performance) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20. In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the Bard or Sorcerer spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Bonus, Ability Check, Acrobatics, Performance, 1d4", "Spell, Spellcasting Ability Modifier, Intellegence, Wisdom, Charisma"],
+    "uses": "3, 1d3, Dawn",
+    "spells": "Bard, Sorcerer, Any 1st level",
+    "requirment": "Spellcaster",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Psi Crystal",
+    "description": "This crystal grants you telepathy for as long as you remain attuned to it. See the introduction of the Monster Manual for rules on how this telepathy works. The crystal also glows with a purplish inner light while you are attuned to it. The higher your intelligence, the greater the light's intensity and the greater the range of the telepathy (see the Psi Crystal Properties table).",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Table"],
+    "requirment": "Stat, Intelligence, 3",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Pyroconverger",
+    "description": "A pyroconverger is an Izzet-made flamethrower. It carries a risk of malfunction each time you use it. As an action, you can cause the pyroconverger to project fire in a 10-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. Each time you use the pyroconverger, roll a d10 and add the number of times you have used it since your last long rest. If the total is 11 or higher, the pyroconverger malfunctions: you take 4d6 fire damage, and you can't use the pyroconverger again until you finish a long rest.",
+    "rarity": "Uncommon",
+    "effect": ["Saving Throw, Dexterity, 13, Damage, Half on Success", "Break, > 10, 1d10, uses, Damage"],
+    "break": "Fixed After Long Rest",
+    "damage": "fire, 4d6",
+    "type": "Weapon",
+    "attunement": "true"
+  },
+  {
+    "name": "Quandrix Primer",
+    "description": "The Quandrix Primer is a magic textbook created at Strixhaven's Quandrix College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (Arcana) or an Intelligence (Nature) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20. In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the Druid or Wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Bonus, Ability Check, Arcana, Nature, 1d4", "Spells, Spellcasting Ability Modifier, Intelligence, Wisdom, Charisma"],
+    "spells": "Druid, Wizard, Any 1st Level",
+    "uses": "3, 1d3, Dawn",
+    "requirment": "Spellcaster",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Quiver of Ehlonna",
+    "description": "Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears. You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.",
+    "rarity": "Uncommon",
+    "effect": ["Inventory", "Extrademensional Space"],
+    "type": "Quiver",
+    "attunement": "false"
+  },
+  {
+    "name": "Rhythm Maker's Drum +1",
+    "description": "While holding this drum, you gain a bonus to spell attack rolls and to the saving throw DCs of your bard spells. The bonus is determined by the drum's rarity. As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can't be used again until the next dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Class Feature, Regain Bardic Insparation, 1", "Bonus, Spell Save DC, Spell Attack Rolls, 1"],
+    "uses": "1, Dawn",
+    "requirment": "Class, bard",
+    "type": "Instrument",
+    "attunement": "true"
+  },
+  {
+    "name": "Ring of Jumping",
+    "description": "While wearing this ring, you can cast the Jump spell from it as a bonus action at will, but can target only yourself when you do so",
+    "rarity": "Uncommon",
+    "effect": ["Bonus Action, Cast Jump", "Spells"],
+    "spells": "Jump",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "description": "While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it. You can use an action to cause the ring to become invisible until you use another action to make it visible, until you remove the ring, or until you die. If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Make Ring Invisible or Visible", "Immunity, Mind Reading"],
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Ring of Obscuring",
+    "description": "This band of iron resembles a skull and is cold to the touch. It has 3 charges and regains 1d3 expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the Fog Cloud spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required).",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Duration, 1 minute", "Spells"],
+    "spells": "Fog Cloud",
+    "uses": "3, 1d3, Dawn",
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Ring of Swimming",
+    "description": "You have a swimming speed of 40 feet while wearing this ring.",
+    "rarity": "Uncommon",
+    "effect": ["Speed, Swim, 40"],
+    "type": "Ring",
+    "attunement": "false"
+  },
+  {
+    "name": "Ring of Truth Telling",
+    "description": "While wearing this ring, you have advantage on Wisdom (Insight) checks to determine whether someone is lying to you.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Ability Check, Insight"],
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Ring of Warmth",
+    "description": "While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit.",
+    "rarity": "Uncommon",
+    "effect": ["Resistance, cold"],
+    "type": "Ring",
+    "attunement": "true"
+  },
+  {
+    "name": "Ring of Water Walking",
+    "description": "While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground.",
+    "rarity": "Uncommon",
+    "effect": ["Active"],
+    "type": "Ring",
+    "attunement": "false"
+  },
+  {
+    "name": "Robe of Serpents",
+    "description": "A Robe of Serpents is a stylish silk garment that is popular among wealthy nobles and retired assassins. The robe is emblazoned with 1d4 + 3 stylized serpents, all brightly colored. As a bonus action on your turn, you can transform one of the robe's serpents into a giant poisonous snake. The snake instantly falls from the robe, slithers into an unoccupied space next to you, and acts on your initiative count. The snake can tell friendly creatures from hostile ones and attacks the latter. The snake disappears in a harmless puff of smoke after 1 hour, when it drops to 0 hit points, or when you dismiss it (no action required). Once detached, a snake can't return to the robe. When all of the robe's snakes have detached, the robe becomes a nonmagical garment.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus Action, Summon Snake", "Summon", "Charges", "Roll, 1d4, 3"],
+    "uses": "Roll",
+    "type": "Robe",
+    "attunement": "true"
+  },
+  {
+    "name": "Robe of Useful Items",
+    "description": "This robe has cloth patches of various shapes and colors covering it. While wearing the robe. you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment. The robe has two of each of the following patches: Dagger. Bullseye lantern (filled and lit). Steel mirror. 10-foot pole. Hempen rope (50 feet, coiled). Sack. In addition, the robe has 4d4 other patches. The DM chooses the patches or determines them randomly.",
+    "rarity": "Uncommon",
+    "effect": ["Generate", "Table", "Inventory", "Action, Detatch a Patch"],
+    "type": "Robe",
+    "attunement": "false"
+  },
+  {
+    "name": "Rod of Retribution",
+    "description": "This adamantine rod is tipped with a glowing crystalline eye. The rod has 3 charges and regains all its expended charges daily at dawn. When a creature you can see within 60 feet of you damages you while you are holding this rod, you can use your reaction to expend 1 of the rod's charges to force the creature to make a DC 13 Dexterity saving throw. The creature takes 2d10 lightning damage on a failed save, or half as much damage on a successful one.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Reaction, Saving Throw, Dexterity, 13, Damage, Half on Success"],
+    "damage": "lightning, 2d10",
+    "uses": "3, Dawn",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Rod of the Pact Keeper +1",
+    "description": "While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your warlock spells. This bonus is determined by the rod's rarity. In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Bonus, Spell Attack Roll, Spell Save DC, 1", "Class Feature, Regain Spell Slot, Any", "Charges"],
+    "charges": "1, Long Rest",
+    "requirment": "Class, warlock",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Rope of Climbing",
+    "description": "This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying. If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it. The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Animate Rope", "Bonus Action, Command Rope"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Saddle of the Cavalier",
+    "description": "While in this saddle on a mount, you can't be dismounted against your will if you're conscious, and attack rolls against the mount have disadvantage.",
+    "rarity": "Uncommon",
+    "effect": ["Agaisnt You, Disadvantage, Attacks on Your Mount"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Scaled Ornament, Slumbering",
+    "description": "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon’s scale, tooth, or claw, or it incorporates images in those shapes. You have advantage on saving throws you make to avoid being charmed or frightened or to end those conditions on you.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Saving Throw, Charmed, Frightened"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Seeker Dart",
+    "description": "This small dart is decorated with designs like windy spirals that span the length of its shaft. When you whisper the word “seek” and hurl this dart, it seeks out a target of your choice within 120 feet of you. You must have seen the target before, but you don’t need to see it now. If the target isn’t within range or if there is no clear path to it, the dart falls to the ground, its magic spent and wasted. Otherwise, elemental winds guide the dart instantly through the air to the target. The dart can pass though openings as narrow as 1 inch wide and can change direction to fly around corners. When the dart reaches its target, the target must succeed on a DC 16 Dexterity saving throw or take 1d4 piercing damage and 3d4 lightning damage. The dart’s magic is then spent, and it becomes an ordinary dart.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Saving Throw, Dexterity, 16, Damage", "Range, 120 feet"],
+    "damage": ["lightning, 3d4", "piercing, 1d4"],
+    "type": "Weapon, Dart",
+    "attunement": "false"
+  },
+  {
+    "name": "Sending Stones",
+    "description": "Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the Sending spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell. Once Sending is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Cast Sending to the Paired Stone", "Charges", "Spells"],
+    "uses": "1, Dawn",
+    "spells": "Sending",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Sentinel Shield",
+    "description": "While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with the symbol of an eye.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Ability Checks, Initiative, Perception"],
+    "type": "Shield",
+    "attunement": "false"
+  },
+  {
+    "name": "Serpent Scale Armor",
+    "description": "This suit of magic armor is made from shimmering scales. While wearing it, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, this armor does not impose disadvantage on your Dexterity (Stealth) checks.",
+    "rarity": "Uncommon",
+    "effect": ["Ac, Get Full Dex Mod", "Cancels, Stealth Disadvantage, Ability Checks, Stealth"],
+    "type": "Armor, Scale Mail",
+    "attunement": "false"
+  },
+  {
+    "name": "Shatterspike",
+    "description": "You have a +1 bonus to attack and damage rolls you make with this magic weapon. If it hits an object, the hit is automatically a critical hit, and it can deal bludgeoning or slashing damage to the object (your choice). Further, damage from nonmagical sources can't harm the weapon.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Attack Roll, Damage, 1", "Object, Auto Crit"],
+    "type": "Weapon, Longsword",
+    "attunement": "true"
+  },
+  {
+    "name": "Shield +1",
+    "description": "While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, AC, 1"],
+    "type": "Shield",
+    "attunement": "false"
+  },
+  {
+    "name": "Silverquill Primer",
+    "description": "The Silverquill Primer is a magic textbook created at Strixhaven's Silverquill College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make a Charisma (Intimidation) or a Charisma (Persuasion) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20. In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the Bard or Cleric spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Spells, Spellcasting Ability Modifier, Intelligence, Wisdom, Charisma", "Bonus, Ability Check, Intimidation, Persuasion, 1d4"],
+    "uses": "3, 1d3, Dawn",
+    "spells": "Bard, Cleric, Any 1st Level",
+    "requirment": "Spellcaster",
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Skyblinder Staff",
+    "description": "You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While holding it, you gain a +1 bonus to spell attack rolls. If a flying creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to hold the staff aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitution saving throw or be blinded until the start of its next turn.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Spell Attack Rolls, Attack Rolls, Damage, 1", "Reaction, When Attacked by a Flying Creature, Impose Disadvantage on Attack", "Saving Throw, Constitution, 15, Blinded, 1 round"],
+    "type": "Staff",
+    "attunement": "true"
+  },
+  {
+    "name": "Slippers of Spider Climbing",
+    "description": "While you wear these light shoes, you can move up, down , and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil.",
+    "rarity": "Uncommon",
+    "effect": ["Active"],
+    "type": "Shoes",
+    "attunement": "true"
+  },
+  {
+    "name": "Smokepowder",
+    "description": "Smokepowder is a magical explosive chiefly used to propel a bullet out of the barrel of a firearm. It is stored in airtight wooden kegs or tiny, waterproof leather packets. A packet contains enough Smokepowder for five shots, and a keg holds enough Smokepowder for five hundred shots. If Smokepowder is set on fire, dropped, or otherwise handled roughly, it explodes and deals fire damage to each creature or object within 20 feet of it: 1d6 for a packet, 9d6 for a keg. A successful DC 12 Dexterity saving throw halves the damage. Casting Dispel Magic on Smokepowder renders it permanently inert.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable", "Saving Throw, Dexterity, 12, Damage, Half on Success"],
+    "damage": "fire, 1d6",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Soul Coin",
+    "description": "Soul coins are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each soul coin has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse. Carrying Soul Coins. To hold a soul coin is to feel the soul bound within it — overcome with rage or fraught with despair. An evil creature can carry as many soul coins as it wishes (up to its maximum weight allowance). A nonevil creature can carry a number of soul coins equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of soul coins greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws. Using a Soul Coin. A soul coin has 3 charges. A creature carrying the coin can use its action to expend 1 charge from a soul coin and use it to do one of the following: Drain Life. You siphon away some of the soul's essence and gain 1d10 temporary hit points. Query. You telepathically ask the soul a question and receive a brief telepathic response. which you can understand. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic. Freeing a Soul. Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as lemure devils. A soul can also be freed by destroying the coin that contains it. A soul coin has AC 19, 1 hit point for each charge it has remaining, and immunity to all damage except that which is dealt by a hellfire weapon (BG:DA, page 223) or an infernal war machine's furnace (BG:DA, page 217). Freeing a soul from a soul coin is considered a good act, even if the soul belongs to an evil creature. Hellish Currency. Soul coins are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favors, bribe the unwilling. and reward the faithful for services rendered. Soul coins are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Temp Hp, 1d10"],
+    "uses": "3",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Spell Gem",
+    "description": "A spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gems properties. While holding the gem. you can cast the spell from it as an action if you know the spell or if the spell is on your class spell list. Doing so doesn‘t require any components and doesn't require attunement. The spell then disappears from the gem. If the spell is of a higher level than you can normally cast. you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check. the spell disappears from the gem with no other effect. Each spell gem has a maximum level for the spell it can store. The spell level determines the gems rarity and the stored spell's saving throw DC and attack bonus. as shown in the Spell Gem table. You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell’s level must be no higher than the gems maximum. If the spell belongs to the school of abjuration and requires material components that are consumed. you must provide them. but they can be worth half as much as normal. Once imbued with a spell. the gem can't be imbued again until the next dawn. Deep gnomes created these magic gemstones and keep the creation process a secret.",
+    "rarity": "Uncommon",
+    "effect": ["Generate", "Spell Save DC, 13", "Spell Attack Bonus, 5", "Ability Check, Spellcasting Ability Modifier, 10, Spell Level"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Spell Scroll, 2nd Level",
+    "description": "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost. If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust. The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.",
+    "rarity": "Uncommon",
+    "effect": ["Generate", "Consumable", "Spell Save DC, 13", "Spell Attack Bonus, 5", "Ability Check, Spellcasting Ability Modifier, 12"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Spell Scroll, 3rd Level",
+    "description": "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost. If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect. Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust. The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the Spell Scroll table.",
+    "rarity": "Uncommon",
+    "effect": ["Generate", "Consumable", "Spell Save DC, 15", "Spell Attack Bonus, 7", "Ability Check, Spellcasting Ability Modifier, 13"],
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Spellwrought Tattoo, 2nd Level",
+    "description": "Produced by a special needle, this magic tattoo contains a single spell of up to 5th level, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin. The level of the spell in the tattoo determines the spell's saving throw DC, attack bonus, spellcasting ability modifier, and the tattoo's rarity, as shown in the Spellwrought Tattoo table.",
+    "rarity": "Uncommon",
+    "effect": ["Generate", "Consumable", "Spellcasting Ability Modifier, 3", "Spell Save DC, 13", "Spell Attack Bonus, 5"],
+    "type": "Tattoo",
+    "attunement": "false"
+  },
+  {
+    "name": "Spellwrought Tattoo, 3nd Level",
+    "description": "Produced by a special needle, this magic tattoo contains a single spell of up to 5th level, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin. The level of the spell in the tattoo determines the spell's saving throw DC, attack bonus, spellcasting ability modifier, and the tattoo's rarity, as shown in the Spellwrought Tattoo table.",
+    "rarity": "Uncommon",
+    "effect": ["Generate", "Consumable", "Spellcasting Ability Modifier, 4", "Spell Save DC, 15", "Spell Attack Bonus, 7"],
+    "type": "Tattoo",
+    "attunement": "false"
+  },
+  {
+    "name": "Spies' Murmur",
+    "description": "This headpiece, crafted from dark metal, is worn curved around the ear. If you know a creature wearing another spies' murmur and that creature is within 1 mile of you, you can communicate telepathically with each other. As a bonus action, you can allow that creature to hear everything you hear for 1 hour. You can end this effect as a bonus action, and it ends if you're incapacitated.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus Action, Open Communication with Another Spies' Murmur"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Staff of the Adder",
+    "description": "You can use a bonus action to speak this staff's command word and make the head of the staff become that of an animate poisonous snake for 1 minute. By using another bonus action to speak the command word again, you return the staff to its normal inanimate form. You can make a melee attack using the snake head, which has a reach of 5 feet. Your proficiency bonus applies to the attack roll. On a hit, the target takes 1d6 piercing damage and must succeed on a DC 15 Constitution saving throw or take 3d6 poison damage. The snake head can be attacked while it is animate. It has an Armor Class of 15 and 20 hit points. If the head drops to 0 hit points, the staff is destroyed. As long as it's not destroyed, the staff regains all lost hit points when it reverts to its inanimate form.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Summon", "Bonus Action, Animate Snake", "Melee Weapon Attck, Damage, Saving Throw", "Saving Throw, Constitution, 15, Damage"],
+    "range": "5 feet",
+    "damage": ["piercing, 1d6", "poison, 3d6"],
+    "requirment": "Class, cleric, druid, warlock",
+    "type": "Staff",
+    "attunement": "true"
+  },
+  {
+    "name": "Staff of the Python",
+    "description": "You can use an action to speak this staff's command word and throw the staff on the ground within 10 feet of you. The staff becomes a giant constrictor snake (see the Monster Manual for statistics) under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake. On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't incapacitated. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location. If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them.",
+    "rarity": "Uncommon",
+    "effect": ["requirment", "Action, Animate Snake", "Summon"],
+    "requirment": "Class, cleric, druid, warlock",
+    "type": "Staff",
+    "attunement": "true"
+  },
+  {
+    "name": "Stone of Good Luck",
+    "description": "While this polished agate is on your person, you gain a + 1 bonus to ability checks and saving throws.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Ability Check, All, Saving Throw, All, 1"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Stone of Ill Luck",
+    "description": "This polished agate appears to be a Stone of Good Luck to anyone who tries to identify it, and it confers that item's property while on your person. Curse. This item is cursed. While it is on your person, you take a -2 penalty to ability checks and saving throws. Until the curse is discovered, the DM secretly applies this penalty, assuming you are adding the item's bonus. You are unwilling to part with the stone until the curse is broken with remove curse or similar magic.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Ability Check, All, Saving Throw, All, -2"],
+    "type": "Wondrous",
+    "attunement": "true"
+  },
+  {
+    "name": "Storm Boomerang",
+    "description": "This boomerang is a ranged weapon carved from griffon bone and etched with the symbol of elemental air. When thrown, it has a range of 60/120 feet, and any creature that is proficient with the javelin is also proficient with this weapon. On a hit, the boomerang deals 1d4 bludgeoning damage and 3d4 thunder damage, and the target must succeed on a DC 10 Constitution saving throw or be stunned until the end of its next turn. On a miss, the boomerang returns to the thrower’s hand. Once the boomerang deals thunder damage to a target, the weapon loses its ability to deal thunder damage and its ability to stun a target. These properties return after the boomerang spends at least 1 hour inside an elemental air node.",
+    "rarity": "Uncommon",
+    "effect": ["Range", "Ranged Weapon Attack, Damage, Saving Throw", "Saving Throw, Constitution, 10, Stunned"],
+    "damage": ["bludgeoning, 1d4", "lightning, 3d4", "Charges"],
+    "uses": "1",
+    "range": "60/120 feet",
+    "type": "Weapon",
+    "attunement": "false"
+  },
+  {
+    "name": "Sword of Vengeance",
+    "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. Curse. This sword is cursed and possessed by a vengeful spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the sword, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one. In addition, while the sword is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save, you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you can't reach the creature to make a melee attack against it. You can break the curse in the usual ways. Alternatively, casting Banishment on the sword forces the vengeful spirit to leave it. The sword then becomes a +1 weapon with no other properties.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Attack Roll, Damage, 1", "Cursed", "On Hit, Saving Throw", "Saving Throw, Wisdom, 15, Must Kill Creature that Hit You"],
+    "type": "Weapon, Sword",
+    "attunement": "true"
+  },
+  {
+    "name": "Thessaltoxin Antidote",
+    "description": "This potion appears to change color and texture each time you look at it. When you drink the potion, it ends the Polymorph effect imposed by thessaltoxin.",
+    "rarity": "Uncommon",
+    "effect": ["Consumable"],
+    "type": "Potion",
+    "attunement": "false"
+  },
+  {
+    "name": "Trident of Fish Command",
+    "description": "This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast Dominate Beast (save DC 15) from it on a beast that has an innate swimming speed. The trident regains 1d3 expended charges daily at dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Action, Expend Charge, Cast Dominate Beast", "Spells, Spell Save DC, 15"],
+    "uses": "3, 1d3, Dawn",
+    "spells": "Dominate Beast",
+    "type": "Weapon, Trident",
+    "attunement": "true"
+  },
+  {
+    "name": "Wand of Entangle",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the Entangle spell (save DC 13) from it. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Spells, Spell Save DC, 13", "ACtion, Expend 1 Charge, Cast Entangle", "Expend All Charges, 1d20, Break, 1"],
+    "spells": "Entangle",
+    "uses": "7, 1d6+1, Dawn",
+    "requirment": "Spellcaster",
+    "type": "Wand",
+    "attunement": "false"
+  },
+  {
+    "name": "Wand of Magic Detection",
+    "description": "This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the Detect Magic spell from it. The wand regains 1d3 expended charges daily at dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Action, Expend Charge, Cast Detect Magic", "Spells"],
+    "spells": "Detect Magic",
+    "uses": "3, 1d3, Dawn",
+    "type": "Wand",
+    "attunement": "false"
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the Magic Missile from it. For 1 charge, you cast the 1st-level version of the spell. You can increases the spell slot level by one for each additional charge you expend. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Spells", "Action, Expend A Number of Charges, Level Based on Number of Charges", "Expend All Charges, 1d20, Break, 1"],
+    "spells": "Magic Missile",
+    "uses": "7, 1d6+1, Dawn",
+    "type": "Wand",
+    "attunement": "false"
+  },
+  {
+    "name": "Wand of Secrets",
+    "description": "The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Action, Expend a Charge, Detect Doors"],
+    "uses": "3, 1d3, Dawn",
+    "type": "Wand",
+    "attunement": "false"
+  },
+  {
+    "name": "Wand of the War Mage +1",
+    "description": "While holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore half cover when making a spell attack.",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Spell Attack Rolls, 1", "Cover, Ignore Half Cover"],
+    "requirment": "Spellcaster",
+    "type": "Wand",
+    "attunement": "true"
+  },
+  {
+    "name": "Wand of Web",
+    "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the Web spell (save DC 15) from it. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Spells, Spell Save DC, 15", "Action, Use 1 Charge, Cast Web", "Expend All Charges, 1d20, Break, 1"],
+    "requirment": "Spellcaster",
+    "uses": "7, 1d6+1, Dawn",
+    "type": "Wand",
+    "attunement": "false"
+  },
+  {
+    "name": "+1 Weapon",
+    "description": "You have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity",
+    "rarity": "Uncommon",
+    "effect": ["Bonus, Attack Rolls, Damage Rolls, 1"],
+    "type": "Enchantment",
+    "attunement": "false"
+  },
+  {
+    "name": "Weapon of Warning",
+    "description": "This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.",
+    "rarity": "Uncommon",
+    "effect": ["Advantage, Ability Check, Initiitive", "Immunity, Suprise"],
+    "type": "Enchantment",
+    "attunement": "true"
+  },
+  {
+    "name": "Wheel of Wind and Water",
+    "description": "When mounted at the helm of an elemental galleon or airship, this wheel allows a creature that possesses the Mark of Storm to telepathically control the elemental bound inside the vessel. If a wheel of wind and water is mounted on a mundane sailing ship, a creature with the Mark of Storm who is using the wheel can create an area of ideal conditions around the vessel, increasing its speed by 5 miles per hour.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment"],
+    "requirment": "Mark of Storm",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Wind Fan",
+    "description": "While holding this fan, you can use an action to cast the Gust of Wind spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.",
+    "rarity": "Uncommon",
+    "effect": ["Action, Cast Gust of Wind", "Spells, Spell Save DC, 13", "Charges", "Break"],
+    "spells": "Gust of Wind",
+    "uses": "1, Dawn",
+    "type": "Wondrous",
+    "attunement": "false"
+  },
+  {
+    "name": "Winged Boots",
+    "description": "While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land. The boots regain 2 hours of flying capability for every 12 hours they aren't in use.",
+    "rarity": "Uncommon",
+    "effect": ["Speed, Flying, Walking Speed", "Duration, 4 hours", "Charges"],
+    "uses": "4 hours, 2 hours, 12 hours",
+    "type": "Boots",
+    "attunement": "true"
+  },
+  {
+    "name": "Wingwear",
+    "description": "This snug uniform has symbols of air stitched into it and leathery flaps that stretch along the arms, waist, and legs to create wings for gliding. A suit of Wingwear has 3 charges. While you wear the suit, you can use a bonus action and expend 1 charge to gain a flying speed of 30 feet until you land. At the end of each of your turns, your altitude drops by 5 feet. Your altitude drops instantly to 0 feet at the end of your turn if you didn’t fly at least 30 feet horizontally on that turn. When your altitude drops to 0 feet, you land (or fall), and you must expend another charge to use the suit again. The suit regains all of its expended charges after spending at least 1 hour in an elemental air node.",
+    "rarity": "Uncommon",
+    "effect": ["Charges", "Bonus Action, Expend Charge and Fly", "Speed, Flying, 30"],
+    "uses": "3",
+    "type": "Clothes",
+    "attunement": "true"
+  },
+  {
+    "name": "Witherbloom Primer",
+    "description": "The Witherbloom Primer is a magic textbook created at Strixhaven's Witherbloom College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (Nature) or Wisdom (Survival) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20. In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the Druid or Wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.",
+    "rarity": "Uncommon",
+    "effect": ["Requirment", "Charges", "Bonus, Ability Check, Nature, Survival, 1d4", "Spells, Spellcasting Ability Modifier, Intelligence, Wisdom, Charisma"],
+    "spells": "Druid, Wizard, Any 1st Level",
+    "requirment": "Spelcaster",
+    "type": "Wondrous",
+    "attunement": "false"
+  }
+]

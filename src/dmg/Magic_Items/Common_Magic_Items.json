@@ -1,0 +1,755 @@
+[
+    {
+      "name": "Armblade",
+      "description": "An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.\n\nAs a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "effect": ["Retract or Extend Armblade"]
+      },
+      "requirement": "Race, Warforged",
+      "type": "Weapon, One Handed Melee",
+      "attunement": "true"
+    },
+    {
+      "name": "Armor of Gleaming",
+      "description": "This armor never gets dirty.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Armor",
+      "attunement": "false"
+    },
+    {
+      "name": "Bead of Nourishment",
+      "description": "This spongy, flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of rations.",
+      "rarity": "Common",
+      "effect": ["Consumable"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Bead of Refreshment",
+      "description": "This spongy, flavorless, gelatinous bead dissolves in liquid, transforming up to a pint of the liquid into fresh, cold drinking water. The bead has no effect on magical liquids or harmful substances such as poison",
+      "rarity": "Common",
+      "effect": ["Consumable"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Boots of False Tracks",
+      "description": "Only humanoids can wear these boots. While wearing the boots, you can choose to have them leave tracks like those of another kind of humanoid of your size.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Boots",
+      "attunement": "false"
+    },
+    {
+      "name": "Breathing Bubble",
+      "description": "This translucent, bubble-like sphere has a slightly tacky outer surface, and you gain the item's benefits only while wearing it over your head like a helmet.\n\nThe bubble contains 1 hour of breathable air. The bubble regains all its expended air daily at dawn.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "charges": "1, Dawn",
+      "type": "Helmet",
+      "attunement": "false"
+    },
+    {
+      "name": "Candle of the Deep",
+      "description": "The flame of this candle is not extinguished when immersed in water. It gives off light and heat like a normal candle.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Cast Off Armor",
+      "description": "You can doff this armor as an action.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["doff the armor"]
+      },
+      "type": "Armor",
+      "attunement": "false"
+    },
+    {
+      "name": "Charlatan's Die",
+      "description": "Whenever you roll this six-sided die, you can control which number it rolls.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "true"
+    },
+    {
+      "name": "Cleansing Stone",
+      "description": "A cleansing stone is a sphere 1 foot in diameter, engraved with mystic sigils. When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["Clean your person"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Cloak of Billowing",
+      "description": "While wearing this cloak, you can use a bonus action to make it billow dramatically.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "effect": ["Billow Dramatically"]
+      },
+      "type": "Cloak",
+      "attunement": "false"
+    },
+    {
+      "name": "Cloak of Many Fashions",
+      "description": "While wearing this cloak, you can use a bonus action to change the style, color, and apparent quality of the garment. The cloak's weight doesn't change. Regardless of its appearance, the cloak can't be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn't gain their magical properties.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "effect": ["Change Cloak's Appearance"]
+      },
+      "type": "Cloak",
+      "attunement": "false"
+    },
+    {
+      "name": "Clockwork Amulet",
+      "description": "This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. A creature that puts an ear to the amulet can hear faint ticking and whirring noises coming from within.\n\nWhen you make an attack roll while wearing the amulet, you can forgo rolling the d20 to get a 10 on the die. Once used, this property can't be used again until the next dawn.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Amulet",
+      "attunement": "false"
+    },
+    {
+      "name": "Clothes of Mending",
+      "description": "This elegant outfit of traveler's clothes magically mends itself to counteract daily wear and tear. Pieces of the outfit that are destroyed can't be repaired in this way.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Clothes",
+      "attunement": "false"
+    },
+    {
+      "name": "Coin of Delving",
+      "description": "This scintillating copper coin sheds dim light in a 5-foot radius. If dropped a distance greater than 5 feet, the coin issues a melodious ringing sound when it hits a surface. Any creature that can hear the chime can determine the distance the coin dropped based on the tone.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Dark Shard Amulet",
+      "description": "This amulet is fashioned from a single shard of resilient extraplanar material originating from the realm of your warlock patron. While you are wearing it, you gain the following benefits:\n\nYou can use the amulet as a spellcasting focus for your warlock spells.\nYou can try to cast a cantrip that you don't know. The cantrip must be on the Warlock spell list, and you must make a DC 10 Intelligence (Arcana) check. If the check succeeds, you cast the spell. If the check fails, so does the spell, and the action used to cast the spell is wasted. In either case, you can't use this property again until you finish a long rest.",
+      "rarity": "Common",
+      "effect": ["Focus"],
+      "requirement": "Class, Warlock",
+      "spells": ["Warlock Cantrip"],
+      "type": "Amulet",
+      "attunement": "true"
+    },
+    {
+      "name": "Dread Helm",
+      "description": "This fearsome steel helm makes your eyes glow red while you wear it.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Helmet",
+      "attunement": "false"
+    },
+    {
+      "name": "Ear Horn of Hearing",
+      "description": "While held up to your ear, this horn suppresses the effects of the deafened condition on you, allowing you to hear normally.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Horn",
+      "attunement": "false"
+    },
+    {
+      "name": "Enduring Spellbook",
+      "description": "This spellbook, a long with anything written on its pages, can't be damaged by fire or immersion in water. In addition, the spellbook doesn't deteriorate with age.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Spellbook",
+      "attunement": "false"
+    },
+    {
+      "name": "Ersatz Eye",
+      "description": "This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can't be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "true"
+    },
+    {
+      "name": "Everbright Lantern",
+      "description": "This bullseye lantern contains an Eberron dragonshard that sheds light comparable to that produced by a Continual Flame spell. An everbright lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Feather Token",
+      "description": "This small metal disk is inscribed with the image of a feather. When you fall at least 20 feet while the token is on your person, you descend 60 feet per round and take no damage from falling. The token's magic is expended after you land, whereupon the disk becomes nonmagical.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Glamerweave",
+      "description": "Glamerweave is clothing imbued with harmless illusory magic. While wearing the common version of these clothes, you can use a bonus action to create a moving illusory pattern within the cloth.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "effect": ["Create a moving illusory pattern within the cloth"]
+      },
+      "type": "Clothes",
+      "attunement": "false"
+    },
+    {
+      "name": "Hat of Vermin",
+      "description": "This hat has 3 charges. While holding the hat, you can use an action to expend 1 of its charges and speak a command word that summons your choice of a bat, a frog, or a rat (see the Player's Handbook or the Monster Manual for statistics). The summoned creature magically appears in the hat and tries to get away from you as quickly as possible. The creature is neither friendly nor hostile, and it isn't under your control. It behaves as an ordinary creature of its kind and disappears after 1 hour or when it drops to 0 hit points. The hat regains all expended charges daily at dawn.",
+      "rarity": "Common",
+      "effect": ["Summon"],
+      "action": {
+        "trigger": "Command Word",
+        "charges": "3, Dawn",
+        "effect": ["Summon Creature"]
+      },
+      "type": "Hat",
+      "attunement": "false"
+    },
+    {
+      "name": "Hat of Wizardry",
+      "description": "This antiquated, cone-shaped hat is adorned with gold crescent moons and stars. While you are wearing it, you gain the following benefits:\n\nYou can use the hat as a spellcasting focus for your wizard spells.\nYou can try to cast a cantrip that you don't know. The cantrip must be on the Wizard spell list, and you must make a DC 10 Intelligence (Arcana) check. If the check succeeds, you cast the spell. If the check fails, so does the spell, and the action used to cast the spell is wasted. In either case, you can't use this property again until you finish a long rest.",
+      "rarity": "Common",
+      "effect": ["Focus"],
+      "action": {
+        "requirement": "Check, Arcana, DC 10",
+        "effect": ["Cast Spell"]
+      },
+      "requirement": "Class, Wizard",
+      "charges": "1, Long Rest",
+      "spells": ["Wizard Cantrip, 1"],
+      "type": "Hat",
+      "attunement": "true"
+    },
+    {
+      "name": "Heward's Handy Spice Pouch",
+      "description": "This belt pouch appears empty and has 10 charges. While holding the pouch, you can use an action to expend 1 of its charges, speak the name of any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains 1d6 + 4 expended charges daily at dawn.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "10, 1d6+4, Dawn",
+        "effect": ["Summon Seasoning"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Horn of Silent Alarm",
+      "description": "This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horn's blare, provided the creature is within 600 feet of the horn and not deafened. No other creature hears sound coming from the horn. The horn regains 1d4 expended charges daily at dawn.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "4, 1d4, Dawn",
+        "range": "600 ft",
+        "effect": ["Blow Horn"]
+      },
+      "type": "Horn",
+      "attunement": "false"
+    },
+    {
+      "name": "Illuminator's Tattoo",
+      "description": "Produced by a special needle, this magic tattoo features beautiful calligraphy, images of writing implements, and the like.\n\nTattoo Attunement. To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.\n\nIf your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.\n\nMagical Scribing. While this tattoo is on your skin, you can write with your fingertip as if it were an ink pen that never runs out of ink.\n\nAs an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes invisible to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn.",
+      "rarity": "Common",
+      "effect": ["Passive, write with your fingertip as if it were an ink pen"],
+      "action": {
+        "charges": "1, Dawn",
+        "trigger": "Command Word",
+        "effect": ["The writing becomes invisible"],
+        "duration": "24 hours"
+      },
+      "type": "Tattoo",
+      "attunement": "true"
+    },
+    {
+      "name": "Imbued Wood Focus",
+      "description": "An imbued wood focus is a rod, staff, or wand cut from a tree infused with extraplanar energy. If you're a spellcaster, you can use this orb as a spellcasting focus.\n\nWhen you cast a damage-dealing spell using this item as your spellcasting focus, you gain a +1 bonus to one damage roll of the spell, provided the damage is of the type associated with the item's wood. The types of wood and their associated damage types are listed in the Imbued Wood Focus table.\n\nImbued Wood Focus\nWood\tDamage Type\nFernian Ash\tFire\nIrian Rosewood\tRadiant\nKythrian Manchineel\tAcid or poison\nLamannian Oak\tLightning or thunder\nMabaran Ebony\tNecrotic\nRisian Pine\tCold\nShavarran Birch\tForce\nXorian Wenge\tPsychic",
+      "rarity": "Common",
+      "effect": ["Damage Bonus, 1", "Option", "Focus"],
+      "option": ["Fernian Ash, Fire", "Irian Rosewood, Radiant", "Kythrain Manchinell, Acid or Poison", "Lamannian Oak, Lightning or Thunder", "Mabaran Ebony, Necrotic", "Risian Pine, Cold", "Shavarran Birch, Force", "Xorian Wenge, Psychic"],
+      "type": "Wondrous",
+      "attunement": "true"
+    },
+    {
+      "name": "Instrument of Illusions",
+      "description": "While you are playing this musical instrument, you can create harmless, illusory visual effects within a 5-foot-radius sphere centered on the instrument. If you are a bard, the radius increases to 15 feet. Sample visual effects include luminous musical notes, a spectral dancer, butterflies, and gently falling snow. The magical effects have neither substance nor sound, and they are obviously illusory. The effects end when you stop playing.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Instrument",
+      "attunement": "true"
+    },
+    {
+      "name": "Instrument of Scribing",
+      "description": "This musical instrument has 3 charges. While you are playing it, you can use an action to expend 1 charge from the instrument and write a magical message on a nonmagical object or surface that you can see within 30 feet of you. The message can be up to six words long and is written in a language you know. If you are a bard, you can scribe an additional seven words and choose to make the message glow faintly, allowing it to be seen in nonmagical darkness. Casting Dispel Magic on the message erases it. Otherwise, the message fades away after 24 hours.\n\nThe instrument regains all expended charges daily at dawn.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "3, Dawn",
+        "effect": ["Write a magical message"],
+        "duration": "24 hours"
+      },
+      "type": "Instrument",
+      "attunement": "true"
+    },
+    {
+      "name": "Keycharm",
+      "description": "This small stylized key plays a vital role in the work of House Kundarak. If you cast the Alarm, Arcane Lock, or Glyph of Warding spell, you can tie the effect to the keycharm so that whoever holds it receives the notification from the Alarm spell, bypasses the lock of the Arcane Lock spell, or avoids triggering the glyph placed by the Glyph of Warding spell. In addition, the holder (who needn't be attuned to the item) can take an action to end any one spell tied to it, provided the holder knows the command word you set for ending the tied spells. The keycharm can have up to three tied spells at one time.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["Temp"]
+      },
+      "requirement": "Mark of Warding",
+      "type": "Wondrous",
+      "attunement": "true"
+    },
+    {
+      "name": "Lantern of Tracking",
+      "description": "This hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot-radius and dim light for an additional 30 feet.\n\nEach Lantern of Tracking is designed to track down a certain type of creature, which is determined by rolling this creature type on the Lantern of Tracking table. Once determined, this creature type can't be changed. While the lantern is within 300 feet of any creature of that type, its flame turns bright green. The lantern doesn't pinpoint the creature's exact location, however.\n\nLantern of Tracking\nd10\tCreature Type\n1\tAberrations\n2\tCelestials\n3\tConstructs\n4\tDragons\n5\tElementals\n6\tFey\n7\tFiends\n8\tGiants\n9\tMonstrosities\n10\tUndead",
+      "rarity": "Common",
+      "effect": ["Option, 1d10", "Temp"],
+      "option": ["1, Aberrations", "2, Celestials", "3, Constructs", "4, Dragons", "5, Elementals", "6, Fey", "7, Fiends", "8, Giants", "9, Monstrosities", "10, Undead"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Lock of Trickery",
+      "description": "This lock appears to be an ordinary lock (of the type described in chapter 5 of the Player's Handbook) and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have disadvantage.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Masquerade Tattoo",
+      "description": "Produced by a special needle, this magic tattoo appears on your body as whatever you desire.\n\nTattoo Attunement. To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.\n\nIf your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.\n\nFluid Ink. As a bonus action, you can shape the tattoo into any color or pattern and move it to any area of your skin. Whatever form it takes, it is always obviously a tattoo. It can range in size from no smaller than a copper piece to an intricate work of art that covers all your skin.\n\nDisguise Self. As an action, you can use the tattoo to cast the Disguise Self spell (DC 13 to discern the disguise). Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "name": "Fluid Ink",
+        "effect": ["Change the Tattoo's Form"]
+      },
+      "spells": ["Spell Save DC, 13", "Disguise Self, 1"],
+      "charges": "1, Dawn",
+      "type": "Tattoo",
+      "attunement": "true"
+    },
+    {
+      "name": "Moodmark Paint",
+      "description": "This thick, black paint is stored in a small jar, containing enough paint to apply moodmarks to one creature. The paint is dabbed on the face in spots or markings that often resemble the eyes of insects or spiders. Applying the paint in this way takes 1 minute.\n\nFor the next 8 hours, the marks change to reflect your mental state. A creature that can see you and makes a successful DC 10 Wisdom (Insight) check can discern whether you are happy, sad, angry, disgusted, surprised, or afraid, as well as the main source of that emotion. For example, you might communicate fear caused by a monster you just saw around the corner, grief at the loss of a friend, or happiness derived from pride in your performance in combat. A dark elf has advantage on this check.",
+      "rarity": "Common",
+      "effect": ["Consumable"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Moon-Touched Sword",
+      "description": "In darkness, the unsheathed blade of this sword sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Weapon, Any Sword",
+      "attunement": "false"
+    },
+    {
+      "name": "Mystery Key",
+      "description": "A question mark is worked into the head of this key. The key has a 5 percent chance of unlocking any lock into which it's inserted. Once it unlocks something, the key disappears.",
+      "rarity": "Common",
+      "effect": ["Roll, 1d20, DC 20: destroyed"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Orb of Direction",
+      "description": "While holding this orb, you can use an action to determine which way is north. This property functions only on the Material Plane.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["Determine North"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Orb of Shielding",
+      "description": "An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.\n\nIf you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.\n\nOrb of Shielding\nPlanar Material\tDamage Type\nFernian basalt\tFire\nIrian quartz\tRadiant\nKythrian skarn\tAcid and poison\nLamannian flint\tLightning and thunder\nMabaran obsidian\tNecrotic\nRisian shale\tCold\nShavarran chert\tForce\nXorian marble\tPsychic",
+      "rarity": "Common",
+      "effect": ["Option", "Focus"],
+      "reaction": {
+        "trigger": "take damage of resource type",
+        "effect": ["Reduce Damage, 1d4"]
+      },
+      "option": ["Fernian Basalt, Fire", "Irian Quartz, Radiant", "Kythrian Skarn, Acid and Poison", "Lamannian Flint, Lightning and Thunder", "Mabaran Obsidian, Necrotic", "Risian Shale, Cold", "Shavarran Chert, Force", "Xorian Marble, Psychic"],
+      "type": "Wondrous",
+      "attunement": "true"
+    },
+    {
+      "name": "Orb of Time",
+      "description": "While holding this orb, you can use an action to determine whether it is morning, afternoon, evening, or nighttime outside. This property functions only on the Material Plane.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["Determine time of Day"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Perfume of Bewitching",
+      "description": "This tiny vial contains magic perfume, enough for one use. You can use an action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have advantage on all Charisma checks directed at humanoids of challenge rating 1 or lower. Those subjected to the perfume's effect are not aware that they've been influenced by magic.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Potion",
+      "attunement": "false"
+    },
+    {
+      "name": "Pipe of Remembrance",
+      "description": "This long, delicate wooden pipe features a bowl made from smooth river stone. When the pipe is lit. smoke exhaled from it does not dissipate, instead lingering around the bearer. After 10 minutes, the smoke forms moving shapes that reenact the bearer's most impressive and heroic achievements for 5 minutes. When this realistic performance is complete, the smoke dissipates. The pipe can't be used this way again until the next dawn.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "charges": "1, Dawn",
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Pipe of Smoke Monsters",
+      "description": "While smoking this pipe, you can use an action to exhale a puff of smoke that takes the form of a single creature, such as a dragon, a flumph, or a froghemoth. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["Create Smoke Monster"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Pole of Angling",
+      "description": "While holding this 10-foot pole, you can speak a command word and transform it into a fishing pole with a hook, a line, and a reel. Speaking the command word again changes the fishing pole back into a normal 10-foot pole.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Pole of Collapsing",
+      "description": "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod, for ease of storage. The pole's weight doesn't change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "trigger": "Command Word",
+        "effect": ["Extend or Retract Pole"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Pot of Awakening",
+      "description": "If you plant an ordinary shrub in this 10-pound clay pot and let it grow for 30 days, the shrub magically transforms into an awakened shrub (see the Monster Manual for statistics) at the end of that time. When the shrub awakens, its roots break the pot, destroying it.\n\nThe awakened shrub is friendly toward you. Absent commands from you, it does nothing.",
+      "rarity": "Common",
+      "effect": "Summon",
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Potion of Climbing",
+      "description": "When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.",
+      "rarity": "Common",
+      "effect": ["Duration, 1 hour", "Advantage, Athletics"],
+      "type": "Potion",
+      "attunement": "false"
+    },
+    {
+      "name": "Potion of Healing",
+      "description": "You regain hit points when you drink this potion. The number of hit points depends on the potion's rarity, as shown in the Potions of Healing table. Whatever its potency, the potion's red liquid glimmers when agitated.",
+      "rarity": "Common",
+      "effect": ["Heal"],
+      "damage": "heal, 2d4 2",
+      "type": "Potion",
+      "attunement": "false"
+    },
+    {
+      "name": "Pressure Capsule",
+      "description": "This small capsule is made of beeswax blended with sand and a variety of enchanted water plants. A creature who consumes a pressure capsule ignores the effects of swimming at depths greater than 100 feet (see \"Unusual Environments\" in chapter 5 of the Dungeon Master's Guide).",
+      "rarity": "Common",
+      "effect": ["Consumable"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Prosthetic Limb",
+      "description": "This item replaces a lost limb a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can't be removed against your will. It detaches if you die.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Rope of Mending",
+      "description": "You can cut this 50-foot coil of hempen rope into any number of smaller pieces, and then use an action to speak a command word and cause the pieces to knit back together. The pieces must be in contact with each other and not otherwise in use. A rope of mending is forever shortened if a section of it is lost or destroyed.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["Mend the rope"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Ruby of the War Mage",
+      "description": "Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a simple or martial weapon as a spellcasting focus for your spells. For this property to work, you must attach the ruby to the weapon by pressing the ruby against it for at least 10 minutes. Thereafter, the ruby can't be removed unless you detach it as an action or the weapon is destroyed. Not even an Antimagic Field causes it to fall off. The ruby does fall off the weapon if your attunement to the ruby ends.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "requirement": "Spellcasting, Pact Magic",
+      "type": "Wondrous",
+      "attunement": "true"
+    },
+    {
+      "name": "Scribe's Pen",
+      "description": "You can use this pen to write on any surface. You decide whether the writing is visible or invisible, but the writing is always visible to a person with the Mark of Scribing.\n\nAny creature with the Mark of Scribing can use an action to touch the invisible writing, making it visible to all.\n\nIf you use the pen to write on a creature that isn't a construct, the writing fades after 7 days.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["Make the writting visible"]
+      },
+      "requirement": "Mark of Scribing",
+      "type": "Wondrous",
+      "attunement": "true"
+    },
+    {
+      "name": "Sekolahian Worshipping Statuette",
+      "description": "Skillfully carved from sandstone, this 1-foot-tall statuette depicts a shark twisting through the water with its mouth open. If any Tiny sea-dwelling animal is within 1 inch of the statuette's mouth, the shark flashes to life and deals 1 piercing damage to it. The shark can deal damage in this way no more than once per hour.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "damage": "piercing, 1",
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Shield of Expression",
+      "description": "The front of this shield is shaped in the likeness of a face. While bearing the shield, you can use a bonus action to alter the face's expression.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "effect": ["Alter the face's expression"]
+      },
+      "type": "Shield",
+      "attunement": "false"
+    },
+    {
+      "name": "Shiftweave",
+      "description": "When a suit of shiftweave is created, up to five different outfits can be embedded into the cloth. While wearing the clothing, you can speak its command word as a bonus action to transform your outfit into your choice of one of the other designs contained within it. Regardless of its appearance, the outfit can't be anything but clothing. Although it can duplicate the look of other magical clothing, it doesn't gain their magical properties.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "trigger": "Command Word",
+        "effect": ["Outfit Change"]
+      },
+      "type": "Clothes",
+      "attunement": "false"
+    },
+    {
+      "name": "Smoldering Armor",
+      "description": "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Armor",
+      "attunement": "false"
+    },
+    {
+      "name": "Spellshard",
+      "description": "This polished Eberron dragonshard fits in the hand and stores information similar to a book. The shard can hold the equivalent of one book that's no more than 320 pages long. A shard can be created blank or already filled with information. When the shard is created, the creator can set a passphrase that must be spoken to access the information stored within.\n\nWhile holding the shard, you can use an action to open your mind to the shard, seeing its content in your mind. On subsequent rounds, reading the text or scribing new text on blank \"pages\" in the shard requires concentration (as if concentrating on a spell) and takes the same amount of time it takes you to read and write normally. Thinking of a particular phrase or topic draws you to the first section in the shard that addresses it.\n\nA wizard can use a spellshard as a spellbook, with the usual cost in gold and time to \"scribe\" a spell into the shard.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "effect": ["Read or Store Information"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Spellwrought Tattoo, Cantrip",
+      "description": "Produced by a special needle, this magic tattoo contains a single spell of up to 5th level, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.\n\nThe level of the spell in the tattoo determines the spell's saving throw DC, attack bonus, spellcasting ability modifier, and the tattoo's rarity, as shown in the Spellwrought Tattoo table.",
+      "rarity": "Common",
+      "effect": ["Temp", "Consumable"],
+      "spells": "Any, 0",
+      "type": "Tattoo",
+      "attunement": "false"
+    },
+    {
+      "name": "Spellwrought Tattoo, 1st Level",
+      "description": "Produced by a special needle, this magic tattoo contains a single spell of up to 5th level, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.\n\nThe level of the spell in the tattoo determines the spell's saving throw DC, attack bonus, spellcasting ability modifier, and the tattoo's rarity, as shown in the Spellwrought Tattoo table.",
+      "rarity": "Common",
+      "effect": ["Temp", "Consumable"],
+      "spells": "Any, 1",
+      "type": "Tattoo",
+      "attunement": "false"
+    },
+    {
+      "name": "Staff of Adornment",
+      "description": "If you place an object weighing no more than 1 pound (such as a shard of crystal, an egg, or a stone) above the tip of the staff while holding it, the object floats an inch from the staff's tip and remains there until it is removed or until the staff is no longer in your possession. The staff can have up to three such objects floating over its tip at any given time. While holding the staff, you can make one or more of the objects slowly spin or turn in place.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Staff",
+      "attunement": "false"
+    },
+    {
+      "name": "Staff of Birdcalls",
+      "description": "This wooden staff is decorated with bird carvings. It has 10 charges. While holding it, you can use an action to expend 1 charge from the staff and cause it to create one of the following sounds out to a range of 60 feet: a finch's chirp, a raven's caw, a duck's quack, a chicken's cluck, a goose's honk, a loon's call, a turkey's gobble, a seagull's cry, an owl's hoot, or an eagle's shriek.\n\nThe staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "10, 1d6+4, Dawn",
+        "effect": ["Create Bird Song"]
+      },
+      "type": "Staff",
+      "attunement": "false"
+    },
+    {
+      "name": "Staff of Flowers",
+      "description": "This wooden staff has 10 charges. While holding it, you can use an action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of you, or from the staff itself. Unless you choose a specific kind of flower, the staff creates a mild-scented daisy. The flower is harmless and nonmagical, and it grows or withers as a normal flower would.\n\nThe staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns into flower petals and is lost forever.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "10, 1d6+4, Dawn",
+        "effect": ["Grow a Flower"]
+      },
+      "type": "Staff",
+      "attunement": "false"
+    },
+    {
+      "name": "Talking Doll",
+      "description": "While this stuffed doll is within 5 feet of you, you can spend a short rest telling it to say up to six phrases, none of which can be more than six words long, and set a condition under which the doll speaks each phrase. You can also replace old phrases with new ones. Whatever the condition, it must occur within 5 feet of the doll to make it speak. For example, whenever someone picks up the doll, it might say, \"I want a piece of candy.\" The doll's phrases are lost when your attunement to the doll ends.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "true"
+    },
+    {
+      "name": "Tankard of Sobriety",
+      "description": "This tankard has a stern face sculpted into one side. You can drink ale, wine, or any other nonmagical alcoholic beverage poured into it without becoming inebriated. The tankard has no effect on magical liquids or harmful substances such as poison.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Thermal Cube",
+      "description": "This 3-inch cube of solid brimstone generates enough dry heat to keep the temperature within 15 feet of it at 95 degrees Fahrenheit (35 degrees Celsius).",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Unbreakable Arrow",
+      "description": "This arrow can't be broken, except when it is within an Antimagic Field.",
+      "rarity": "Common",
+      "effect": ["Unbreakable"],
+      "type": "Ammunition, Arrow",
+      "attunement": "false"
+    },
+    {
+      "name": "Veteran's Cane",
+      "description": "When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "trigger": "Command Word",
+        "effect": ["Cane Becomes a Longsword", "Destroy", "Create, Longsword"]
+      },
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Vox Seeker",
+      "description": "This clockwork device resembles a metal crab the size of a dinner plate. Every action used to wind up the device allows it to operate for 1 minute, to a maximum of 10 minutes. While operational, the item uses the accompanying vox seeker stat block. This automaton is under the DM's control. A vox seeker reduced to 0 hit points is destroyed.",
+      "rarity": "Common",
+      "effect": "Summon",
+      "type": "Wondrous",
+      "attunement": "false"
+    },
+    {
+      "name": "Walloping Ammunition",
+      "description": "This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked prone.",
+      "rarity": "Common",
+      "effect": ["Saving Throw, Strength, DC 10: NA: Target is Knocked Prone"],
+      "type": "Ammunition",
+      "attunement": "false"
+    },
+    {
+      "name": "Wand of Conducting",
+      "description": "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the wand.\n\nThe wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, a sad tuba sound plays as the wand crumbles to dust and is destroyed.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "3, Dawn",
+        "range": "60 ft",
+        "effect": ["Create Orchestral Music"]
+      },
+      "type": "Wand",
+      "attunement": "false"
+    },
+    {
+      "name": "Wand of Pyrotechnics",
+      "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and create a harmless burst of multicolored light at a point you can see up to 60 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second.\n\nThe wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "7, 1d6+1, Dawn",
+        "effect": ["Create Pyrotechnics"]
+      },
+      "type": "Wand",
+      "attunement": "false"
+    },
+    {
+      "name": "Wand of Scowls",
+      "description": "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute.\n\nThe wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand transforms into a Wand of Smiles.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "3, Dawn",
+        "duration": "1 minute",
+        "effect": ["Saving Throw, Charisma, DC 10: Target Scowls"]
+      },
+      "type": "Wand",
+      "attunement": "false"
+    },
+    {
+      "name": "Wand of Smiles",
+      "description": "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to smile for 1 minute.\n\nThe wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand transforms into a Wand of Scowls.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "action": {
+        "charges": "3, Dawn",
+        "duration": "1 minute",
+        "effect": ["Saving Throw, Charisma, DC 10: Target Smiles"]
+      },
+      "type": "Wand",
+      "attunement": "false"
+    },
+    {
+      "name": "Wand Sheath",
+      "description": "A wand sheath clamps onto your arm and imparts the following benefits:\n\nThe wand sheath can't be removed from you while you're attuned to it.\nYou can insert a wand into the sheath as an action. The sheath can hold only one wand at a time.\nYou can retract or extend a wand from the sheath as a bonus action. While the wand is extended, you can use it as if you were holding it, but your hand remains free.\nIf a sheathed wand requires attunement, you must attune to the wand before you can use it. However, the wand sheath and the attached wand count as a single magic item with regard to the number of magic items you can attune to. If you remove the wand from the sheath, your attunement to the wand ends.",
+      "rarity": "Common",
+      "effect": ["NA"],
+      "bonusAction": {
+        "effect": ["Retract or Extend a wand from Sheath"]
+      },
+      "action": {
+        "effect": ["Store wand in sheath"]
+      },
+      "requirement": "Race, Warforged",
+      "type": "Wondrous",
+      "attunement": "true"
+    }
+]

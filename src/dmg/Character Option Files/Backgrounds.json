@@ -1,0 +1,300 @@
+{
+  "Backgrounds": {
+    "Acolyte": {
+      "description": "You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric – performing sacred rites is not the same thing as channeling divine power.\n\nChoose a god, a pantheon of gods, or some other quasi-divine being, and work with your DM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.",
+      "skill": ["Insight", "Religion"],
+      "tool": ["NA"],
+      "languages": ["Any", "Any"],
+      "equipment": ["Holy Symbol, 1", "Prayer Book, 1, Prayer Wheel, 1", "Stick of Incense, 5", "Vestments, 1", "Common Clothes, 1", "gp, 15"],
+      "background feature": "Shelter of the Faithful"
+    },
+    "Anthropologist": {
+      "description": "You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures' customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. This knowledge came to you not only through books and scrolls, but also through firsthand observation – by visiting far-flung settlements and exploring local histories and customs.",
+      "skill": ["Insight", "Religion"],
+      "tool": ["NA"],
+      "languages": ["Any", "Any"],
+      "equipment": ["Leather Bound Diary, 1", "Bottle of Ink, 1", "Ink Pen, 1", "Traveler's Clothes, 1", "Special Trinket, 1", "gp, 10"],
+      "background feature": ["Cultural Chameleon", "Adept Linguist"]
+    },
+    "Archaeologist": {
+      "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains – their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms.",
+      "skill": ["History", "Survival"],
+      "tool": ["Cartographer's Tools", "Navigator's Tools"],
+      "languages": ["Any"],
+      "equipment": ["Old Map, 1", "Bullseye Lantern, 1", "Miner's Pick, 1", "Traveler's Clothes", "Shovel, 1", "Two Person Tent, 1", "Dig Site Trinket, 1", "gp, 25", "10 Foot Pole, 1, Medallion, 1, Crowbar, 1, Shovel, 1, Hat, 1, Sledgehammer, 1, Hooded Lantern, 1, Whip, 1"],
+      "background feature": ["Dust Digger", "Historical Knowledge"]
+    },
+    "Athlete": {
+      "description": "You strive to perfect yourself physically and in execution of everything you do. The thrill of competition lights fire in your blood, and the roar of the crowd drives you forward. Tales of your exploits precede you and might open doors or loosen tongues.\n\nWhether in one of the poleis, between them, or among the nonhuman peoples of Theros, physical contests and those who pursue them command respect bordering on reverence. Athletes arise from all walks of life and all cultures and quite often cross paths with one another.",
+      "skill": ["Acrobatics", "Athletics"],
+      "tool": ["Land Vehicles"],
+      "languages": ["Any"],
+      "equipment": ["Bronze Discus, 1, Leather Ball, 1", "Lucky Charm, 1, Past Trophy, 1", "Traveler's Clothes, 1", "gp, 10"],
+      "background feature": ["Favored Event", "Echoes of Victory"]
+    },
+    "Charlatan": {
+      "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts' desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books. It's a useful talent, and one that you're perfectly willing to use for your advantage.\n\nYou know what people want and you deliver, or rather, you promise to deliver. Common sense should steer people away from things that sound too good to be true, but common sense seems to be in short supply when you're around. The bottle of pink colored liquid will surely cure that unseemly rash, this ointment – nothing more than a bit of fat with a sprinkle of silver dust can restore youth and vigor, and there's a bridge in the city that just happens to be for sale. These marvels sound implausible, but you make them sound like the real deal.",
+      "skill": ["Deception", "Slight of Hand"],
+      "tool": ["Disguise Kit", "Forgery Kit"],
+      "languages": ["NA"],
+      "equipment": ["Fine Clothes, 1", "Disguise Kit, 1", "Stoppered Bottles Filled with Colored Liquid, 10, Weighted Dice Set, 1, Deck of Marked Cards, 1, Signet Ring of an Imaginary Duke, 1", "gp, 15"],
+      "background feature": ["Favorite Schemes", "False Identity"]
+    },
+    "City Watch": {
+      "description": "You have served the community where you grew up, standing as its first line of defense against crime. You aren't a soldier, directing your gaze outward at possible enemies. Instead, your service to your hometown was to help police its populace, protecting the citizenry from lawbreakers and malefactors of every stripe.\n\nYou might have been part of the City Watch of Waterdeep, the baton-wielding police force of the City of Splendors, protecting the common folk from thieves and rowdy nobility alike. Or you might have been one of the valiant defenders of Silverymoon, a member of the Silverwatch or even one of the magic-wielding Spellguard.\n\nPerhaps you hail from Neverwinter and have served as one of its Wintershield watchmen, the newly founded branch of guards who vow to keep safe the City of Skilled Hands.\n\nEven if you're not city-born or city-bred, this background can describe your early years as a member of law enforcement. Most settlements of any size have their own constables and police forces, and even smaller communities have sheriffs and bailiffs who stand ready to protect their community.",
+      "skill": ["Athletics", "Insight"],
+      "tool": ["NA"],
+      "languages": ["Any", "Any"],
+      "equipment": ["Guard Uniform, 1", "Horn, 1", "Manacles, 1", "gp, 10"],
+      "background feature": "Watcher's Eye"
+    },
+    "Clan Crafter": {
+      "description": "The Stout Folk are well known for their artisanship and the worth of their handiworks, and you have been trained in that ancient tradition. For years you labored under a dwarf master of the craft, enduring long hours and dismissive, sour-tempered treatment in order to gain the fine skills you possess today.\n\nYou are most likely a dwarf, but not necessarily- particularly in the North, the shield dwarf clans learned long ago that only proud fools who are more concerned for their egos than their craft turn away promising apprentices, even those of other races. If you aren't a dwarf, however, you have taken a solemn oath never to take on an apprentice in the craft: it is not for non-dwarves to pass on the skills of Moradin's favored children. You would have no difficulty, however, finding a dwarf master who was willing to receive potential apprentices who came with your recommendation.",
+      "skill": ["History", "Insight"],
+      "tool": ["Any"],
+      "languages": ["Dwarvish, Any"],
+      "equipment": ["Any Artisan's Tools, 1", "Maker's Mark Chisel, 1", "Traveler's Clothes, 1", "Gem, 1", "gp 10"],
+      "background feature": "Respect of the Stout Folk"
+    },
+    "Cloistered Scholar": {
+      "description": "As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to one of Faerûn's great institutes of learning , where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home – not to abandon it, but to quest for new lore to add to its storehouse of knowledge.\n\nThe most well known of Faerûn's fonts of knowledge is Candlekeep. The great library is always in need of workers and attendants, some of whom rise through the ranks to assume roles of greater responsibility and prominence. You might be one of Candlekeep's own, dedicated to the curatorship of what is likely the most complete body of lore and history in all the world.\n\nPerhaps instead you were taken in by the scholars of the Vault of the Sages or the Map House in Silverymoon, and now you have struck out to increase your knowledge and to make yourself available to help those in other places who seek your expertise. You might be one of the few who aid Herald's Holdfast, helping to catalogue and maintain records of the information that arrives daily from across Faerûn.",
+      "skill": ["History", "1, Arcana, Nature, Religion"],
+      "tool": ["NA"],
+      "languages": ["Any", "Any"],
+      "equipment": ["Scholar's Robes, 1", "Quill, 1", "Bottle of Ink, 1", "Parchment, 1", "Book, 1", "gp, 10"],
+      "background feature": "Library Access"
+    },
+    "Courttier": {
+      "description": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position.\n\nYou might have been one of the many functionaries, attendants, and other hangers-on in the Court of Silverymoon, or perhaps you traveled in Waterdeep's baroque and sometimes cutthroat conglomeration of guilds, nobles, adventurers, and secret societies. You might have been one of the behind-the-scenes law-keepers or functionaries in Baldur's Gate or Neverwinter, or you might have grown up in and around the castle of Daggerford.\n\nEven if you are no longer a full-fledged member of the group that gave you your start in life, your relationships with your former fellows can be an advantage for you and your adventuring comrades. You might undertake missions with your new companions that further the interest of the organization that gave you your start in life. In any event, the abilities that you honed while serving as a courtier will stand you in good stead as an adventurer.",
+      "skill": ["Insight", "Persuasion"],
+      "tool": ["NA"],
+      "languages": ["Any", "Any"],
+      "equipment": ["Fine Clothes, 1", "gp, 5"],
+      "background feature": "Court Functionary"
+    },
+    "Criminal": {
+      "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.",
+      "skill": ["Deception", "Stealth"],
+      "tool": ["Any Gaming Set", "Thieves' Tools"],
+      "languages": ["NA"],
+      "equipment": ["Crowbar, 1", "Common Clothes, 1", "gp, 15"],
+      "background feature": ["Criminal Specialty", "Criminal Contact"]
+    },
+    "Entertainer": {
+      "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life.",
+      "skill": ["Acrobatics", "Performance"],
+      "tool": ["Disguise Kit", "Any Musical Instrument"],
+      "languages": ["NA"],
+      "equipment": ["Any Musical Instrument, 1", "Admirer's Favor, 1", "Costume, 1", "gp, 15"],
+      "background feature": ["Entertainer Routines", "By Popular Demand"]
+    },
+    "Faceless": {
+      "description": "Being who you are, you could never be a hero. Whether due to your class, your people, your family, or your sins, something about you prevents you from effectively pursuing the path you've chosen. Even so, that doesn't stop you. You've left your old face behind, taking on a new persona, becoming something more.\n\nCharacters with the faceless background don a disguise—literally or otherwise—as they adventure. This persona might be dramatic or subtle. In a way, though, many characters have such larger than life personalities. Therefore, this background largely focuses on detailing the hero behind the mask.",
+      "skill": ["Deception", "Intimidation"],
+      "tool": ["Disguise Kit"],
+      "languages": ["Any"],
+      "equipment": ["Disguise Kit, 1", "Costume, 1", "gp, 10"],
+      "background feature": ["Faceless Persona", "Dual Personalities"]
+    },
+    "Faction Agent": {
+      "description": "Many organizations active in the North and across the face of Faerûn aren't bound by strictures of geography. These factions pursue their agendas without regard for political boundaries, and their members operate anywhere the organization deems necessary. These groups employ listeners, rumormongers, smugglers, sellswords, cache-holders (people who guard caches of wealth or magic for use by the faction's operatives), haven keepers, and message drop minders, to name a few. At the core of every faction are those who don't merely fulfill a small function for that organization, but who serve as its hands, head, and heart.\n\nAs a prelude to your adventuring career (and in preparation for it), you served as an agent of a particular faction in Faerûn. You might have operated openly or secretly, depending on the faction and its goals, as well as how those goals mesh with your own. Becoming an adventurer doesn't necessarily require you to relinquish membership in your faction (though you can choose to do so), and it might enhance your status in the faction.",
+      "skill": ["Insight", "Any"],
+      "tool": ["NA"],
+      "languages": ["Any", "Any"],
+      "equipment": ["Faction Badge, 1", "Seminal Faction Text, 1", "Common Clothes, 1", "gp, 15"],
+      "background feature": "Safe Haven"
+    },
+    "Far Traveler": {
+      "description": "Almost all of the common people and other folk that one might encounter along the Sword Coast or in the North have one thing in common: they live out their lives without ever traveling more than a few miles from where they were born.\n\nYou aren't one of those folk.\n\nYou are from a distant place, one so remote that few of the common folk in the North realize that it exists, and chances are good that even if some people you meet have heard of your homeland, they know merely the name and perhaps a few outrageous stories. You have come to this part of Faerûn for your own reasons, which you might or might not choose to share.\n\nAlthough you will undoubtedly find some of this land's ways to be strange and discomfiting, you can also be sure that some things its people take for granted will be to you new wonders that you've never laid eyes on before. By the same token, you're a person of interest, for good or ill, to those around you almost anywhere you go.",
+      "skill": ["Insight", "Perception"],
+      "tool": ["Any Musical Instrument, Any Gaming Set"],
+      "languages": ["Any"],
+      "equipment": ["Traveler's Clothes, 1", "Any Musical Instrument, 1, Any Gaming Set, 1", "Bad Maps, 1", "Piece of Jewelry, 1", "gp, 5"],
+      "background feature": ["Why Are You Here", "All Eyes On You"]
+    },
+    "Fisher": {
+      "description": "You have spent your life aboard fishing vessels or combing the shallows for the bounty of the ocean. Perhaps you were born into a family of fisher folk, working with your kin to feed your village. Maybe the job was a means to an end - a way out of an undesirable circumstance that forced you to take up life aboard a ship. Regardless of how you began, you soon fell in love with the sea, the art of fishing, and the promise of the eternal horizon.",
+      "skill": ["History", "Survival"],
+      "tool": ["NA"],
+      "languages": ["Any"],
+      "equipment": ["Fishing Tackle, 1", "Net, 1", "Favorite Fishing Lure, 1, Oiled Leather Wading Boots, 1", "Traveler's Clothes, 1", "gp, 10"],
+      "background feature": ["Harvest the Water", "Fishing Tale"]
+    },
+    "Folk Hero": {
+      "description": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.",
+      "skill": ["Animal Handling", "Survival"],
+      "tool": ["Any Artisan's Tools", "Land Vehicles"],
+      "languages": ["NA"],
+      "equipment": ["Any Artisan's Tools, 1", "Shovel, 1", "Iron Pot, 1", "Common Clothes, 1", "gp, 10"],
+      "background feature": ["Defining Event", "Rustic Hospitality"]
+    },
+    "Gladiator": {
+      "description": "A gladiator is as much an entertainer as any minstrel or circus performer trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your By Popular Demand feature, you can find a place to perform in any place that features combat for entertainment-perhaps a gladiatorial arena or secret pit fighting club. You can replace the musical instrument in your equipment package with an inexpensive but unusual weapon, such as a trident or net.",
+      "skill": ["Acrobatics", "Performance"],
+      "tool": ["Any Weapon"],
+      "languages": ["NA"],
+      "equipment": ["Any Weapon, 1", "Admirer's Favor, 1", "Costume, 1", "gp, 15"],
+      "background feature": "By Popular Demand"
+    },
+    "Guild Artisan": {
+      "description": "You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.",
+      "skill": ["Insight", "Persuasion"],
+      "tool": ["Any Artisan's Tools"],
+      "languages": ["Any"],
+      "equipment": ["Any Artisan's Tools, 1", "Letter of Introduction, 1", "Traveler's Clothes, 1", "gp, 15"],
+      "background feature": ["Guild Business", "Guild Membership"]
+    },
+    "Guild Merchant": {
+      "description": "Instead of an artisans' guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan.\n\nRather than proficiency with artisan's tools, you might be proficient with navigator's tools or an additional language. And instead of artisan's tools, you can start with a mule and a cart.",
+      "skill": ["Insight", "Persuasion"],
+      "tool": ["Any Artisan's Tools"],
+      "languages": ["Any"],
+      "equipment": ["Any Artisan's Tools, 1", "Letter of Introduction, 1", "Traveler's Clothes, 1", "gp, 15"],
+      "background feature": ["Guild Business", "Guild Membership"]
+    },
+    "Haunted One": {
+      "description": "You are haunted by something so terrible that you dare not speak of it. You’ve tried to bury it and run away from it, to no avail. Whatever this thing is that haunts you can’t be slain with a sword or banished with a spell. It might come to you as a shadow on the wall, a bloodcurdling nightmare, a memory that refuses to die, or a demonic whisper in the dark. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you.",
+      "skill": ["2, Investigation, Religion, Survival"],
+      "tool": ["NA"],
+      "languages": ["1, Abyssal, Celestial, Deep Speech, Draconic, Infernal, Primordial, Sylvan, Undercommon"],
+      "equipment": ["Monster Hunter's Pack, 1", "Trinket, 1", "Common Clothes, 1", "sp, 1"],
+      "background feature": ["Harrowing Event", "Heart of Darkness"]
+    },
+    "Hermit": {
+      "description": "You lived in seclusion – either in a sheltered community such as a monastery, or entirely alone – for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for.",
+      "skill": ["Medicine", "Religion"],
+      "tool": ["Herbalism Kit"],
+      "languages": ["Any"],
+      "equipment": ["Scroll Case, 1", "Winter Blanket, 1", "Common Clothes, 1", "Herbalism Kit, 1", "gp, 5"],
+      "background feature": ["Life od Seclusion", "Discovery"]
+    },
+    "Inheritor": {
+      "description": "You are the heir to something of great value – not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. The revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you – by force, if need be.",
+      "skill": ["Survival", "1, Arcana, History, Religion"],
+      "tool": ["Any Gaming Set, Any Musical Instrument"],
+      "languages": ["Any"],
+      "equipment": ["Inheritance, 1", "Traveler's Clothes, 1", "Any Artisan's Tools, 1", "gp, 15"],
+      "background feature": "Inheritance"
+    },
+    "Investigator": {
+      "description": "Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals. If your prior experience is as an investigator, you have proficiency in Investigation rather than Athletics.",
+      "skill": ["Investigation", "Insight"],
+      "tool": ["NA"],
+      "languages": ["Any", "Any"],
+      "equipment": ["Guard Uniform, 1", "Horn, 1", "Manacles, 1", "gp, 10"],
+      "background feature": "Watcher's Eye"
+    },
+    "Knight": {
+      "description": "You belong to an order of knights who have sworn oaths to achieve a certain goal. The nature of this goal depends on the order you serve, but in your eyes it is without question a vital and honorable endeavor. Faerûn has a wide variety of knightly orders, all of which have a similar outlook concerning their actions and responsibilities.\n\nThough the term \"knight\" conjures ideas of mounted, heavily armored warriors of noble blood, most knightly orders in Faerûn don't restrict their membership to such individuals. The goals and philosophies of the order are more important than the gear and fighting style of its members, and so most of these orders aren't limited to fighting types, but are open to all sorts of folk who are willing to battle and die for the order's cause.",
+      "skill": ["Persuasion", "1, Arcana, History, Nature, Religion"],
+      "tool": ["Any Gaming Set"],
+      "languages": ["Any"],
+      "equipment": ["Fine Clothes, 1", "Signet Ring, 1", "Scroll of Pedigree, 1", "gp, 25"],
+      "background feature": ["Retainers", "Knightly Regard"]
+    },
+    "Marine": {
+      "description": "You were trained for battle on sandy beaches and rocky shores. You have launched midnight raids from swift ships whose names evoke terror in the hearts of your adversaries. The water is your second home, the rain your shelter, and the crashing waves your battle cry.",
+      "skill": ["Athletics", "Survival"],
+      "tool": ["Land Vehicles", "Water Vehicles"],
+      "languages": ["NA"],
+      "equipment": ["Dagger, 1", "Symbol of your Ship, 1", "Traveler's Clothes, 1", "gp, 10"],
+      "background feature": ["Hardship Endured", "Steady"]
+    },
+    "Mercenary": {
+      "description": "As a sell-sword who fought battles for coin, you're well acquainted with risking life and limb for a chance at a share of treasure. Now, you look forward to fighting foes and reaping even greater rewards as an adventurer. Your experience makes you familiar with the ins and outs of mercenary life, and you likely have harrowing stories of events on the battlefield. You might have served with a large outfit such as the Zhentarim or the soldiers of Mintarn, or a smaller band of sell-swords, maybe even more than one. See the \"Mercenaries of the North\" section below for a collection of possibilities.\n\nNow you're looking for something else, perhaps greater reward for the risks you take, or the freedom to choose your own activities. For whatever reason, you're leaving behind the life of a soldier for hire, but your skills are undeniably suited for battle, so now you fight on in a different way.",
+      "skill": ["Athletics", "Persuasion"],
+      "tool": ["Any Gaming Set", "Land Vehicles"],
+      "languages": ["NA"],
+      "equipment": ["Traveler's Clothes, 1", "Rank Insignia, 1", "Any Gaming Set, 1", "gp, 10"],
+      "background feature": "Mercenary Life"
+    },
+    "Noble": {
+      "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them.\n\nWork with your DM to come up with an appropriate title and determine how much authority that title carries. A noble title doesn't stand on its own-it's connected to an entire family, and whatever title you hold, you will pass it down to your own children. Not only do you need to determine your noble title, but you should also work with the DM to describe your family and their influence on you.\n\nIs your family old and established, or was your title only recently bestowed? How much influence do they wield, and over what area? What kind of reputation does your family have among the other aristocrats of the region? How do the common people regard them?\n\nWhat's your position in the family? Are you the heir to the head of the family? Have you already inherited the title? How do you feel about that responsibility? Or are you so far down the line of inheritance that no one cares what you do, as long as you don't embarrass the family? How does the head of your family feel about your adventuring career? Are you in your family's good graces, or shunned by the rest of your family?\n\nDoes your family have a coat of arms? An insignia you might wear on a signet ring? Particular colors you wear all the time? An animal you regard as a symbol of your line or even a spiritual member of the family?\n\nThese details help establish your family and your title as features of the world of the campaign.",
+      "skill": ["History", "Persuasion"],
+      "tool": ["Any Gaming Set"],
+      "languages": ["Any"],
+      "equipment": ["Fine Clothes, 1", "Signet Ring, 1", "Scroll of Pedigree, 1", "gp, 25"],
+      "background feature": "Position of Privilege"
+    },
+    "Outlander": {
+      "description": "You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild.",
+      "skill": ["Athletics", "Survival"],
+      "tool": ["Any Musical Instrument"],
+      "languages": ["Any"],
+      "equipment": ["Staff, 1", "Hunting Trap, 1", "Hunting Trophy, 1", "Traveler's Clothes, 1", "gp, 10"],
+      "background feature": ["Origin", "Wanderer"]
+    },
+    "Pirate": {
+      "description": "You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town.\n\nIf you decide that your sailing career involved piracy, you can choose the Bad Reputation feature below instead of the Ship's Passage feature.",
+      "skill": ["Athletics", "Perception"],
+      "tool": ["Water Vehicles", "Navigator's Tools"],
+      "languages": ["NA"],
+      "equipment": ["Club, 1", "Silk Rope, 1", "Lucky CHarm, 1", "Common Clothes, 1", "gp, 10"],
+      "background feature": "Bad Reputation"
+    },
+    "Sage": {
+      "description": "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.",
+      "skill": ["Arcana", "History"],
+      "tool": ["NA"],
+      "languages": ["Any", "Any"],
+      "equipment": ["Bottle of Ink, 1", "Quill, 1", "Dagger, 1", "Letter from a dead colleague posing a question you have not yet been able to answer, 1", "Common Clothes, 1", "gp, 10"],
+      "background feature": ["Specialty", "Researcher"]
+    },
+    "Sailor": {
+      "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new.\n\nDiscuss the nature of the ship you previously sailed with your DM. Was it a merchant ship, a naval vessel, a ship of discovery, or a pirate ship? How famous (or infamous) is it? Is it widely traveled? Is it still sailing, or is it missing and presumed lost with all hands?\n\nWhat were your duties on board – boatswain, captain, navigator, cook, or some other position? Who were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?",
+      "skill": ["Athletics", "Perception"],
+      "tool": ["Navigator's Tools", "Water Vehicles"],
+      "languages": ["NA"],
+      "equipment": ["Club, 1", "Silk Rope, 1", "Lucky CHarm, 1", "Common Clothes, 1", "gp, 10"],
+      "background feature": "Ship's Passage"
+    },
+    "Shipwright": {
+      "description": "You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. You once helped build a fishing vessel that single-handedly saved a town from starvation. You have seen a majestic prow in your dreams that you have not been able to replicate in wood. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.",
+      "skill": ["History", "Perception"],
+      "tool": ["Carpenter's Tools", "Water Vehicles"],
+      "languages": ["NA"],
+      "equipment": ["Carpenter's Tools, 1", "Ink, 1", "Ink Pen, 1", "Traveler's Clothes, 1", "gp, 10"],
+      "background feature": ["I'll Patch It", "Life at Sea"]
+    },
+    "Smuggler": {
+      "description": "On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master's oblivious lackeys. You have paddled a riverboat filled with stolen elven wine under the gaze of the moon and sold it for twice its value in the morning. In your more charitable times, you have transported innocents out of war zones or helped guide herd animals to safety on the banks of a burning river.",
+      "skill": ["Athletics", "Deception"],
+      "tool": ["Water Vehicles"],
+      "languages": ["Any"],
+      "equipment": ["Fancy Leather Vest, 1, Leather Boots, 1", "Common Clothes, 1", "gp, 15"],
+      "background feature": ["Down Low", "Claim to Fame"]
+    },
+    "Soldier": {
+      "description": "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war.\n\nWhen you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career. Was it a standing army, a town guard, or a village militia? Or it might have been a noble's or merchant's private army, or a mercenary company.",
+      "skill": ["Athletics", "Intimidation"],
+      "tool": ["Any Gaming Set", "Land Vehicles"],
+      "languages": ["NA"],
+      "equipment": ["Insignia of Rank, 1", "Trophy, 1", "Bone Dice, 1, Deck of Cards, 1", "Common Clothes, 1", "gp, 10"],
+      "background feature": ["Specialty", "Military Rank"]
+    },
+    "Spy": {
+      "description": "Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder.",
+      "skill": ["Deception", "Stealth"],
+      "tool": ["Any Gaming Set", "Thieves Tools"],
+      "languages": ["NA"],
+      "equipment": ["Crowbar, 1", "Common Clothes, 1", "gp, 15"],
+      "background feature": ["Criminal Speciality", "Criminal Contact"]
+    },
+    "Urban Bounty Hunter": {
+      "description": "Before you became an adventurer, your life was already full of conflict and excitement, because you made a living tracking down people for pay. Unlike some people who collect bounties, though, you aren't a savage who follows quarry into or through the wilderness. You're involved in a lucrative trade, in the place where you live, that routinely tests your skills and survival instincts. What's more, you aren't alone, as a bounty hunter in the wild would be: you routinely interact with both the criminal subculture and other bounty hunters, maintaining contacts in both areas to help you succeed.\n\nYou might be a cunning thief-catcher, prowling the rooftops to catch one of the myriad burglars of the city. Perhaps you are someone who has your ear to the street, aware of the doings of thieves' guilds and street gangs. You might be a \"velvet mask\" bounty hunter, one who blends in with high society and noble circles in order to catch the criminals that prey on the rich, whether pickpockets or con artists. The community where you plied your trade might have been one of Faenûn's great metropolises, such as Waterdeep or Baldur's Gate, or a less populous location, perhaps Luskan or Yartar – any place that's large enough to have a steady supply of potential quarries.\n\nAs a member of an adventuring party, you might find it more difficult to pursue a personal agenda that doesn't fit with the group's objectives – but on the other hand, you can take down much more formidable targets with the help of your companions.",
+      "skill": ["2, Deception, Insight, Persuasion, Stealth"],
+      "tool": ["2, Any Gaming Set, Any Musical Instrument, Thieves' Tools"],
+      "languages": ["NA"],
+      "equipment": ["Common Clothes, 1", "gp, 20"],
+      "background feature": "Ear to the Ground"
+    },
+    "Urchin": {
+      "description": "You grew up on the streets alone, orphaned, and poor, You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each.\n\nYou begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?",
+      "skill": ["Slight of Hand", "Stealth"],
+      "tool": ["Disguise Kit", "Thieves' Tools"],
+      "languages": ["NA"],
+      "equipment": ["Dagger, 1", "Map of your home City, 1", "Pet Mouse, 1", "Family Token, 1", "Common Clothes, 1", "gp, 10"],
+      "background feature": "City Secrets"
+    }
+  }
+}

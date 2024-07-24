@@ -1,0 +1,32 @@
+{
+  "Bullets": {
+    "cost": "1 gp (5)",
+    "weight": "1 lbs",
+    "weapons": "Firearm"
+  },
+  "Handgunne Ball": {
+    "cost": "3 gp (1)",
+    "weight": "1 lbs",
+    "weapons": "Handgunne"
+  },
+  "Arrow": {
+    "cost": "1 gp (20)",
+    "weight": "1 lbs",
+    "weapons": "Shortbow, Longbow"
+  },
+  "Crossbow Bolt": {
+    "cost": "1 gp (20)",
+    "weight": "1 1/2 lbs",
+    "weapons": "Crossbow, Heavy Crossbow, Light Crossbow, Hand Crossbow"
+  },
+  "Blowgun Needles": {
+    "cost": "1 gp (50)",
+    "weight": "1 lbs",
+    "weapons": "Blowgun"
+  },
+  "Sling Bullets": {
+    "cost": "1 cp (5)",
+    "weight": "1 1/2 lbs",
+    "weapons": "Sling"
+  }
+}

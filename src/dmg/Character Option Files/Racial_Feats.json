@@ -1,0 +1,1691 @@
+{
+  "Racial Feats": {
+    "Draconic Ancestry": {
+                  "time": "Active",
+                  "duration": "Constant",
+                  "description": "You are distantly related to a particular kind of dragon. Choose a type of dragon from the below list; this determines the damage and area of your breath weapon, and the type of resistance you gain.\nDragon Color\tDamage Type\tBreath Weapon\nBlack\tAcid\t5' by 30' line (DEX save)\nBlue\tLightning\t5' by 30' line (DEX save)\nBrass\tFire\t5' by 30' line (DEX save)\nBronze\tLightning\t5' by 30' line (DEX save)\nCopper\tAcid\t5' by 30' line (DEX save)\nGold\tFire\t15' cone (DEX save)\nGreen\tPoison\t15' cone (CON save)\nRed\tFire\t15' cone (DEX save)\nSilver\tCold\t15' cone (CON save)\nWhite\tCold\t15' cone (CON save)",
+                  "effect": ["Resistance, color", "Option, Color Determines Damage type, save, and area"],
+                  "options": ["Black, Acid, Dexterity", "Blue, Lightning, Dexterity", "Green, Poison, Constitution", "Red, Fire, Dexterity", "White, Cold, Constitution", "Brass, Fire, Dexterity", "Bronze, Fire, Dexterity", "Copper, Acid, Dexterity", "Gold, Fire, Dexterity", "Silver, Cold, Constitution", "Amethyst, Force, Dexterity", "Crystal, Radiant, Dexterity", "Emerald, Psychic, Dexterity", "Sapphire, Thunder, Dexterity", "Topaz, Necrotic, Dexterity"]
+              },
+    "Breath Weapon": {
+                  "time": "1 action",
+                  "duration": "Instantaneous",
+                  "description": "You can use your action to exhale destructive energy. It deals damage in an area according to your ancestry. When you use your breath weapon, all creatures in the area must make a saving throw, the type of which is determined by your ancestry. The DC of this saving throw is 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increase to 3d6 at 6th level, 4d6 at 11th, and 5d6 at 16th level. After using your breath weapon, you cannot use it again until you complete a short or long rest. HBInstead, you may use your breath weapon a number of times equal to your Constitution modifier. You regain expended uses on a short or long rest.",
+                  "effect": ["Saving Throw, Color, Roll for Damage (half on success)", "Save, 8, Constitution Modifier, Proficiency Bonus", "Charges"],
+                  "damage": "color, [2d6, 2d6, 2d6, 2d6, 2d6, 3d6, 3d6, 3d6, 3d6, 3d6, 4d6, 4d6, 4d6, 4d6, 4d6, 5d6, 5d6, 5d6, 5d6, 5d6]",
+                  "uses": "Modifier, Constitution, Any Rest"
+              },
+    "Dark Vision": {
+                "time": "active",
+                "duration": "Constant",
+                "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+                "effect": "Active"
+              },
+    "Forceful Presence": {
+                "time": "active",
+                "duration": "Instantaneous",
+                "description": "When you make a Intimidation or Persuasion check, you can do so with advantage once per long rest.",
+                "effect": "charges",
+                "uses": "1, Long Rest"
+              },
+    "Vengeful Assault": {
+                "time": "Reaction",
+                "duration": "Instantaneous",
+                "description": "When you take damage from a creature in range of a weapon you are wielding, you can use your reaction to make an attack against that creature. You can do this once per short or long rest.",
+                "effect": ["Opportunity Attack, Opportunity Attack when you take damage from Target", "Charges"],
+                "uses": "1, Any Rest"
+              },
+    "Chromatic Warding": {
+                "time": "1 Action",
+                "duration": "10 minutes",
+                "description": "Starting at 3rd level, as an action, you can channel your draconic energies to protect yourself. For 10 minutes, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest.",
+                "effect": ["Unlock, 3", "Immunity, color", "charges"],
+                "uses": "1, Long Rest"
+              },
+    "Metalic Breath Weapon": {
+                "time": "1 Action",
+                "duration": "10 minutes",
+                "description": "At 3rd level you gain a second breath weapon. When you take the Attack action, you can replace one of your attacks with an exhalation of a magical gas in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. When you use this ability, choose one:\nEach creature in the area must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.\nEach creature in the area must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.\nOnce you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest.",
+                "effect": ["Unlock, 3", "Charges", "Save, 8, Constitution Modifier, Proficiency Bonus", "Saving Throw, Strength, Target is pushed 20 feet and knocked Prone", "Saving Throw, Constitution, Target is Incapacitated"],
+                "uses": "1, Long Rest"
+              },
+    "Psionic Mind": {
+                "time": "active",
+                "duration": "Constant",
+                "description": "You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn’t give the creature the ability to respond to you telepathically.",
+                "effect": "Active"
+              },
+    "Gem Flight": {
+                "time": "1 Bonus Action",
+                "duration": "1 minute",
+                "description": "Starting at 3rd level, you can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.",
+                "effect": ["Charges", "Unlock, 3"],
+                "uses": "1, Long Rest"
+              },
+    "Dwarven Resilience": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on saving throws against poison, and you have resistance against poison damage.",
+                "effect": "Resistance, poison"
+              },
+    "Dwarven Combat Training": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.",
+                "effect": "Proficiency, Weapon, battleaxe, handaxe, light hammer, warhammer"
+              },
+    "Tool Proficiency": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.",
+                "effect": ["Option, Choose which of the three tool proficiencies you want", "Proficiency, Artisans Tools, Option"],
+                "options": "table, Artisan's Tools"
+              },
+    "Stonecunning": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
+                "effect": "Specific Expertise, History, Origin of Stonework, Origin of any architectural construction (including buildings, public works such as canals and aqueducts)"
+              },
+    "Dwarven Toughness": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+                "effect": "On Level, HP 1"
+              },
+    "Dwarven Armor Training": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency with light and medium armor.",
+                "effect": "Proficiency, Armor, Light, Medium"
+              },
+    "Superior Darkvision": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+                "effect": "Active"
+              },
+    "Duergar Resilience": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on saving throws against illusions and against being charmed or paralyzed.",
+                "effect": "Active"
+              },
+    "Duergar Magic": {
+                "time": "",
+                "duration": "",
+                "description": "When you reach 3rd level, you can cast the Enlarge/Reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the Invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells.",
+                "effect": ["Spells, Intelligence", "Charges"],
+                "uses": ["1, Long Rest, Enlarge/Reduce", "1, Long Rest, Invisibility"],
+                "spells": ["Unlock 3, Enlarge Reduce, 2", "Unlock 5, Invisibility, 2"]
+              },
+    "Sunlight Sensitivity": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have disadvantage on Attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.",
+                "effect": "Active"
+              },
+    "Warder's Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make an Intelligence (Investigation) check or an Ability Check involving Thieve's Tools, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific Check, 1d4, Artisans Tools, Thieves Tools, Investigation"
+              },
+    "Wards and Seals": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can cast the Alarm and Mage Armor spells with this trait. Starting at 3rd level, you can also cast the Arcane Lock spell with it. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Intelligence is your Spellcasting Ability for these spells, and you don't require material components when you cast them with this trait.",
+                "effect": ["Spells, Intelligence", "Charges"],
+                "uses": ["1, Long Rest, Alarm", "1, Long Rest, Mage Armor", "1 Long Rest, Arcane Lock"],
+                "spells": ["Unlock 1, Alarm, 1, Mage Armor, 1", "Unlock 3, Arcane Lock, 2"]
+              },
+    "Spells of the Mark-Warding": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Warding Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Alarm, Armor of Agathys", "2, Arcane Lock, Knock", "3, Glyph of Warding, Magic Circle", "4, Leomund's Secret Chest, Mordenkainen's Faithful Hound", "5, Antilife Shell"]
+              },
+    "Fey Ancestry": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+                "effect": "Active"
+              },
+    "Trance": {
+                "time": "active",
+                "duration": "constant",
+                "description": " Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is \"trance.\" While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way, you gain the same benefit a human would from 8 hours of sleep.",
+                "effect": "Long Rest, 4 hours"
+              },
+    "Keen Senses": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Perception skill.",
+                "effect": "Proficiency, skill, Perception"
+              },
+    "Drow Weapon Training": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency with rapiers, shortswords, and hand crossbows.",
+                "effect": "Proficiency, weapon, rapier, shortsword, hand crossbows"
+              },
+    "Drow Magic": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Dancing Lights cantrip. When you reach 3rd level, you can cast the Faerie Fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell onceand regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Faerie Fire", "1, Long Rest, Darkness"],
+                "spells": ["Unlock 1, Dancing Lights, 0", "Unlock 3, Faerie Fire, 1", "Unlock 5, Darkness, 2"]
+              },
+    "Fey Step": {
+                "time": "1 bonus action",
+                "duration": "Instantaneous",
+                "description": "",
+                "damage": "fire, Modifier, Charisma",
+                "effect": ["Unlock 3", "save, 8, Modifier, Charisma, Proficiency", "Saving Throw, Wisdom, Autumn Target is Charmed", "Saving Throw, Wisdom, Winter Target is Frightened", "Active, Spring Target is Teleported", "Active, Roll for Damage"]
+              },
+    "Elf Weapon Training": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+                "effect": "Proficiency, weapon, longsword, shortsword, shortbow, longbow"
+              },
+    "Cantrip": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.",
+                "effect": ["Option", "Spells"],
+                "option": "table, Wizard Cantrips",
+                "spells": ["Unlock 1, Option, 0"]
+              },
+    "Sea Elf Training": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency with the spear, trident, light crossbow, and net.",
+                "effect": "Proficiency, weapon, spear, trident, light crossbow, net"
+              },
+    "Child of the Sea": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have a swimming speed of 30 feet, and you can breathe air and water.",
+                "effect": "Active"
+              },
+    "Friend of the Sea": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed.",
+                "effect": "Active"
+              },
+    "Necrotic Resistance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have resistance to necrotic damage",
+                "effect": "Resistance, necrotic"
+              },
+    "Blessing of the raven Queen": {
+                "time": "1 bonus action",
+                "duration": "Instantaneous",
+                "description": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.",
+                "effect": ["Unlock 3", "Resistance, All"]
+              },
+    "Fleet of Foot": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your base walking speed increases to 35 feet.",
+                "effect": "Speed, 35"
+              },
+    "Mask of the Wild": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+                "effect": "Active"
+              },
+    "Incisive Sense": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on Investigation and Insight checks.",
+                "effect": "Active"
+              },
+    "Blessing of the Moonweaver": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Light cantrip. When you reach 3rd level, you can cast Sleep once, and it recharges after a long rest. When you reach 5th level, you can cast Invisibility (Self Only) once, and it recharges after a long rest. You do not need the material components required of the spells. Wisdom is your spellcasting ability for these spells.",
+                "effect": ["Spells, Wisdom", "Charges"],
+                "uses": ["1, Long Rest, Sleep", "1, Long Rest, Invisibility"],
+                "spells": ["Unlock 1, Light, 0", "Unlock 3, Sleep, 1", "Unlock 5, Invisibility, 2"]
+              },
+    "Cunning Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you roll a Dexterity (Stealth) check or a Charisma (Performance) check, roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific Check, 1d4, Stealth, Performance"
+              },
+    "Shape Shadows": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Minor Illusion cantrip. Starting at 3rd level, you can also cast the Invisibility spell with this trait. Once you cast either spell with this trait, you can't cast that spell again until you finish a long rest. Charisma is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": "1, Long Rest, Invisibility",
+                "spells": ["Unlock 1, Minor Illusion, 0", "Unlock 3, Invisibility, 2"]
+              },
+    "Spells of the Mark-Shadow": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class features, the spells on the Mark of Shadow Spells table are added to the spell list of your spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirements": "Spellcasting, Pact Magic",
+                "spell list": ["1, Disguise Self, Silent Image", "2, Darkness, Pass Without Trace", "3, Clairvoyance, Major Image", "4, Greater Invisibility, Hallucinatory Terrain", "5, Mislead"]
+              },
+    "Gnome Cunning": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on all Intelligence, Wisdom, and Charisma saves against magic.",
+                "effect": "Active"
+              },
+    "Natural Illusionist": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Minor Illusion cantrip. Intelligence is your spellcasting modifier for it.",
+                "effect": "Spells, Intelligence",
+                "spells": "Unlock 1, Minor Illusion, 0"
+              },
+    "Speak with Small Beasts": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Through sound and gestures, you may communicate simple ideas with Small or smaller beasts.",
+                "effect": "active"
+              },
+    "Artificer's Lore": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make an Intelligence (History) check related to magical, alchemical, or technological items, you can add twice your proficiency bonus instead of any other proficiency bonus that may apply.",
+                "effect": "Specific Expertise, History, magical, alchemical, or technological items"
+              },
+    "Tinker": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency with artisan tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:\nClockwork Toy. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\nFire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\nMusic Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.\nAt your DM's discretion, you may make other objects with effects similar in power to these. The Prestidigitation cantrip is a good baseline for such effects.",
+                "effect": "Proficiency, Artisans Tools, Tinker's Tools"
+              },
+    "Stone Camouflage": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on Dexterity (stealth) checks to hide in rocky terrain.",
+                "effect": "Active"
+              },
+    "Gifted Scribe": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make an Intelligence (History) or an Ability Check involving Calligrapher's Supplies, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific Check, 1d4, Artisans Tools, Calligrapher's Supplies, History"
+              },
+    "Scribe's Insight": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Message cantrip. You can also cast the Comprehend Languages spell with this trait. Starting at 3rd level, you can also cast the Magic Mouth spell with it. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Intelligence is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Intelligence", "Charges"],
+                "uses": ["1, Long Rest, Comprehend Languages", "1, Long Rest, Magic Mouth"],
+                "spells": ["Unlock 1, Message, 0, Comprehend Languages, 1", "Unlock 3, Magic Mouth, 2"]
+              },
+    "Spell of the Mark-Scribing": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Spell List", "Requirement"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Comprehend Languages, Illusory Script", "2, Animal Messenger, Silence", "3, Sending, Tongues", "4, Arcane Eye, Divination", "5, Dream"]
+              },
+    "Deductive Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make a Intelligence (Investigation) or a Wisdom (Insight) check, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific Check, 1d4, Investigation, Insight"
+              },
+    "Magical Detection": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can cast the Detect Magic and the Detect Poison and Disease spells with this trait. Starting at 3rd level, you can also cast the See Invisibility spell with it. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Intelligence is your Spellcasting Ability for these spells, and you don't require material components for them.",
+                "effect": ["Spells, Intelligence", "Charges"],
+                "uses": ["1, Long Rest, Detect Magic", "1, Long Rest, Detect Poison and Disease", "1 Long Rest, See Invisibility"],
+                "spells": ["Unlock 1, Detect Magic, 1, Detect Poison and Disease, 1", "Unlock 3, See Invisibility, 2"]
+              },
+    "Spells of the Mark-Detection": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Detection Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirements": "Spellcasting, Pact Magic",
+                "spell list": ["1, Detect Magic, Detect Poison and Disease", "2, Detect Thoughts, Find Traps", "3, Clairvoyance, Nondetection", "4, Arcane Eye, Divination", "5, Legend Lore"]
+              },
+    "Windwright's Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make a Dexterity (Acrobatics) check or any Ability Check involving Navigator's Tools, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific Check, 1d4, Artisans Tools, Navigator's Tools, Acrobatics"
+              },
+    "Headwinds": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Gust cantrip. Starting at 3rd level, you can also cast the Gust of Wind spell with it. Once you cast this spell with this trait, you can't cast that spell again until you finish a Long Rest. Charisma is your Spellcasting Ability for this spell.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": "1, Long Rest, Gust of Wind",
+                "spells": ["Unlock 1, Gust, 0", "Unlock 3, Gust of Wind, 2"]
+              },
+    "Spells of the Mark-Storm": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Storm Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirements": "Spellcasting, Pact Magic",
+                "spell list": ["1, Feather Fall, Fog Cloud", "2, Gust of WInd, Levitate", "3, Sleet Storm, Wind Wall", "4, Conjure Minor Elementals, Control Water", "5, Conjure Elemental"]
+              },
+    "Menacing": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain proficiency in the Intimidation skill.",
+                "effect": "Proficiency, skill, Intimidation"
+              },
+    "Relentless Endurance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+                "effect": "Charges",
+                "uses": "1, Long Rest"
+              },
+    "Savage Attacks": {
+                "time": "critical hit",
+                "duration": "Instantaneous",
+                "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+                "effect": "Damage Bonus, Melee Attack",
+                "damage": "chosen, max die"
+              },
+    "Hunter's Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make a Wisdom (Perception) or a Wisdom (Survival) check, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific check, 1d4, Perception, Survival"
+              },
+    "Finder's Magic": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can cast the Hunter's Mark spell with this trait. Starting at 3rd level, you can also cast the Locate Object spell with it. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Wisdom is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Wisdom", "Charges"],
+                "uses": ["1, Long Rest, Hunter's Mark", "1, Long Rest, Locate Object"],
+                "spells": ["Unlock 1, Hunter's Mark, 1", "Unlock 3, Locate Object, 2"]
+              },
+    "Spells of the Mark-Finding": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Faerie Fire, Longstrider", "2, Locate Animals or Plants, Locate Objects", "3, Clairvoyance, Speak with Plants", "4, Divination, Locate Creature", "5, Commune with Nature"]
+              },
+    "Halfling Luck": {
+                "time": "active",
+                "duration": "constant",
+                "description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1.",
+                "effect": "Active"
+              },
+    "Brave": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on saving throws against being frightened.",
+                "effect": "Active"
+              },
+    "Nimble": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can move through the space of any creature that is of a size larger than yours.",
+                "effect": "Active"
+              },
+    "Naturally Stealthy": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can attempt to hide even when you are only obscured by a creature that is at least one size larger than you.",
+                "effect": "Active"
+              },
+    "Stout Resilience": {
+                "time": "active",
+                "duration": "NA",
+                "description": "You have advantage on saving throws against poison, and you have resistance to poison damage.",
+                "effect": "Resistance, Poison"
+              },
+    "Silent Speech": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.",
+                "effect": "Active"
+              },
+    "Children of the Woods": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Druidcraft Cantrip. At 3rd level, you can cast the Entangle spell once per long rest. At 5th level, you can cast Spike Growth spell once per long rest. These spells don't require the material components normally required. Wisdom is your spellcasting ability for these spells.",
+                "effect": ["Spells, Wisdom", "Charges"],
+                "uses": ["1, Long Rest, Entangle", "1, Long Rest, Spike Growth"],
+                "spells": ["Unlock 1, Druidcraft, 0", "Unlock 3, Entangle, 1", "Unlock 5, Spike Growth, 2"]
+              },
+    "Timberwalk": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Ability checks made to track you are at disadvantage and you can move through difficult terrain made of non-magical plants and overgrowth without expending extra movement.",
+                "effect": "Active"
+              },
+    "Ever Hospitable": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you roll a Charisma (Persuasion) check or an ability check involving Brewer's Tools or Cook's Utensils, roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific check, 1d4, Artisans Tools, Brewer's Tools, Cook's Utensils"
+              },
+    "Innkeeper's Magic": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Prestidigitation cantrip. You can also cast Purify Food and Drink and Unseen Servant with this trait. Once you cast either spell with this trait, you can't cast that spell again until you finish a long rest. Charisma is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Purify Food and Drink", "1, Long Rest, Unseen Servant"],
+                "spells": ["Unlock 1, Prestidigitation, 0, Purify Food and Drink, 1, Unseen Servant, 1"]
+              },
+    "Spells of the Mark-Hospitality": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class features, the spells on the Mark of Hospitality Spells table are added to the spell list of your spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Goodberry, Sleep", "2, Aid, Calm Emotions", "3, Create Food and Water, Leomund's Tuny Hut", "4, Aura of Purity, Mordenkainen's Private Sanctum", "5, Hallow"]
+              },
+    "Medical Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you roll a Wisdom (Medicine) check or an ability check involving an Herbalism Kit, roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific check, 1d4, Artisans Tools, Herbalism Kit, Medicine"
+              },
+    "Healing Touch": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can cast the Cure Wounds spell with this trait. Beginning at 3rd level, you can also cast the Lesser Restoration spell with this trait. Once you cast either spell with this trait, you can't cast that spell again until you finish a long rest. Wisdom is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Wisdom", "Charges"],
+                "uses": ["1, Long Rest, Cure Wounds", "1, Long Rest, Lesser Restoration"],
+                "spells": ["Unlock 1, Cure Wounds, 1", "Unlock 3, Lessor Restoration, 2"]
+              },
+    "Spells of the Mark-Healing": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class features, the spells on the Mark of Healing Spells table are added to the spell list of your spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Cure Wounds, Healing Word", "2, Lesser Restoration, Prayer of Healing", "3, Aura of Vitality, Mass Healing Word", "4, Aura of Purity, Aura of Life", "5, Greater Restoration"]
+              },
+    "Skills": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain proficiency in one skill of your choice.",
+                "effect": ["Proficiency, skill, Option", "Option"],
+                "option": "table, Skill Table"
+              },
+    "Wild Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make a Wisdom (Animal Handling) or a Intelligence (Nature) check, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific check, 1d4, Animal Handling, Nature"
+              },
+    "Primal Connection": {
+                "time": "active",
+                "duration": "constant",
+                "description": " You can cast the Animal Friendship spell and the Speak With Animals with this trait, requiring no material components. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Wisdom is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Wisdom", "Charges"],
+                "uses": ["1, Long Rest, Animal Friendship", "1, Long Rest, Speak With Animals"],
+                "spells": ["Unlock 1, Animal Friendship, 1, Speak With Animals, 1"]
+              },
+    "Spells of the Mark-Handling": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Handling Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Animal Friendship, Speak With Animals", "2, Beast Sense, Calm Emotions", "3, Beacon of Hope, Conjure Animals", "4, Aura of Life, Dominate Beast", "5, Awaken"]
+              },
+    "The Bigger They Are": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Starting at 3rd level, you can target a Beast or a Monstrosity when you cast Animal Friendship or Speak With Animals, provided that the creature's intelligence is 3 or lower.",
+                "effect": "Unlock 3"
+              },
+    "Artisan's Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": " Whenever you make an Intelligence (Arcana) or an Ability Check involving Artisan's Tools, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific check, 1d4, Artisan's Tools, Any, Arcana"
+              },
+    "Spellsmith": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You learn the Mending cantrip. You can also cast the Magic Weapon spell with this trait. When you do so, the spell lasts for 1 hour and doesn't require concentration. Once you cast this spell with this trait, you can't cast that spell again until you finish a Long Rest. Intelligence is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Intelligence", "Charges"],
+                "uses": ["1, Long Rest, Magic Weapon"],
+                "spells": ["Unlock 1, Mending, 0, Magic Weapon, 2"]
+              },
+    "Spells of the Mark-Making": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Handling Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Identify, Tenser's Floating Disk", "2, Continual Flame, Magic Weapon", "3, Conjure Barrage, Elemental Weapon", "4, Fabricate, Stone Shape", "5, Creation"]
+              },
+    "Artisan's Gift": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain proficiency in one type of Artisan's Tools of your choice.",
+                "effect": ["Option", "Proficiency, Artisan's Tools, Option"],
+                "option": "table, Artisan's Tools"
+              },
+    "Intuitive Motion": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make an Dexterity (Acrobatics) or an Ability Check involving operating or maintaining a Land Vehicle, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific check, 1d4, Artisan's Tools, Vehicle, Acrobatics"
+              },
+    "Magical Passage": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You learn the Mending cantrip. You can also cast the Magic Weapon spell with this trait. When you do so, the spell lasts for 1 hour and doesn't require concentration. Once you cast this spell with this trait, you can't cast that spell again until you finish a Long Rest. Intelligence is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Dexterity", "Charges"],
+                "uses": ["1, Long Rest, Misty Step"],
+                "spells": ["Unlock 1, Misty Step, 2"]
+              },
+    "Spells of the Mark-Passage": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Handling Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Expeditious Retreat, Jump", "2, Misty Step, Pass Without Trace", "3, Blink, Phantom Steed", "4, Dimension Door, Freedom of Movement", "5, Teleportation Circle"]
+              },
+    "Courier's Speed": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain a base walking speed of 35ft.",
+                "effect": "Speed, 30"
+              },
+    "Sentinel's Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make an Wisdom (Insight) or a Wisdom (Perception) check, you can roll a d4 and add the number rolled to the total ability check.",
+                "effect": "Specific check, 1d4, Perception, Insight"
+              },
+    "Guardian's Shield": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can cast the Shield spell with this trait. Once you cast this spell with this trait, you can't cast that spell again until you finish a Long Rest. Wisdom is your Spellcasting Ability for these spells.",
+                "effect": ["Spells, Wisdom", "Charges"],
+                "uses": ["1, Long Rest, Shield"],
+                "spells": ["Unlock 1, Shield, 1"]
+              },
+    "Spells of the Mark-Sentinel": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you have the Spellcasting or Pact Magic class feature, the spells on the Mark of Handling Spells table are added to the spell list of your Spellcasting class.",
+                "effect": ["Requirement", "Spell List"],
+                "requirement": "Spellcasting, Pact Magic",
+                "spell list": ["1, Compelled Duel, Shield of Faith", "2, Warding Bond, Zone of Truth", "3, Counterspell, Protection From Energy", "4, Death Ward, Guardian of Faith", "5, Bigby's Hand"]
+              },
+    "Hellish Resistance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have resistance to fire damage.",
+                "effect": "Resistance, fire"
+              },
+    "Infernal Legacy": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Hellish Rebuke spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Darkness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Hellish Rebuke", "1, Long Rest, Darkness"],
+                "spells": ["Unlock 1, Thaumaturgy, 0", "Unlock 3, Hellish Rebuke, 1, 2", "Unlock 5, Darkness, 2"]
+              },
+    "Legacy of Maladomini": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Ray of Sickness spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Crown of Madness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Ray of Sickness", "1, Long Rest, Crown of Madness"],
+                "spells": ["Unlock 1, Thaumaturgy, 0", "Unlock 3, Ray of Sickness, 1, 2", "Unlock 5, Crown of Madness, 2"]
+              },
+    "Legacy of Dis": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Disguise Self spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Detect Thoughts spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Disguise Self", "1, Long Rest, Detect Thoughts"],
+                "spells": ["Unlock 1, Thaumaturgy, 0", "Unlock 3, Disguise Self, 1", "Unlock 5, Detect Thoughts, 2"]
+              },
+    "Legacy of Phlegethos": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Friends cantrip. Once you reach 3rd level, you can cast the Charm Person spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Suggestion spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Charm Person", "1, Long Rest, Suggestion"],
+                "spells": ["Unlock 1, Friends, 0", "Unlock 3, Charm Person, 1, 2", "Unlock 5, Suggestion, 2"]
+              },
+    "Legacy of Malbolge": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Minor Illusion cantrip. Once you reach 3rd level, you can cast the Disguise Self spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Invisibility spell once as a 2nd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Disguise Self", "1, Long Rest, Invisibility"],
+                "spells": ["Unlock 1, Minor Illusion, 0", "Unlock 3, Disguise Self, 1", "Unlock 5, Invisibility, 2, 2"]
+              },
+    "Legacy of Stygia": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Ray of Frost cantrip. Once you reach 3rd level, you can cast the Armor of Agathys spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Darkness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Armor of Agathys", "1, Long Rest, Darkness"],
+                "spells": ["Unlock 1, Ray of Frost, 0", "Unlock 3, Armor of Agathys, 1, 2", "Unlock 5, Darkness, 2"]
+              },
+    "Legacy  of Minauros": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Mage Hand cantrip. Once you reach 3rd level, you can cast the Tenser's Floating Disk spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Arcane Lock spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Tenser's Floating Disk", "1, Long Rest, Arcane Lock"],
+                "spells": ["Unlock 1, Mage Hand, 0", "Unlock 3, Tenser's Floating Disk, 1", "Unlock 5, Arcane Lock, 2"]
+              },
+    "Legacy of Cania": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Mage Hand cantrip. Once you reach 3rd level, you can cast the Burning Hands spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Flame Blade spell once as a 3rd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Burning Hands", "1, Long Rest, Flame Blade"],
+                "spells": ["Unlock 1, Mage Hand, 0", "Unlock 3, Burning Hands, 1, 2", "Unlock 5, Flame Blade, 2, 3"]
+              },
+    "Legacy of Avernus": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Searing Smite spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Branding Smite spell once as a 3rd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Searing Smite", "1, Long Rest, Branding Smite"],
+                "spells": ["Unlock 1, Thaumaturgy, 0", "Unlock 3, Searing Smite, 1, 2", "Unlock 5, Branding Smite, 2, 3"]
+              },
+    "Variant Legacy": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your tiefling might not look like other tieflings. Rather than having the standard characteristics you could have: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goat-like legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.",
+                "effect": "Options, feats",
+                "option": {
+                    "Devil's Tongue": {
+                        "description": "You know the Vicious Mockery cantrip. Once you reach 3rd level, you can cast the Charm Person spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Enthrall spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells. This trait replaces the Infernal Legacy trait",
+                        "effect": ["Spells", "Charges"],
+                        "uses": ["1, Long Rest, Charm Person", "1, Long Rest, Enthrall"],
+                        "spells": ["Unlock 1, Vicious Mockery, 0", "Unlock 3, Charm Person, 1, 2", "Unlock 5, Enthrall, 2"]
+                    },
+                    "Hellfire": {
+                      "description": "Once you reach 3rd level, you can cast the Burning Hands spell once as a 2nd-level spell. This trait replaces the Hellish Rebuke spell of the Infernal Legacy trait.",
+                      "effect": ["Unlock", "Spells", "Charges"],
+                      "uses": "1, Long Rest, Burning Hands",
+                      "spells": ["Unlock 3, Burning Hands, 1, 2"]
+                    },
+                    "Winged": {
+                      "description": "You have bat-like wings sprouting from your shoulders. You have a flying speed of 30 feet while you aren’t wearing heavy armor. This trait replaces the Infernal Legacy trait.",
+                      "effect": "Speed, flying, 30"
+                  }
+                }
+              },
+    "Flight": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor.",
+                "effect": "Speed, Flying, 50"
+              },
+    "Talons": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.",
+                "effect": "Melee Attack, Roll for Damage",
+                "damage": "slashing, 1d4"
+              },
+    "Celestial Resistance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have resistance to necrotic damage and radiant damage.",
+                "effect": "Resistance, necrotic, radiant"
+              },
+    "Healing Hands": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.",
+                "effect": ["Heal, Heal touched Target", "Charges"],
+                "uses": "1, Long Rest",
+                "damage": "heal, level"
+              },
+    "Light Bearer": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Light cantrip. Charisma is your spellcasting ability for it.",
+                "effect": "Spells, Charisma",
+                "spells": ["Unlock 1, Light, 0"]
+              },
+    "Radiant Soul": {
+                "time": "1 action",
+                "duration": "1 minute",
+                "description": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.\nYour transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.\nOnce you use this trait, you can't use it again until you finish a long rest.",
+                "effect": ["Unlock 3", "Charges", "Damage Bonus"],
+                "uses": "1, Long Rest",
+                "damage": "radiant, level"
+              },
+    "Radiant Consumption": {
+                "time": "1 action",
+                "duration": "1 minute",
+                "description": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.\nYour transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.\nOnce you use this trait, you can't use it again until you finish a long rest.",
+                "effect": ["Unlock 3", "Charges", "Damage Bonus", "Active, Roll for Damage"],
+                "uses": "1, Long Rest",
+                "damage": ["radiant, level", "radiant, half level"]
+              },
+    "Necrotic Shroud": {
+                "time": "1 action",
+                "duration": "1 minute",
+                "description": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.\nYour transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.\nOnce you use this trait, you can't use it again until you finish a long rest.",
+                "effect": ["Unlock 3", "Charges", "Damage Bonus", "Saving Throw, Charisma, Target is Frightened", "Save, Modifier, Charisma, 8, Proficiency"],
+                "uses": "1, Long Rest",
+                "damage": "necrotic, level"
+              },
+    "Firbolg Magic": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can cast Detect Magic and Disguise Self with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.",
+                "effect": ["Spells, Wisdom", "Charges"],
+                "uses": ["1, Any, Detect Magic", "1, Any, Disguise Self"],
+                "spells": ["Unlock 1, Detect Magic, 1, Disguise Self, 1"]
+              },
+    "Hidden Step": {
+                "time": "1 bonus action",
+                "duration": "1 round",
+                "description": "As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.",
+                "effect": "Active"
+              },
+    "Powerful Build": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+                "effect": ["Carrying Capacity, Large", "Movable Weight, Large"]
+              },
+    "Speech of Beast and Leaf": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.",
+                "effect": "Active"
+              },
+    "Unending Breath": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can hold your breath indefinitely while you’re not incapacitated.",
+                "effect": "Active"
+              },
+    "Mingle with the Wind": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can cast the Levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+                "effect": ["Spells, Constitution", "Charges"],
+                "uses": "1, Long Rest, Levitate",
+                "spells": ["Unlock 1, Levitate, 2"]
+              },
+    "Earth Walk": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can move across difficult terrain made of earth or stone without expending extra movement.",
+                "effect": "Active"
+              },
+    "Merge with Stone": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can cast the Pass without Trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+                "effect": ["Spells, Constitution", "Charges"],
+                "uses": "1, Long Rest, Pass without Trace",
+                "spells": ["Unlock 1, Pass without Trace, 2"]
+              },
+    "Fire Resistance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have resistance to fire damage.",
+                "effect": "Resistance, fire"
+              },
+    "Reach to the Blaze": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Produce Flame cantrip. Once you reach 3rd level, you can cast the Burning Hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+                "effect": ["Spells, Constitution", "Charges"],
+                "uses": "1, Long Rest, Burning Hands",
+                "spells": ["Unlock 1, Produce Flame, 0", "Unlock 3, Burning Hands, 1"]
+              },
+    "Acid Resistance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have resistance to acid damage.",
+                "effect": "Resistance, acid"
+              },
+    "Amphibious": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can breath air and water",
+                "effect": "Active"
+              },
+    "Swim": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have a swimming speed of 30 feet",
+                "effect": "Speed, swim, 30"
+              },
+    "Call to the Wave": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Shape Water cantrip. When you reach 3rd level, you can cast the Create or Destroy Water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+                "effect": ["Spells, Constitution", "Charges"],
+                "uses": "1, Long Rest, Create or Destroy Water",
+                "spells": ["Unlock 1, Shape Water, 0", "Unlock 3, Create or Destroy Water, 1"]
+              },
+    "Decadent Memory": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You learn one language of your choice, and you are proficient with one skill or tool of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge.",
+                "effect": ["Option", "Language, Any"],
+                "option": ["Proficiency, Artisan's Tool, Any", "Proficiency, Skill, Any"]
+              },
+    "Martial Prodigy": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You are proficient with light and medium armor and with shortswords, longswords, and greatswords.",
+                "effect": ["Proficiency, Armor, light, medium", "Proficency, Weapon, shortswords, longswords, greatswords"],
+              },
+    "Githyanki Psionics": {
+                "time": "actvie",
+                "duration": "constant",
+                "description": "You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\nWhen you reach 3rd level, you can cast the Jump spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Misty Step spell once with this trait, and you regain the ability to do so when you finish a long rest.\nIntelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.",
+                "effect": ["Spells, Intelligence", "Charges"],
+                "uses": ["1, Long Rest, Jump", "1, Long Rest, Misty Step"],
+                "spells": ["Unlock 1, Mage Hand, 0", "Unlock 3, Jump, 1", "Unlock 5, Misty Step, 2"]
+              },
+    "Mental Discipline": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.",
+                "effect": "Active"
+              },
+    "Githzerai Psionics": {
+                "time": "actvie",
+                "duration": "constant",
+                "description": "You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait.\nWhen you reach 3rd level, you can cast the Shield spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Detect Thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest.\nWisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.",
+                "effect": ["Spells, Wisdom", "Charges"],
+                "uses": ["1, Long Rest, Shield", "1, Long Rest, Detect Thoughts"],
+                "spells": ["Unlock 1, Mage Hand, 0", "Unlock 3, Shield, 1", "Unlock 5, Detect Thoughts, 2"]
+              },
+    "Natural Athlete": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Athletics skill.",
+                "effect": "Proficiency, skill, Athletics"
+              },
+    "Stone's Endurance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can’t use it again until you finish a short or long rest.",
+                "effect": ["Charges", "Roll, 1d12, Constitution Modifier"],
+                "uses": "1, Any"
+              },
+    "Mountain Born": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have resistance to cold damage. You’re also acclimated to high altitude, including elevations above 20,000 feet.",
+                "effect": "Resistance, cold"
+              },
+    "Expert Forgery": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.",
+                "effect": "Active"
+              },
+    "Kenku Training": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.",
+                "effect": ["Proficient, skill, Option", "Option, 2"],
+                "option": ["Acrobatics", "Deception", "Stealth", "Sleight of Hand"]
+              },
+    "Mimicry": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.",
+                "effect": "Active"
+              },
+    "Natural Armor-Locathah": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have tough, scaly skin. When you aren’t wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.",
+                "effect": "AC, Dexterity Modifier, 12"
+              },
+    "Observant and Athletic": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Athletics and Perception skills.",
+                "effect": "Proficiency, skill, Athletics, Perception"
+              },
+    "Leviathan Will": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.",
+                "effect": "Active"
+              },
+    "Limited Amphibiousness": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating.",
+                "effect": "Active"
+              },
+    "Feline Agility": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
+                "effect": "Active"
+              },
+    "Cat's Claws": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+                "effect": "Melee Attack, Roll for Damage",
+                "damage": "slashing, 1d4, Strength Modifier"
+              },
+    "Cat's Talent": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Perception and Stealth skills.",
+                "effect": "Proficiency. skill, Perception, Stealth"
+              },
+    "Claws": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+                "effect": "Melee Attack, Roll for Damage",
+                "damage": "slashing, 1d4, Strength Modifier"
+              },
+    "Hold Breath-Tortle": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air.",
+                "effect": "Active"
+              },
+    "Natural Armor-Tortle": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.",
+                "effect": ["AC, 17", "Blocked, Armor"]
+              },
+    "Shell Defense": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.",
+                "effect": "AC, bonus, 4"
+              },
+    "Survival Instinct": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain proficiency in the Survival skill. Tortles have finely honed survival instincts.",
+                "effect": "Proficiency, skill, Survival"
+              },
+    "Control Air and Water": {
+                "time": "active",
+                "duration": "constant",
+                "description": "A child of the sea, you can call on the magic of elemental air and water. You can cast Fog Cloud with this trait. Starting at 3rd level, you can cast Gust of Wind with it, and starting at 5th level, you can also cast Wall of Water with it. Once you cast a spell with this trait, you can’t cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Fog Cloud", "1, Long Rest, Gust of Wind", "1, Long Rest, Wall of Water"],
+                "spells": ["Unlock 1, Fog Cloud, 1", "Unlock 3, Gust of Wind, 2", "Unlock 5, Wall of Water, 3"]
+              },
+    "Emissary of the Sea": {
+                "time": "active",
+                "duration": "Constant",
+                "description": "Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.",
+                "effect": "Active"
+              },
+    "Guardians of the Depths": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Adapted to even the most extreme ocean depths, you have resistance to cold damage.",
+                "effect": "Resistance, cold"
+              },
+    "Long-Limbed": {
+                "time": "active",
+                "duration": "constant",
+                "description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.",
+                "effect": "Range, Melee, 5"
+              },
+    "Sneaky": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You are proficient in the Stealth skill.",
+                "effect": "Proficiency, skill, Stealth"
+              },
+    "Suprise Attack": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.",
+                "effect": ["Charges", "Damage Bonus"],
+                "uses": "1, Initiative",
+                "damage": "chosen, 2d6"
+              },
+    "Fey": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your creature type is fey, rather than humanoid.",
+                "effect": "Creature Type, Fey"
+              },
+    "Charge": {
+                "time": "1 bonus action",
+                "duration": "Instantaneous",
+                "description": "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.",
+                "effect": "Melee Attack, Hooves"
+              },
+    "Hooves": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+                "effect": "Melee Attack, Roll for Damage",
+                "damage": "bludgeoning, 1d4, Strength Modifier"
+              },
+    "Equine Build": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.",
+                "effect": ["Carrying Capacity, Large", "Movable Weight, Large"]
+              },
+    "Survivor": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in one of the following skills: Animal Handling, Medicine, Nature, or Survival.",
+                "effect": ["Proficiency, skill, Option", "Option"],
+                "option": ["Animal Handling", "Medicine", "Nature", "Survival"]
+              },
+    "Fury of the Small": {
+                "time": "active",
+                "duration": "constant",
+                "description": "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
+                "effect": ["Damage Bonus", "Charges"],
+                "uses": "1, Any",
+                "damage": "chosen, level"
+              },
+    "Nimble Escape": {
+                "time": "1 bonus action",
+                "duration": "Instantaneous",
+                "description": "You can take the Disengage or Hide action as a bonus action on each of your turns.",
+                "effect": "Action, Disengage, Hide"
+              },
+    "Arboreal Alertness": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Perception skill.",
+                "effect": "Proficiency, skill, Perception"
+              },
+    "Poison Immunity": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You are immune to poison damage and the poisoned condition.",
+                "effect": "Immunity, poison"
+              },
+    "Poisonous Skin": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\nYou can also apply this poison to any piercing weapon as part of an attack with that weapon, though when you hit the poison reacts differently. The target must succeed on a DC 12 Constitution saving throw or take 2d4 poison damage.",
+                "effect": ["Save, 12", "Saving Throw, Constitution, Target is Poisoned", "Saving Throw, Constitution, Roll for Damage"],
+                "damage": "poison, 2d4"
+              },
+    "Standing Leap": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start.",
+                "effect": "Jump, long, 25, high, 15"
+              },
+    "Water Dependency": {
+                "time": "active",
+                "duration": "constant",
+                "description": "If you fail to immerse yourself in water for at least 1 hour during a day, you suffer 1 level of exhaustion at the end of that day. You can recover from this exhaustion only through magic or by immersing yourself in water for at least 1 hour.",
+                "effect": "Active"
+              },
+    "Martial Training": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You are proficient with two martial weapons of your choice and with light armor.",
+                "effect": ["Proficiency, armor, Light Armor", "Proficiency, weapon, Option", "Option, 2"],
+                "option": "table, Martial Weapons"
+              },
+    "Saving Face": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.",
+                "effect": "Charges",
+                "uses": "1, Any"
+              },
+    "Grovel, Cower, and Beg": {
+                "time": "1 action",
+                "duration": "1 round",
+                "description": "As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.",
+                "effect": "Charges",
+                "uses": "1, Any"
+              },
+    "Pack Tactics": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.",
+                "effect": "Active"
+              },
+    "Bite": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+                "effect": "Melee Attack, Roll for Damage",
+                "damage": "piercing, 1d6, Strength Modifier"
+              },
+    "Cunning Action": {
+                "time": "Short Rest",
+                "duration": "30 minutes",
+                "description": "As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.",
+                "effect": "Active"
+              },
+    "Hold Breath-Lizardfolk": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can hold your breath for up to 15 minutes at a time.",
+                "effect": "Active"
+              },
+    "Hunter's Lore": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.",
+                "effect": ["Option, 2", "Proficiency, skill, Option"],
+                "option": ["Animal Handling", "Nature", "Perception", "Stealth", "Survival"]
+              },
+    "Natural Armor-Lizardfolk": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+                "effect": "AC, Dexterity Modifier, 13"
+              },
+    "Hungry Jaws": {
+                "time": "1 bonus action",
+                "duration": "Instantaneous",
+                "description": "In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.",
+                "effect": ["Melee Attack, Bite", "Temp HP, Constitution Modifier", "Charges"],
+                "uses": "1, Any"
+              },
+    "Horns": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+                "effect": "Melee Attack, Roll for Damage",
+                "damage": "piercing, 1d6, Strength Modifier"
+              },
+    "Goring Rush": {
+                "time": "1 bonus action",
+                "duration": "Instantaneous",
+                "description": "Immediately after you use the Dash action on your turn and move at least 20 feet, you can make one melee attack with your horns as a bonus action.",
+                "effect": "Melee Attack, Horns"
+              },
+    "Hammering Horns": {
+                "time": "1 bonus action",
+                "duration": "Instantaneous",
+                "description": "Immediately after you hit a creature with a melee attack as a part of the Attack action on your turn, you can use a bonus action to attempt to shove that target with your horns. The target must be within 5 feet of you and no more than one size larger than you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.",
+                "effect": ["save, Strength Modifier, 8, Proficiency", "Saving Throw, Strength, Target is Pushed"]
+              },
+    "Imposing Presence": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in one of the following skills of your choice: Intimidation or Persuasion.",
+                "effect": ["Option", "Proficiency, skill, Option"],
+                "option": ["Intimidation, Persuasion"]
+              },
+    "Aggressive": {
+                "time": "1 bonus action",
+                "duration": "Instantaneous",
+                "description": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.",
+                "effect": "Active"
+              },
+    "Primal Intuition": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in two of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival.",
+                "effect": ["Option, 2", "Proficiency, skill, Option"],
+                "option": ["Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, Survival"]
+              },
+    "Innate Spellcasting": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Poison Spray cantrip. You can cast Animal Friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast Suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.",
+                "effect": ["Spells, Charisma", "Charges"],
+                "uses": ["1, Long Rest, Suggestion"],
+                "spells": ["Unlock 1, Poison Spray, 0, Animal Friendship, 1", "Unlock 3, Suggestion, 2"]
+              },
+    "Magic Resistance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on saving throws against spells and other magical effects.",
+                "effect": "Active"
+              },
+    "Shapechanger": {
+                "time": "1 action",
+                "duration": "constant",
+                "description": "As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.\nYou stay in the new form until you use an action to revert to your true form or until you die.",
+                "effect": "Active"
+              },
+    "Changeling Instincts": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, and Persuasion.",
+                "effect": ["Option, 2", "Proficiency, skill, Option"],
+                "option": ["Deception", "Insight", "Persuasion"]
+              },
+    "Dual Mind": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on all Wisdom saving throws.",
+                "effect": "Active"
+              },
+    "Mental Discipline Resistance": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have resistance to psychic damage.",
+                "effect": "Resistance, psychic"
+              },
+    "Mind Link": {
+                "time": "1 action",
+                "duration": "1 hour",
+                "description": "You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.\nWhen you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it.",
+                "effect": "Active"
+              },
+    "Severed from Dreams": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Kalashtar sleep, but they don’t connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to magical spells and effects that require you to dream, like the Dream spell, but not to spells and effects that put you to sleep, like the Sleep spell.",
+                "effect": "Active"
+              },
+    "Shifting": {
+                "time": "1 bonus action",
+                "duration": "1 minute",
+                "description": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain benefits that depend on your shifter subrace, described below. Once you shift, you can’t do so again until you finish a short or long rest.",
+                "effect": ["Temp HP, Gain Temporary HP", "Charges", "Active, Shifting Feature Active"],
+                "uses": "1, Any",
+                "damage": "temp, level, Constitution Modifier"
+              },
+    "Shifting Feature-Beasthide": {
+                "time": "active",
+                "duration": "1 minute",
+                "description": "Whenever you shift, you gain 1d6 additional temporary hit points, and while shifted, you have a +1 bonus to your AC.",
+                "effect": ["Temp HP, Roll for HP", "AC, +1"],
+                "damage": "temp, 1d6"
+              },
+    "Shifting Feature-Longtooth": {
+                "time": "1 bonus action",
+                "duration": "1 minute",
+                "description": "While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+                "effect": ["Melee Attack, Roll for Damage"],
+                "damage": "piercing, 1d6, Strength Modifier"
+              },
+    "Shifting Feature-Wildhunt": {
+                "time": "active",
+                "duration": "1 minute",
+                "description": "While shifted, you have advantage on Wisdom checks.",
+                "effect": "Active"
+              },
+    "Shifting Feature-Swiftstride": {
+                "time": "Reaction",
+                "duration": "1 minute",
+                "description": "While shifted, your walking speed increases by an additional 5 feet. Additionally, you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn’t provoke opportunity attacks.",
+                "effect": "Active"
+              },
+    "Tough": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Athletics skill",
+                "effect": "Proficiency, skill, Athletics"
+              },
+    "Fierce": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Intimidation skill",
+                "effect": "Proficiency, skill, Intimidation"
+              },
+    "Graceful": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Acrobatics skill.",
+                "effect": "Proficiency, skill, Acrobatics"
+              },
+    "Speed Boost": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your walking speed increases by 5 feet.",
+                "effect": "Speed, +5"
+              },
+    "Natural Tracker": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Survival skill.",
+                "effect": "Proficiency, skill, Survival"
+              },
+    "Mark the Scent": {
+                "time": "1 bonus action",
+                "duration": "Until next long rest",
+                "description": "As a bonus action, you can mark one creature you can see within 10 feet of you. Until the end of your next long rest, your proficiency bonus is doubled for any ability check you make to find the marked creature, and you always know the location of that creature if it is within 60 feet of you. You can’t use this trait again until you finish a short or long rest.",
+                "effect": "Specific Expertise, Survival, To find the marked creature"
+              },
+    "Constructed Resilience": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You were created to have remarkable fortitude, represented by the following benefits:\nYou have advantage on saving throws against being poisoned, and you have resistance to poison damage.\nYou don’t need to eat, drink, or breathe.\nYou are immune to disease.\nYou don't need to sleep, and magic can't put you to sleep.",
+                "effect": "Resistance, poison"
+              },
+    "Sentry's Rest": {
+                "time": "active",
+                "duration": "constant",
+                "description": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.",
+                "effect": "Active"
+              },
+    "Integrated Protection": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your body has built-in defensive layers, which can be enhanced with armor.\nYou gain a +1 bonus to Armor Class.\nYou can don only armor with which you have proficiency. To don armor, you must incorporate it into your body over the course of 1 hour, during which you must remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.\nWhile you live, your armor can't be removed from your body against your will.",
+                "effect": "AC, +1"
+              },
+    "Specialized Design": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You gain one skill proficiency and one tool proficiency of your choice.",
+                "effect": ["Proficiency, Artisan's Tools, Any", "Proficiency, skill, Any"]
+              },
+    "Loxodon Serenity": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage against being charmed or frightened.",
+                "effect": "Active"
+              },
+    "Natural Armor-Loxodon": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have thick, leathery skin. When you aren't wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+                "effect": "AC, 12, Constitution Modifier"
+              },
+    "Trunk": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can grasp things with your trunk, and you can use it as a snorkel. It has a reach of 5 feet, and it can lift a number of pounds equal to five times your Strength score. You can use it to do the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or a container; grapple someone; or make an unarmed strike. Your DM might allow other simple tasks to be added to that list of options. It can't wield weapons or shields or do anything that requires manual precision, such as using tools or magic items or performing the somatic components of a spell.",
+                "effect": "Active"
+              },
+    "Keen Smell": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Thanks to your sensitive trunk, you have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation) checks that involve smell.",
+                "effect": "Active"
+              },
+    "Animal Enhancements Level 1": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Manta Glide (1st level). You have ray-like fins that you use as wings to slow your fall or allow you to glide. When you fall and are not incapacitated, you can subtract up to 100 feet from your fall when calculating your fall damage and can move horizontally 2 feet for every 1 foot you fall.\nNimble Climber (1st level). You have a climb speed equal to your walk speed.\nUnderwater Adaptation (1st level). You can breathe air and water, and you gain a swim speed equal to your walking speed.",
+                "effect": ["Option", "Unlock 1"],
+                "option": {
+                  "Manta Glide": {
+                    "description": "You have ray-like fins that you use as wings to slow your fall or allow you to glide. When you fall and are not incapacitated, you can subtract up to 100 feet from your fall when calculating your fall damage and can move horizontally 2 feet for every 1 foot you fall."
+                  },
+                  "Nimble Climber": {
+                    "description": "You have a climb speed equal to your walk speed."
+                  },
+                  "Underwater Adaptation": {
+                    "description": "You can breathe air and water, and you gain a swim speed equal to your walking speed."
+                  }
+                }
+              },
+    "Animal Enhancements Level 5": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Grappling Appendages (5th level). You have two special appendages growing alongside with your arms. Choose whether they're both claws or tentacles. As an action, you can use one of them to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike with. If you hit, they do 1D6 + your strength modifier bludgeon damage. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages are not dexterous enough to use weapons, magic weapons, and other specialized equipment.\nCarapace (5th level). Your skin in places is covered by a thick shell. You gain a +1 to your AC when not wearing heavy armour.\nAcid Spit (5th level). As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target must make a Dexterity saving throw against a DC of 8 + you proficiency bonus + your Constitution modifier. The target takes 2D10 acid damage if they fail. The damage increases to 3D10 at 11th level and 4D10 at 17th level. You can use this up to your Constitution modifier's worth of times per long rest.",
+                "effect": ["Option", "Unlock 5"],
+                "option": {
+                  "Grappling Appendages": {
+                    "time": "1 action",
+                    "duration": "Instantaneous",
+                    "description": "You have two special appendages growing alongside with your arms. Choose whether they're both claws or tentacles. As an action, you can use one of them to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike with. If you hit, they do 1D6 + your strength modifier bludgeon damage. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages are not dexterous enough to use weapons, magic weapons, and other specialized equipment.",
+                    "effect": "Melee Attack, Roll for Damage",
+                    "damage": "bludgeoning, 1d6, Strength Modifier"
+                  },
+                  "Carapace": {
+                    "time": "active",
+                    "duration": "constant",
+                    "description": "Your skin in places is covered by a thick shell. You gain a +1 to your AC when not wearing heavy armour.",
+                    "effect": "AC, +1"
+                  },
+                  "Underwater Adaptation": {
+                    "time": "1 action",
+                    "duration": "Instantaneous",
+                    "description": "As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target must make a Dexterity saving throw against a DC of 8 + you proficiency bonus + your Constitution modifier. The target takes 2D10 acid damage if they fail. The damage increases to 3D10 at 11th level and 4D10 at 17th level. You can use this up to your Constitution modifier's worth of times per long rest.",
+                    "effect": ["save, Constitution Modifier, 8, Proficiency", "Saving Throw, Dexterity, Roll for Damage", "Charges"],
+                    "uses": "Modifier, Constitution, Long Rest",
+                    "damage": "acid, [2d10, 2d10, 2d10, 2d10, 2d10, 2d10, 2d10, 2d10, 2d10, 2d10, 3d10, 3d10, 3d10, 3d10, 3d10, 3d10, 4d10, 4d10, 4d10, 4d10]"
+                  }
+                }
+              },
+    "Vedalken Dispassion": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on all Intelligence, Wisdom, and Charisma Saving Throws.",
+                "effect": "Active"
+              },
+    "Tireless Precision": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice. Whenever you make an ability check with the chosen s kill or tool, roll a d4 and add the number rolled to the check's total.",
+                "effect": ["Proficiency, Artisan's Tools, Any", "Proficiency, skill, Option", "Specific Check, 1d4, Option Tool"],
+                "option": ["Arcana", "History", "Investigation", "Medicine", "Performance", "Slight of Hand"]
+              },
+    "Partially Amphibious": {
+                "time": "1 bonus action",
+                "duration": "1 hour",
+                "description": "By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour. Once you've reached that limit, you can't use this trait again until you finish a long rest.",
+                "effect": "Active"
+              },
+    "Hunter's Instincts": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.",
+                "effect": ["Proficiency, skill, Option", "Option"],
+                "option": ["Athletics", "Intimidation", "Perception", "Survival"]
+              },
+    "Daunting Roar": {
+                "time": "1 bonus action",
+                "duration": "1 round",
+                "description": "As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can’t use it again until you finish a short or long rest.",
+                "effect": ["save, Constitution Modifier, 8, Proficiency", "Saving Throw, Wisdom, Target is Frightened", "Charges"],
+                "uses": "1, Any"
+              },
+    "Ram": {
+                "time": "1 action",
+                "duration": "Instantaneous",
+                "description": "You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier.",
+                "effect": "Melee Attack, Roll for Damage",
+                "damage": "bludgeoning, 1d4, Strength Modifier"
+              },
+    "Mirthful Leaps": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Whenever you make a long or high jump, you can roll a d8 and add the number to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.",
+                "effect": "Jump Bonus, Long, 1d8, High, 1d8"
+              },
+    "Reveler": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.",
+                "effect": ["Proficiency, skill, Performance, Persuasion", "Proficiency, Musical Instrument, Any"]
+              },
+    "Fairy Flight": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have a flying speed equal to your walking speed and can hover. This flight is magical and does not require the use of your wings (if you have them).",
+                "effect": "Speed, flying, 30"
+              },
+    "Fairy Magic": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You know the Druidcraft and Faerie Fire spells. You can cast Faerie Fire without expending a spell slot, and you must finish a long rest before you can cast it this way again. You can also cast this spell using any spell slots you have. Your spellcasting ability for these spells is your choice of Intelligence, Wisdom, or Charisma.",
+                "effect": ["Spells, Option", "Option", "Charges"],
+                "option": ["Intelligence", "Wisdom", "Charisma"],
+                "spells": ["Unlock 1, Druidcraft, 0, Faerie Fire, 1"],
+                "uses": ["1, Long Rest, Faerie Fire"]
+              },
+    "Fey Passage": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You can squeeze through a space as narrow as 1 inch wide.",
+                "effect": "Active"
+              },
+    "Magic Sight": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Your keen senses can focus to see the presence of magic. You gain the ability to cast the Detect Magic spell, but only as a ritual. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma. You can also cast this spell normally with any spell slots you have.",
+                "effect": ["Spells, Option", "Option"],
+                "option": ["Intelligence", "Wisdom", "Charisma"],
+                "spells": ["Unlock 1, Detect Magic, 1"]
+              },
+    "Nimble Flight": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Thanks to your wings, you have a flying speed equal to your walking speed. When you fall, you can use your reaction to make a Dexterity saving throw (DC 10) to stop falling and fly in place until the start of your next turn.",
+                "effect": "Speed, flying, 30"
+              },
+    "Silent Feathers": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Stealth skill.",
+                "effect": "Proficiency, skill, Stealth"
+              },
+    "Hare-Trigger": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You add your proficiency bonus to your initiative rolls.",
+                "effect": "Proficiency, Initiative"
+              },
+    "Legacy Senses": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have proficiency in the Perception skill.",
+                "effect": "Proficiency, skill, Perception"
+              },
+    "Lucky Footwork": {
+                "time": "Reaction",
+                "duration": "Instantaneous",
+                "description": "When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the result, potentially turning the failure into a success.",
+                "effect": "Roll, 1d4"
+              },
+    "Rabbit Hop": {
+                "time": "active",
+                "duration": "constant",
+                "description": "Once during each of your turns when you walk at least 5 feet, you can hop, rolling a d12 and moving that many feet in a direction of your choice. This extra distance doesn’t cost movement, but you can hop only if your speed isn’t 0.",
+                "effect": "Roll, 1d12"
+              },
+    "Bearfolk Weapon Training": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have had to defend your home from invaders and hunters. You have proficiency with the battleaxe, greatclub, and warhammer.",
+                "effect": "Proficiency, weapon, battleaxe, greatclub, warhammer"
+              },
+    "Fearless": {
+                "time": "active",
+                "duration": "constant",
+                "description": "You have advantage on saving throws against being frightened.",
+                "effect": "Active"
+              }
+  }
+}
+
+
+              "": {
+                "time": "",
+                "duration": "",
+                "description": "",
+                "effect": ""
+              }
+
+
+
+Potential Effects -
+        - Charge Attacks need you to move or dash beforehand
+
+
+
+
+To Weird -
+        Savage Attacks -"Smite", "damage": "chosen, max" damage depends on used weapon, add one die, largest available
+        Infernal Legacy - Helish Rebuke - 1st level spell you use only at 2nd level (Maybe do in uses)
+        Aasimar Radiant traits are kind of smites kind of weapon upgrades, not totally happy with their implementation
+        Powerful Build - could be redundant making the effects for it, pointless
+        Natural Armor - IDK how to say no armor (Blocked, Armor)
+        Tirelesss Precision - Two options
+
+Feature - pick from feature list, not listed here needs to be in code
+
+
+Effect Bank:
+Active - Always happening, could have description after
+Requirment - Charachter requirment to gain this racial trait
+        - "requirments"
+              - Spellcasting, PactMagic
+On Level (characters gain a benift when they level up, inluding on creation)
+        - HP AMOUNT
+Specific Expertise (get expertice on specific rolls)
+        - History
+Option - Player makes a choice that gives them a specific trait
+        - Option, # (number of choices you get to make if above 1)
+        - "options" -
+              - table (pick from a table stored elsewhere)
+Proficiency - Gain proficiency in listed skills
+        - Proficiency, skill, the skill or skills
+        - Proficiency, weapon, (cs list of weapons) "Any 4"
+        - Proficiency, Armor, (cs list of armor)
+        - Proficienct, Artisans Tools, (cs list of tools)
+        - Proficiency, skills or tools, (number) (pick number form either list)
+              - Special connection , Options (player choses the proficency)
+Resistance, damage type - Gain resisance to damage type
+Charges - limited use
+        - "uses": modifier, (which modifier), When is resets
+                - number, when it resets
+                - number, when it resets, name (spells only)
+                - number, Initiative (once per combat effects)
+Unlock - effect locked until character is certain level
+        - # level trait unlocked
+Save -
+        - save, (list of things you add comma seperated)
+Saving Throw
+        -Saving Throw, Type, Effect
+Oprotunity Attacks - when you get to take them
+Immunity - Imuniity, Type youre immune to
+Spells - Spells, Spellcasting Ability (ALL SPELLS HERE SHOULD ADD TO SPELL LISTS IF POSSIBLE)
+        - "spells" - ["when you get access, Name, spell level, level you cast at (optional), more spells"]
+Spell List - adds to your spell list or gives you one
+        - "spell list"
+            - ["level, Spell, Spell"]
+Specific Check - ,dice to add, (list of places to add)
+        - Artisans Tools, Tool
+        - Skill
+Long Rest - Long Rest, time long rest now takes
+Speed, new speed option
+Weapon Upgrade, [permanent upgrade to weapon use]
+        - "Weapon Upgrade, weapon name, upgrade effect"
+Damage Bonus, An affect that gives you a damage bonus when you deal damage
+        - goal, click to add damage to a damage roll
+        - "Damage Bonus"    - "damage": "normal damage description"
+"Carrying Capacity, Large", "Movable Weight, Large" Effects just standard shit
+Language - "Language, Any" - pick a language to add to player
+Roll - "Roll, die, add ons"
+AC - new ac option
+        - AC, modifier, base
+Range - incresae range
+        - "Range, what kinds range, how far"
+Creature Type, Type
+Action, do effect that is usaully an action effect
+Jump - jumpm long, distance, high, distance
+Jump Bonus - jump bonus, long, dice, high, dice
+

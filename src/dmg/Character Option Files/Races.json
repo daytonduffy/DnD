@@ -1,0 +1,794 @@
+{
+  Races: {
+    "Dragonborn": {
+      "description": "The dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids.",
+      "age": "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
+      "alignment": "Dragonborn tend towards extremes, making a conscious choice for one side or the other between Good and Evil (represented by Bahamut and Tiamat, respectively). More side with Bahamut than Tiamat (whose non-dragon followers are mostly kobolds), but villainous dragonborn can be quite terrible indeed. Some rare few choose to devote themselves to lesser dragon deities, such as Chronepsis (Neutral), and fewer still choose to worship Io, the Ninefold Dragon, who is all alignments at once.",
+      "size": ["Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Standard Dragonborn": {
+          "ability score increase": ["Strength 2, Charisma 1"],
+          "languages": ["You can read, speak, and write Common and Draconic.", "Common", "Draconic"],
+          "racial feats": ["Draconic Ancestry, Black, Blue, Brass, Bronze, Copper, Gold, Green, Red, Silver, White","Breath Weapon"]
+        },
+        "Draconblood": {
+          "ability score increase": ["Intelligence 2, Charisma 1"],
+          "languages": ["You can read, speak, and write Common and Draconic.", "Common", "Draconic"],
+          "racial feats": ["Draconic Ancestry, Black, Blue, Brass, Bronze, Copper, Gold, Green, Red, Silver, White", "Breath Weapon", "Forceful Presence", "Darkvision"]
+        },
+        "Ravenite": {
+          "ability score increase": ["Strength, 2, Constitution 1"],
+          "languages": ["You can read, speak, and write Common and Draconic.", "Common", "Draconic"],
+          "racial feats": ["Draconic Ancestry, Black, Blue, Brass, Bronze, Copper, Gold, Green, Red, Silver, White", "Breath Weapon", "Darkvision", "Vengeful Assault"]
+        },
+        "Chromatic Dragonborn": {
+          "ability score increase": ["Any 2, Any 1", "Any 1, Any 1, Any 1"],
+          "languages": ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.", "Common", "Any"],
+          "racial feats": ["Draconic Ancestry, Black, Blue, Green, Red, White", "Breath Weapon", "Chromatic Warding"]
+        },
+        "Metalic Dragonborn": {
+          "ability score increase": ["Any 2, Any 1", "Any 1, Any 1, Any 1"],
+          "languages": ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.", "Common", "Any"],
+          "racial feats": ["Draconic Ancestry, Brass, Bronze, Copper, Gold, Silver", "Breath Weapon", "Metallic Breath Weapon"]
+        },
+        "Gem Dragonborn": {
+          "ability score increase": ["Any 2, Any 1", "Any 1, Any 1, Any 1"],
+          "languages": ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.", "Common", "Any"],
+          "racial feats": ["Draconic Ancestry, Amethyst, Crystal, Emerald, Sapphire, Topaz", "Breath Weapon", "Psionic Mind", "Gem Flight"]
+        }
+      }
+    },
+    "Dwarf": {
+      "description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs – these common threads unite all dwarves.",
+      "age": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
+      "alignment": "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
+      "size": ["Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.", 25],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Hill Dwarf": {
+            "ability score increase": "Constitution 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.", "Common", "Dwarvish"],
+            "racial feats": ["Darkvision", "Dwarven Resilience", "Dwarven Combat Training", "Tool Proficiency, Smith's Tools, Brewer's Supplies, Mason's Tools", "Stonecunning", "Dwarven Toughness"]
+          },
+        "Mountain Dwarf": {
+            "ability score increase": "Constitution 2, Strength 2",
+            "languages": ["You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.", "Common", "Dwarvish"],
+            "racial feats": ["Darkvision", "Dwarven Resilience", "Dwarven Combat Training", "Tool Proficiency, Smith's Tools, Brewer's Supplies, Mason's Tools", "Stonecunning"]
+          },
+        "Duergar (Gray Dwarf)": {
+            "ability score increase": "Constitution 2, Strength 1",
+            "languages": ["You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.", "Common", "Dwarvish", "Undercommon"],
+            "racial feats": ["Superior Darkvision", "Duergar Resillience", "Duergar Magic", "Sunlight Sensitivity"]
+          },
+        "Mark of Warding Dwarf": {
+            "ability score increase": "Constitution 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.", "Common", "Dwarvish"],
+            "racial feats": ["Warder's Intuition", "Wards and Seals", "Spells of the Mark-Warding"]
+          }
+      }
+    },
+    "Elf": {
+      "description": "Elves are a magical people of otherworldly grace, living in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry.",
+      "age": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+      "alignment": "Elves love freedom, variety, and self-expression, so they lean strongly towards the gentler aspects of chaos. They value and protect others' freedom as well as their own, and are good more often than not. Drow are an exception; their exile into the Underdark has made them vicious and dangerous. Drow are more often evil than not.",
+      "size": ["Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+          "Dark Elf": {
+            "ability score increase": "Dexterity 2, Charisma 1",
+            "languages": ["You can speak, read, and write Common and Elven.", "Common", "Elven"],
+            "racial feats": ["Superior Darkvision", "Fey Ancestry", "Trance", "Keen Senses", "Sunlight Sensitivity", "Drow Magic", "Drow Weapon Training"]
+          },
+        "Eladrin": {
+            "ability score increase": "Dexterity 2, Charisma 1",
+            "languages": ["You can speak, read, and write Common and Elven.", "Common", "Elven"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Trance", "Keen Senses", "Fey Step"]
+          },
+        "High Elf": {
+            "ability score increase": "Dexterity 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common, Elven, and any 1 other language of your choice.", "Common", "Elven", "Any"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Trance", "Keen Senses", "Cantrip", "Elf Weapon Training"]
+          },
+        "Sea Elf": {
+            "ability score increase": "Dexterity 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common Elven, and Aquan.", "Common", "Elven", "Aquan"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Trance", "Keen Senses", "Sea Elf Training", "Child of the Sea", "Friend of the Sea"]
+          },
+        "Shadar-Kai": {
+            "ability score increase": "Dexterity 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common and Elven.", "Common", "Elven"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Trance", "Keen Senses", "Necrotic Resistance", "Blessing of the Raven Queen"]
+          },
+        "Wood Elf": {
+            "ability score increase": "Dexterity 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Elven.", "Common", "Elven"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Trance", "Keen Senses", "Elf Weapon Training", "Fleet of Foot", "Mask of the Wild"]
+          },
+        "Pallid Elf": {
+            "ability score increase": "Dexterity 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Elven.", "Common", "Elven"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Trance", "Keen Senses", "Incisive Sense", "Blessing of the Moonweaver"]
+          },
+        "Mark of Shadow Elf": {
+            "ability score increase": "Dexterity 2, Charisma 1",
+            "languages": ["You can speak, read, and write Common and Elven.", "Common", "Elven"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Trance", "Keen Senses", "Cunning Intuition", "Shape Shadows", "Spells of the Mark-Shadow"]
+          }
+      }
+    },
+    "Gnome": {
+      "description": "A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.",
+      "age": "Gnomes mature at the same rate as humans, and most are expected to settle into adult life around the age of 40. They can live to 350 years on average, but it's not too uncommon for them to reach 500 years of age.",
+      "alignment": "Gnomes are generally Good. Those who tend towards Law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend towards Chaos are often minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are light-hearted, and even the tricksters amongst them favor harmless pranks over vicious schemes.",
+      "size": ["Gnomes are between 3 and 4 feet tall and weigh around 40 pounds. Your size is Small.", "Small"],
+      "speed": ["Your base walking speed is 25 feet.", 25],
+      "subrace_tag": "Y",
+      "Subraces": {
+          "Forest Gnome": {
+            "ability score increase": "Intelligence 2, Dexterity 1",
+            "languages": ["You can read, speak, and write Common and Gnomish.", "Common", "Gnomish"],
+            "racial feats": ["Darkvision", "Gnome Cunning", "Natural Illusionist", "Speak with Small Beasts"]
+          },
+        "Rock Gnome": {
+            "ability score increase": "Intelligence 2, Constitution 1",
+            "languages": ["You can read, speak, and write Common and Gnomish.", "Common", "Gnomish"],
+            "racial feats": ["Darkvision", "Gnome Cunning", "Artificer's Lore", "Tinker"]
+          },
+        "Deep Gnome (Svirfneblin)": {
+            "ability score increase": "Intelligence 2, ",
+            "languages": ["You can read, speak, and write Common and Gnomish.", "Common", "Gnomish"],
+            "racial feats": ["Superior Darkvision", "Gnome Cunning", "Stone Camouflage"]
+          },
+        "Mark of Scribing Gnome": {
+            "ability score increase": "Intelligence 2, ",
+            "languages": ["You can read, speak, and write Common and Gnomish.", "Common", "Gnomish"],
+            "racial feats": ["Darkvision", "Gnome Cunning", "Gifted Scribe", "Scribe's Insight", "Spells of the Mark-Scribbing"]
+          }
+      }
+    },
+    "Half-Elf": {
+      "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves.",
+      "age": "Half-elves age at much the same rate as humans, reaching adulthood at the age of 20. They live much longer than humans, however, often exceeding 180 years.",
+      "alignment": "Half-elves share the chaotic bent of their elven heritage. They both value personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable. They are good and evil in equal numbers, a trait they share with their human parents.",
+      "size": ["Half-elves are more or less the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Half-High Elf": {
+            "ability score increase": "Charisma 2, Any 1, Any 1",
+            "languages": ["You can read, speak, and write Common, Elven, and one language of your choice.", "Common", "Elven", "Any"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Skill Versatility", "Elf Weapon Training", "Cantrip"]
+          },
+        "Half-Wood Elf": {
+            "ability score increase": "Charisma 2, Any 1, Any 1",
+            "languages": ["You can read, speak, and write Common, Elven, and one language of your choice.", "Common", "Elven", "Any"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Skill Versatility", "Elf Weapon Training", "Fleet of Foot", "Mask of the Wild"]
+          },
+        "Half-Dark Elf": {
+            "ability score increase": "Charisma 2, Any 1, Any 1",
+            "languages": ["You can read, speak, and write Common, Elven, and one language of your choice.", "Common", "Elven", "Any"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Skill Versatility", "Drow Magic"]
+          },
+        "Half-Sea Elf": {
+            "ability score increase": "Charisma 2, Any 1, Any 1",
+            "languages": ["You can read, speak, and write Common, Elven, and one language of your choice.", "Common", "Elven", "Any"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Skill Versatility", "Swim Speed"]
+          },
+        "Mark of Detection": {
+            "ability score increase": "Wisdom 2, Any 1",
+            "languages": ["You can read, speak, and write Common, Elven, and one language of your choice.", "Common", "Elven", "Any"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Skill Versatility", "Deductive Intuition", "Magical Detection", "Spells of the Mark-Detection"]
+          },
+        "Mark of the Storm": {
+            "ability score increase": "Charisma 2, Dexterity 1",
+            "languages": ["You can read, speak, and write Common, Elven, and one language of your choice.", "Common", "Elven", "Any"],
+            "racial feats": ["Darkvision", "Fey Ancestry", "Skill Versatility", "Windwright's Intuition", "Storm's Boon", "Headwinds", "Spells of the Mark-Storm"]
+          }
+      }
+    },
+    "Half-Orc": {
+      "description": "When alliances between humans and orcs are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full-blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury.",
+      "age": "Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
+      "alignment": "Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.",
+      "size": ["Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Half-Orc": {
+            "ability score increase": "Strength 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.", "Common", "Orc"],
+            "racial feats": ["Darkvision", "Menacing", "Relentless Endurance", "Savage Attacks"]
+          },
+        "Mark of Finding": {
+            "ability score increase": "Wisdom 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common, Orc, and Goblin.", "Commmon", "Orc", "Goblin"],
+            "racial feats": ["Darkvision, Hunter's Intuition", "Finder's Magic", "Spells of the Mark-Finding"]
+          }
+      }
+    },
+    "Halfling": {
+      "description": "The comforts of home are the goals of most halflings' lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies. Others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. Halflings work readily with others, and they are loyal to their friends, whether halfling or otherwise. They can display remarkable ferocity when their friends, families, or communities are threatened.",
+      "age": " A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+      "alignment": "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of the old ways.",
+      "size": ["Halflings average about 3 feet tall and weigh about 40 pounds. Your size is small.", "Medium"],
+      "speed": ["Your base walking speed is 25 feet.", 25],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Lightfoot Halfling": {
+            "ability score increase": "Dexterity 2, ",
+            "languages": ["You can speak, read, and write Common and Halfling.", "Common", "Halfling"],
+            "racial feats": ["Halfling Luck", "Brave", "Nimble", "Naturally Stealthy"]
+          },
+        "Stout Halfling": {
+            "ability score increase": "Dexterity 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common and Halfling.", "Common", "Halfling"],
+            "racial feats": ["Halfling Luck", "Brave", "Nimble", "Stout Resilience"]
+          },
+        "Ghostwise Halfling": {
+            "ability score increase": "Dexterity 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Halfling.", "Common", "Halfling"],
+            "racial feats": ["Halfling Luck", "Brave", "Nimble", "Silent Speech"]
+          },
+          "Lotusden Halfling": {
+            "ability score increase": "Dexterity 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Halfling.", "Common", "Halfling"],
+            "racial feats": ["Halfling Luck", "Brave", "Nimble", "Children of the Woods", "Timberwalk"]
+          },
+          "Mark of Hospitality Halfling": {
+            "ability score increase": "Dexterity 2, Charisma 1",
+            "languages": ["You can speak, read, and write Common and Halfling.", "Common", "Halfling"],
+            "racial feats": ["Halfling Luck", "Brave", "Nimble", "Ever Hospitable", "Innkeeper's Magic", "Spells of the Mark-Hospitality"]
+          },
+          "Mark of Healing Halfling": {
+            "ability score increase": "Dexterity 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Halfling.", "Common", "Halfling"],
+            "racial feats": ["Halfling Luck", "Brave", "Nimble", "Medical Intuition", "Healing Touch", "Spells of the Mark-Healing"]
+          }
+      }
+    },
+    "Human": {
+      "description": "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that's why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
+      "age": "Humans reach adulthood in their late teens and live less than a century.",
+      "alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+      "size": ["Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Standard Human": {
+            "ability score increase": "Constitution 1, Strength 1, Dexterity 1, Wisdom 1, Intelligence 1, Charisma 1",
+            "languages": ["You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.", "Common", "Any"],
+            "racial feats": "NA"
+          },
+        "Variant Humman": {
+            "ability score increase": "Any 1, Any 1",
+            "languages": ["You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.", "Common", "Any"],
+            "racial feats": ["Feature", "Skills"]
+          },
+        "Mark of Finding Human": {
+            "ability score increase": "Wisdom 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.", "Common", "Goblin", "Any"],
+            "racial feats": ["Darkvision", "Hunter's Intuition", "Finder's Magic", "Spells of the Mark-Finding"]
+          },
+        "Mark of Handling Human": {
+            "ability score increase": "Wisdom 2, Any 1",
+            "languages": ["You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.", "Common", "Any"],
+            "racial feats": ["Wild Intuition", "Primal Connection", "The Bigger They Are", "Spells of the Mark-Handling"]
+          },
+        "Mark of Making Human": {
+            "ability score increase": "Intelligence 2, Any 1",
+            "languages": ["You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.", "Common", "Any"],
+            "racial feats": ["Artisan's Intuition", "Artisan's Gift", "Spellsmith", "Spells of the Mark-Making"]
+          },
+        "Mark of Passage Human": {
+            "ability score increase": "Dexterity 2, Any 1",
+            "languages": ["You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.", "Common", "Any"],
+            "racial feats": ["Courier's Speed", "Intuitive Motion", "Magical Passage", "Spells of the Mark-Passage"]
+          },
+        "Mark of Sentinel Human": {
+            "ability score increase": "Wisdom 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.", "Common", "Any"],
+            "racial feats": ["Sentinel's Intuition", "Guardian's Shield", "Vigilant Guardian", "Spells of the Mark-Sentinel"]
+          }
+      }
+    },
+    "Tiefling": {
+      "description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus, overlord of the Nine Hells (and many of the other powerful devils serving under him) into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children's children will always be held accountable",
+      "age": "Tieflings mature at the same rate as humans but live a few years longer.",
+      "alignment": "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.",
+      "size": ["Tieflings are about the same size and build as humans. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Bloodline of Asmodeus": {
+            "ability score increase": "Charisma 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Infernal Legacy"]
+          },
+        "Bloodline of Baalzebul": {
+            "ability score increase": "Charisma 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Legacy of Maladomini"]
+          },
+        "Bloodline of Dispater": {
+            "ability score increase": "Charisma 2, Dexterity 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Legacy of Dis"]
+          },
+        "Bloodline of Fierna": {
+            "ability score increase": "Charisma 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Legacy of Phlegethos"]
+          },
+        "Bloodline of Glasya": {
+            "ability score increase": "Charisma 2, Dexterity 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Legacy of Malbolge"]
+          },
+        "Bloodline of Levistus": {
+            "ability score increase": "Charisma 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Legacy of Stygia"]
+          },
+        "Bloodline of Mammon": {
+            "ability score increase": "Charisma 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Legacy of Minauros"]
+          },
+        "Bloodline of Mephistopheles": {
+            "ability score increase": "Charisma 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Legacy of Cania"]
+          },
+        "Bloodline of Zariel": {
+            "ability score increase": "Charisma 2, Strength 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Legacy of Avernus"]
+          },
+        "Variant Tiefling": {
+            "ability score increase": "Dexterity 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Infernal.", "Common", "Infernal"],
+            "racial feats": ["Darkvision", "Hellish Resistance", "Variant Legacy"]
+          }
+      }
+    },
+    "Arakocra": {
+      "description": "Sequestered in high mountains atop tall trees, the aarakocra evoke fear and wonder. Many of these birdfolk hail from the boundless vistas of the Elemental Plane of Air. They are immigrants, refugees, scouts, and explorers, their outposts functioning as footholds in a world both strange and alien.",
+      "age": "Aarakocra reach maturity by age 3. Compared to humans, aarakocra don’t usually live longer than 30 years.",
+      "alignment": "Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic.",
+      "size": ["Aarakocra are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 25 feet.", 25],
+      "subrace_tag": "N",
+      "ability score increase": "Dexterity 2, Wisdom 1",
+      "languages": ["You can speak, read, and write Common, Aarakocra, and Auran.", "Common", "Arakocra", "Auran"],
+      "racial feats": ["Talons", "Flight"]
+    },
+    "Aasimar": {
+      "description": "Aasimar bear within their souls the light of the heavens. They are descended from humans with a touch of the power of Mount Celestia, the divine realm of many lawful good deities. Aasimar are born to serve as champions of the gods, their births hailed as blessed events. They are a people of otherworldly visages, with luminous features that reveal their celestial heritage.\n\nAn aasimar, except for one who has turned to evil, has a link to an angelic being. That being – usually a deva – provides guidance to the aasimar, though this connection functions only in dreams. As such, the guidance is not a direct command or a simple spoken word. Instead, the aasimar receives visions, prophecies, and feelings.",
+      "age": "Aasimar mature at the same rate as humans, but they can live up to 160 years.",
+      "alignment": "Imbued with celestial power, most aasimar are good. Outcast aasimar are most often neutral or even evil.",
+      "size": ["Aasimar have the same range of height and weight as humans. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Protector Aasimar": {
+            "ability score increase": "Charisma 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Celestial.", "Common", "Celestial"],
+            "racial feats": ["Darkvision", "Celestial Resistance", "Healing Hands", "Light Bearer", "Radiant Soul"]
+          },
+        "Scourge Aasimar": {
+            "ability score increase": "Charisma 2, Constitution 1",
+            "languages": ["You can speak, read, and write Common and Celestial.", "Common", "Celestial"],
+            "racial feats": ["Darkvision", "Celestial Resistance", "Healing Hands", "Light Bearer", "Radiant Consumption"]
+          },
+        "Fallen Aasimar": {
+            "ability score increase": "Charisma 2, ",
+            "languages": ["You can speak, read, and write Common and Celestial.", "Common", "Celestial"],
+            "racial feats": ["Darkvision", "Celestial Resistance", "Healing Hands", "Light Bearer", "Necrotic Shroud"]
+          }
+      }
+    },
+    "Firbolg": {
+      "description": "Firbolgs are fey-oriented half-giants. Their tribes cloister in remote forest strongholds, preferring to spend their days in quiet harmony with the woods. When provoked, firbolgs demonstrate formidable skills with weapons and druidic magic.",
+      "age": "As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years.",
+      "alignment": "As people who follow the rhythm of nature and see themselves as its caretakers, firbolg are typically neutral good. Evil firbolg are rare and are usually the sworn enemies of the rest of their kind.",
+      "size": ["Firbolg are between 7 and 8 feet tall and weigh between 240 and 300 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Wisdom 2, Strength 1",
+      "languages": ["You can speak, read, and write Common, Elvish, and Giant.", "Common", "Giant", "Elvish"],
+      "racial feats": ["Firbolg Magic", "Hidden Step", "Powerful Build", "Speech of Beast and Leaf"]
+    },
+    "Genasi": {
+      "description": "Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals. Air Genasi - As an air genasi, you are descended from the djinn. As changeable as the weather, your moods shift from calm to wild and violent with little warning, but these storms rarely last long.\n\nAir genasi typically have light blue skin, hair, and eyes. A faint but constant breeze accompanies them, tousling the hair and stirring the clothing. Some air genasi speak with breathy voices, marked by a faint echo. A few display odd patterns in their flesh or grow crystals from their scalps. Earth Genasi - As an earth genasi, you are descended from the cruel and greedy dao, though you aren’t necessarily evil. You have inherited some measure of control over earth, reveling in superior strength and solid power. You tend to avoid rash decisions, pausing long enough to consider your options before taking action.\n\nElemental earth manifests differently from one individual to the next. Some earth genasi always have bits of dust falling from their bodies and mud clinging to their clothes, never getting clean no matter how often they bathe. Others are as shiny and polished as gemstones, with skin tones of deep brown or black, eyes sparkling like agates. Earth genasi can also have smooth metallic flesh, dull iron skin spotted with rust, a pebbled and rough hide, or even a coating of tiny embedded crystals. The most arresting have fissures in their flesh, from which faint light shines. Fire - As a fire genasi, you have inherited the volatile mood and keen mind of the efreet. You tend toward impatience and making snap judgments. Rather than hide your distinctive appearance, you exult in it.\n\nNearly all fire genasi are feverishly hot as if burning inside, an impression reinforced by flaming red, coal- black, or ash-gray skin tones. The more human-looking have fiery red hair that writhes under extreme emotion, while more exotic specimens sport actual flames dancing on their heads. Fire genasi voices might sound like crackling flames, and their eyes flare when angered. Some are accompanied by the faint scent of brimstone. Water - The lapping of waves, the spray of sea foam on the wind, the ocean depths—all of these things call to your heart. You wander freely and take pride in your independence, though others might consider you selfish.\n\nMost water genasi look as if they just finished bathing, with beads of moisture collecting on their skin and hair. They smell of fresh rain and clean water. Blue or green skin is common, and most have somewhat overlarge eyes, blue-black in color. A water genasi’s hair might float freely, swaying and waving as if underwater. Some have voices with undertones reminiscent of whale song or trickling streams.",
+      "age": "Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
+      "alignment": "Independent and self-reliant, genasi tend toward a neutral alignment.",
+      "size": ["Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Air Genasi": {
+            "ability score increase": "Constitution 2, Dexterity 1",
+            "languages": ["You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.", "Common", "Primordial"],
+            "racial feats": ["Unending Breath", "Mingle with the Wind"]
+          },
+        "Earth Genasi": {
+            "ability score increase": "Constitution 2, Strength 1",
+            "languages": ["You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.", "Common", "Primordial"],
+            "racial feats": ["Earth Walk", "Merge with Stone"]
+          },
+        "Fire Genasi": {
+            "ability score increase": "Constitution 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.", "Common", "Primordial"],
+            "racial feats": ["Darkvision", "Fire Resistance", "Reach to the Blaze"]
+          },
+        "Water Genasi": {
+            "ability score increase": "Constitution 2, Wisdom 1",
+            "languages": ["You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.", "Common", "Primordial"],
+            "racial feats": ["Acid Resistance", "Amphibious", "Swim", "Call to the Wave"]
+          }
+      }
+    },
+    "Gith": {
+      "description": "The warlike githyanki and the contemplative githzerai are a sundered people – two cultures that utterly despise one another. The brutal githyanki are trained from birth as warriors, while the githzerai hone their minds to a razor’s edge in their fortresses within Limbo. But before there were githyanki or githzerai, these creatures were a single race enslaved by the illithids.\n\nAlthough they attempted to overthrow their masters many times, their rebellions were repeatedly crushed until a great leader named Gith arose. After much bloodshed, Gith and her followers threw off the yoke of their illithid masters, but another leader named Zerthimon emerged in the aftermath of battle. Zerthimon challenged Gith's motives, claiming that her strict martial leadership and desire for vengeance amounted to little more than another form of slavery for her people. A rift erupted between followers of each leader, and they eventually became the two races whose enmity endures to this day: the Githyanki in the way of Gith, and the Githzerai in the way of Zerthimon.\n\nWhether these tall, gaunt creatures were peaceful or savage, cultured or primitive before the illithids enslaved and changed them, none can say. Not even the original name of their race remains from that distant time.\n\nThe githyanki plunder countless worlds from the decks of their astral vessels and the backs of red dragons. Feathers, beads, gems, and precious metals decorate their armor and weapons – the legendary silver swords with which they cut through their foes. Since winning their freedom from the illithids, the githyanki have become ruthless conquerors under the rulership of their dread lich-queen, Vlaakith.\n\nFocused philosophers and austere ascetics, the githzerai pursue lives of rigid order. Lean and muscular, they wear unadorned clothing free of ornamentation, keeping their own counsel and trusting few creatures outside of their own kind. Having turned their backs on their warlike githyanki kin, the githzerai maintain a strict monastic lifestyle, dwelling on islands of order in the vast sea of chaos that is the plane of Limbo.",
+      "age": "Gith reach adulthood in their late teens and live for about a century.",
+      "alignment": "Githyanki tend toward lawful evil. They are aggressive and arrogant, and they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos.\nGithzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline.",
+      "size": ["Gith are taller and leaner than humans, with most a slender 6 feet in height. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Githyanki": {
+            "ability score increase": "Strength 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Gith.", "Common", "Gith"],
+            "racial feats": ["Decadent Memory", "Martial Prodigy", "Githyanki Psionics"]
+          },
+        "Githzerai": {
+            "ability score increase": "Wisdom 2, Intelligence 1",
+            "languages": ["You can speak, read, and write Common and Gith.", "Common", "Gith"],
+            "racial feats": ["Mental Discipline", "Githzerai Psionics"]
+          }
+      }
+    },
+    "Goliath": {
+      "description": "At the highest mountain peaks dwell the reclusive goliaths, wandering a bleak realm of rock, wind, and cold. Their bodies look as if they are carved from mountain stone and give them great physical power. Their hearts are infused with the cold regard of their frigid realm, leaving each goliath with the responsibility to earn a place in the tribe or die trying.",
+      "age": "Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.",
+      "alignment": "Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self-sufficiency and personal accountability, pushes them toward neutrality.",
+      "size": ["Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Strength 2, Constitution 1",
+      "languages": ["You can speak, read, and write Common and Giant.", "Common", "Giant"],
+      "racial feats": ["Natural Athlete", "Stone's Endurance", "Powerful Build", "Mountain Born"]
+      },
+    "Kenku": {
+      "description": "Haunted by an ancient crime that robbed them of their wings, the flightless kenku wander the world as vagabonds and burglars who live at the edge of human society. Kenku suffer from a sinister reputation that is not wholly unearned, but they can prove to be valuable allies.",
+      "age": "Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60.",
+      "alignment": "Kenku are chaotic creatures, rarely making enduring commitments, and they care mostly for preserving their own hides. They are generally chaotic neutral in outlook.",
+      "size": [" Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Dexterity 2, Wisdom 1",
+      "languages": ["You can read and write Common and Auran, but you can speak only by using your Mimicry trait.", "Common", "Auran"],
+      "racial feats": ["Expert Forgery", "Kenku Training", "Mimicry"]
+    },
+  "Locathah": {
+      "description": "These resilient and proud fish-folk have endured war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell in submerged tribal communities along seacoasts, and hunt both above and below the water.",
+      "age": "Locathah mature to adulthood by the age of 10 but have been known to live up to 80 years.",
+      "alignment": "Most locathah are true neutral or have some aspect of neutrality in their alignment. They tend toward good, coming from a culture where compassion for the downtrodden is a commonality.",
+      "size": ["Locathah stand between 5 and 6 feet tall and average about 150 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet, and you have a swim speed of 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Strength 2, Dexterity 1",
+      "languages": ["You can speak, read, and write Aquan and Common.", "Common", "Aquan"],
+      "racial feats": ["Natural Armor-Locathah", "Observant and Athletic", "Leviathan Will", "Limited Amphibiousness"]
+    },
+  "Tabaxi": {
+      "description": "Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by curiosity to collect interesting artifacts, gather tales and stories, and lay eyes on all the world's wonders. Ultimate travelers, the inquisitive tabaxi rarely stay in one place for long. Their innate nature pushes them to leave no secrets uncovered, no treasures or legends lost.",
+      "age": "Tabaxi have lifespans equivalent to humans.",
+      "alignment": "Tabaxi tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, with most of them driven by curiosity rather than greed or other dark impulses.",
+      "size": ["Tabaxi are taller on average than humans and relatively slender. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Dexterity 2, Charisma 1",
+      "languages": ["You can speak, read, and write Common and one other language of your choice.", "Common", "Any"],
+      "racial feats": ["Darkvision", "Feline Agility", "Cat's Claws", "Cat's Talent"]
+    },
+  "Tortle": {
+      "description": "What many tortles consider a simple life, others might call a life of adventure. Tortles are born near sandy coastlines, but as soon as they're able to walk on two legs, they become nomad survivalists eager to explore the wilderness, experience its many wonders, put their skills to the test, and make new acquaintances.",
+      "age": "Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years.",
+      "alignment": "Tortles tend to lead orderly, ritualistic lives. They develop customs and routines, becoming more set in their ways as they age. Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos.",
+      "size": ["Tortle adults stand 5 to 6 feet tall and average 450 pounds. Their shells account for roughly one-third of their weight. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Strength 2, Wisdom 1",
+      "languages": ["You can speak, read, and write Common and Aquan.", "Common", "Aquan"],
+      "racial feats": ["Claws", "Hold Breath-Tortle", "Natural Armor", "Shell Defense", "Survival Instinct"]
+    },
+  "Triton": {
+      "description": "Tritons guard the ocean depths, building small settlements beside deep trenches, portals to the elemental planes, and other dangerous spots far from the eyes of land-bound folk. Long-established guardians of the deep ocean floor, the noble tritons have gradually become increasingly active in the world above.",
+      "age": "Tritons reach maturity around age 15 and can live up to 200 years.",
+      "alignment": "Tritons tend toward lawful good. As guardians of the darkest reaches of the sea, their culture pushes them toward order and benevolence.",
+      "size": ["Tritons are slightly shorter than humans, averaging about 5 feet tall. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Strength 1, Constitution 1, Charisma 1",
+      "languages": ["You can speak, read, and write Common and Primordial.", "Common", "Primordial"],
+      "racial feats": ["Swim", "Amphibious", "Control Air and Water", "Darkvision", "Emissary of the Sea", "Guardians of the Depths"]
+    },
+  "Bugbear": {
+      "description": "Bugbears rely on stealth and strength to attack, preferring to operate at night. When they're not in battle, bugbears spend much of their time resting or dozing, and bully weaker creatures into doing their bidding. From the viewpoint of the rest of the world, their aggression and savagery are thankfully offset by their rarity and lethargy.",
+      "age": "Bugbears reach adulthood at age 16 and live up to 80 years.",
+      "alignment": " Bugbears endure a harsh existence that demands each of them to remain self-sufficient, even at the expense of their fellows. They tend to be chaotic evil.",
+      "size": ["Bugbears are between 6 and 8 feet tall and weigh between 250 and 350 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Strength 2, Dexterity 1",
+      "languages": ["You can speak, read, and write Common and Goblin.", "Common", "Goblin"],
+      "racial feats": ["Darkvision", "Long-Limbed", "Powerful Build", "Sneaky", "Suprise Attack"]
+    },
+  "Centaur": {
+      "description": "Roamers at heart, centaurs love open spaces and the freedom to travel. As much as they can, centaurs run. They race the wind, hooves thundering and tails streaming behind them.",
+      "age": "Centaurs mature and age at about the same rate as humans.",
+      "alignment": "Centaurs are inclined toward neutrality.",
+      "size": ["Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 40 feet.", 40],
+      "subrace_tag": "N",
+      "ability score increase": "Strength 2, Wisdom 1",
+      "languages": ["You can speak, read, and write Common and Sylvan.", "Common", "Sylvan"],
+      "racial feats": ["Fey", "Charge", "Hooves", "Equine Build", "Survivor"]
+    },
+  "Goblin": {
+      "description": "Goblins occupy an uneasy place in a dangerous world, and they react by lashing out at any creatures they believe they can bully. Cunning in battle and cruel in victory, goblins are fawning and servile in defeat.",
+      "age": "Goblins reach adulthood at age 8 and live up to 60 years.",
+      "alignment": "Goblins are typically neutral evil, as they care only for their own needs. A few goblins might tend toward good or neutrality, but only rarely.",
+      "size": ["Goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.", "Small"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Dexterity, Constitution 1",
+      "languages": ["You can speak, read, and write Common and Goblin.", "Common", "Goblin"],
+      "racial feats": ["Darkvision", "Fury of the Small", "Nimble Escape"]
+    },
+  "Grung": {
+      "description": "Grungs are aggressive froglike humanoids found in rain forests and tropical jungles. They are fiercely territorial and see themselves as superior to most other creatures.\n\nGrung society is a caste system. Each caste lays eggs in a separate hatching pool, and juvenile grungs join their caste upon emergence from the hatchery. All grungs are a dull greenish gray when they are born, but each individual takes on the color of its caste as it grows to adulthood. From lowest to highest caste, grungs can be green, blue, purple, red, orange, or gold.\n\nAll grungs secrete a substance that is harmless to them but poisonous to other creatures. A grung also uses venom to poison its weapons. Grungs are always on the lookout for creatures they can capture and enslave. Grungs use slaves for all manner of menial tasks, but mostly they just like bossing them around. Slaves are fed mildly poisoned food to keep them lethargic and compliant. A creature afflicted in this way over a long period of time becomes a shell of its former self and can be restored to normalcy only by magic. Being amphibious, grungs require water to live; any grung that fails to immerse itself in water for at least 1 hour during a day becomes quite exhausted.\n\nGreen grungs are the tribe's warriors, hunters, and laborers, and blue grungs work as artisans and in other domestic roles. Supervising and guiding both groups are the purple grungs, which serve as administrators and commanders. Red grungs are the tribe's scholars and magic users. They are superior to purple, blue, and green grungs and given proper respect even by grungs of higher status. Higher castes include orange grungs, which are elite warriors that have authority over all lesser grungs, and gold grungs, which hold the highest leadership positions. A tribe's sovereign is always a gold grung.\n\nA grung normally remains in its caste for life. On rare occasions, an individual that distinguishes itself with great deeds can earn an invitation to join a higher caste. Through a combination of herbal tonics and ritual magic, an elevated grung changes color and is inducted into its new caste in the same way that a juvenile of the caste would be. From then on, the grung and its progeny are members of the higher caste.",
+      "age": "Grungs mature to adulthood in a single year, but have been known to live up to 50 years.",
+      "alignment": "Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy.",
+      "size": ["Grungs stand between 2 ½ and 3 ½ feet tall and average about 30 pounds. Your size is Small.", "Medium"],
+      "speed": ["You have a walking speed of 25 feet. Your sticky finger and toe pads give you a climb speed of 25 feet.", 25],
+      "subrace_tag": "N",
+      "ability score increase": "Dexterity 2, Constitution 1",
+      "languages": ["You can speak, read, and write Grung.", "Grung"],
+      "racial feats": ["Arboreal Alertness", "Amphibious", "Poison Immunity", "Poisonous Skin", "Standing Leap", "Water Dependency"]
+    },
+  "Hobgoblin": {
+      "description": "War is the lifeblood of hobgoblins. Its glories are the dreams that inspire them. Its horrors don't feature in their nightmares. Cowardice is more terrible to hobgoblins than dying, for they carry their living acts into the afterlife. A hero in death becomes a hero eternal.",
+      "age": "Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.",
+      "alignment": "Hobgoblin society is built on fidelity to a rigid, unforgiving code of conduct. As such, they tend toward lawful evil.",
+      "size": ["Hobgoblins are between 5 and 6 feet tall and weigh between 150 and 200 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Constitution 2, Intelligence 1",
+      "languages": ["You can speak, read, and write Common and Goblin.", "Common", "Goblin"],
+      "racial feats": ["Darkvision", "Martial Training", "Saving Face"]
+    },
+  "Kobold": {
+      "description": "Kobolds are often dismissed as cowardly, foolish, and weak, but these little reptilian creatures actually have a strong social structure that stresses devotion to the tribe, are clever with their hands, and viciously work together in order to overcome their physical limitations.",
+      "age": "Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so.",
+      "alignment": "Kobolds are fundamentally selfish, making them evil, but their reliance on the strength of their group makes them trend toward law.",
+      "size": ["Kobolds are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small.", "Small"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Dexterity, 2",
+      "languages": ["You can speak, read, and write Common and Draconic.", "Common", "Draconic"],
+      "racial feats": ["Darkvision", "Grovel, Cower, and Beg", "Pack Tactics", "Sunlight Sensitivity"]
+    },
+  "Lizardfolk": {
+      "description": "Lizardfolk possess an alien and inscrutable mindset, their desires and thoughts driven by a different set of basic principles than those of warm-blooded creatures. Their dismal swamp homes might lie hundreds of miles from the nearest human settlement, but the gap between their way of thinking and that of the smooth-skins is far greater.",
+      "age": "Lizardfolk reach maturity around age 14 and rarely live longer than 60 years.",
+      "alignment": "Most lizardfolk are neutral. They see the world as a place of predators and prey, where life and death are natural processes. They wish only to survive, and prefer to leave other creatures to their own devices.",
+      "size": ["Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Constitution 2, Wisdom 1",
+      "languages": ["You can speak, read, and write Common and Draconic.", "Common", "Draconic"],
+      "racial feats": ["Bite", "Cunning Artisan", "Hold Breath-Lizardfolk", "Hunter's Lore", "Natural Armor-Lizardfolk", "Hungry Jaws"]
+    },
+  "Minotaur": {
+      "description": "Minotaurs are barrel-chested humanoids with heads resembling those of bulls. Their horns range in size from about 1 foot long to great, curling weapons easily three times that length. They often ornament their horns with metal rings or sheathe them in metal to protect them from damage.",
+      "age": "Minotaurs mature and age at about the same rate as humans.",
+      "alignment": "Most minotaurs who join the Boros Legion lean toward lawful alignments, while those associated with the Cult of Rakdos or the Gruul Clans tend toward chaotic alignments.",
+      "size": ["Minotaurs average over 6 feet in height, and they have stocky builds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Strength 2, Constitution 1",
+      "languages": ["You can speak, read, and write Common and Minotaur.", "Common", "Minotaur"],
+      "racial feats": ["Horns", "Goring Rush", "Hammering Horns", "Imposing Presence"]
+    },
+  "Orc": {
+      "description": "Savage and fearless, orc tribes are ever in search of elves, dwarves, and humans to destroy. Motivated by their hatred of the civilized races of the world and their need to satisfy the demands of their deities, the orcs know that if they fight well and bring glory to their tribe, Gruumsh will call them home.",
+      "age": "Orcs reach adulthood at age 12 and live up to 50 years.",
+      "alignment": "Orcs are vicious raiders, who believe that the world should be theirs. They also respect strength above all else and believe the strong must bully the weak to ensure that weakness does not spread like a disease. They are usually chaotic evil.",
+      "size": ["Orcs are usually over 6 feet tall and weigh between 230 and 280 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "ability score increase": "Strength 2, Constitution 1",
+      "languages": ["You can speak, read, and write Common and Orc.", "Common", "Orc"],
+      "racial feats": ["Darkvision", "Aggressive", "Primal Intuition", "Powerful Build"]
+    },
+  "Yuan-Ti": {
+      "description": "The serpent creatures known as yuan-ti are all that remains of an ancient, decadent human empire. Ages ago their dark gods taught them profane, cannibalistic rituals to mix their flesh with that of snakes, producing a caste-based society of hybrids in which the most snakelike are the leaders and the most humanlike are spies and agents in foreign lands.",
+      "age": "Purebloods mature at the same rate as humans and have lifespans similar in length to theirs.",
+      "alignment": "Purebloods are devoid of emotion and see others as tools to manipulate. They care little for law or chaos and are typically neutral evil.",
+      "size": ["Purebloods match humans in average size and weight. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Charisma 2, Intelligence 1",
+      "languages": ["You can speak, read, and write Common, Abyssal, and Draconic.", "Common", "Abyssal", "Draconic"],
+      "racial feats": ["Darkvision", "Innate SpellCasting", "Magic Resistance", "Poison Immunity"]
+    },
+  "Changeling": {
+      "description": "Changelings can shift their forms with a thought. Many changelings use this gift as a form of artistic and emotional expression. It's also an invaluable tool for grifters, spies, and others who wish to deceive. This leads many people to treat changelings with suspicion.",
+      "age": "Changelings mature slightly faster than humans but share a similar lifespan — typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.",
+      "alignment": "Changelings tend toward pragmatic neutrality, and few changelings embrace evil.",
+      "size": ["In their natural forms, changelings average between 5 to 6 feet in height, with a slender build. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Charisma 2, Any 1",
+      "languages": ["You can speak, read, and write Common and two other languages of your choice.", "Common", "Any", "Any"],
+      "racial feats": ["Shapechanger", "Changeling Instincts"]
+    },
+  "Kalashtar": {
+      "description": "The kalashtar are a compound race created from the union of humanity and renegade spirits from the plane of dreams – spirits called quori. Kalashtar are often seen as wise, spiritual people with great compassion for others. But there is an unmistakable alien quality to the kalashtar, as they are haunted by the conflicts of their otherworldly spirits.",
+      "age": "Kalashtar develop physically at the same rate as humans do and have similar lifespans.",
+      "alignment": "The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all sentient beings, but some kalashtar resist the virtuous influence of their spirit.",
+      "size": ["Kalashtar are similar in build to humans, though they are typically a few inches taller. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Wisdom 2, Charisma 1",
+      "languages": ["You can read and write Common, Quori, and one other language of your choice.", "Common", "Quori", "Any"],
+      "racial feats": ["Dual Mind", "Mental Discipline Resistance", "Mind Link", "Severed from Dreams"]
+    },
+  "Shifter": {
+      "description": "Shifters are sometimes called the weretouched, as many believe that they are the descendants of humans and lycanthropes. They are humanoids with a bestial aspect; while they cannot fully change shape they can temporarily enhance their animalistic features – a state they call shifting. Whatever their origins, shifters have evolved into a unique race. A shifter walks on the knife’s edge between the wilds and the world around them. Do they embrace their primal instincts or the path of civilization?\n\nBeasthide often signifies the bear or boar: stoic, stubborn and thick-skinned.\nLongtooth shifters typically have lupine traits and prefer to run with a pack.\nSwiftstride are often predatory and feline, but a swiftstride could also be a cunning rat who darts through the shadows.\nWildhunt shifters are born from any creature that tracks its prey.",
+      "age": "Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.",
+      "alignment": "Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments.",
+      "size": ["Shifters range from 5 to almost 7 feet tall, depending on their subrace. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "Y",
+      "Subraces": {
+        "Beasthide Shifter": {
+            "ability score increase": "Constitution 2, Dexterity 1",
+            "languages": ["You can read and write Common, Quori, and one other language of your choice.", "Common", "Quori", "Any"],
+            "racial feats": ["Darkvision", "Keen Senses", "Shifting", "Tough", "Shifting Feature-Beasthide"]
+          },
+        "Longtooth Shifter": {
+            "ability score increase": "Strength 2, Dexterity 1",
+            "languages": ["You can read and write Common, Quori, and one other language of your choice.", "Common", "Quori", "Any"],
+            "racial feats": ["Darkvision", "Keen Senses", "Shifting", "Fierce", "Shifting Feature-Longtooth"]
+          },
+        "Swiftstride Shifter": {
+            "ability score increase": "Dexterity 2, Charisma 1",
+            "languages": ["You can read and write Common, Quori, and one other language of your choice.", "Common", "Quori", "Any"],
+            "racial feats": ["Darkvision", "Keen Senses", "Shifting", "Graceful", "Speed Boost", "Shifting Feature-Swiftstride"]
+          },
+        "Wildhunt Shifter": {
+            "ability score increase": "Wisdom 2, Dexterity 1",
+            "languages": ["You can read and write Common, Quori, and one other language of your choice.", "Common", "Quori", "Any"],
+            "racial feats": ["Darkvision", "Keen Senses", "Shifting", "Natural Tracker", "Mark the Scent", "Shifting Feature-Wildhunt"]
+          }
+      }
+    },
+  "Warforged": {
+      "description": "The warforged were built to fight in the Last War. The first warforged were mindless automatons, but House Cannith devoted vast resources to improving these steel soldiers. An unexpected breakthrough produced fully sentient soldiers, blending organic and inorganic materials. Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond the war. A warforged can be a steadfast ally, a cold-hearted killing machine, or a visionary in search of purpose and meaning.",
+      "age": "A typical warforged is between two and thirty years old. The maximum lifespan of the warforged remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects.",
+      "alignment": "Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality – or lack thereof – of the beings with which they served.",
+      "size": ["Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Constitution 2, Any 1",
+      "languages": ["You can speak, read, and write Common and one other language of your choice.", "Common", "Any"],
+      "racial feats": ["Constructed Resilience", "Sentry's Rest", "Integrated Protection", "Specialized Design"]
+    },
+  "Loxodon": {
+      "description": "Loxodons are often oasis of calm in Ravnica. They hum or chant in sonorous tones and move slowly or sit in perfect stillness. As they say, \"There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man.\"",
+      "age": "Loxodons mature at the same rate as humans, however, they are considered mature by their people at 60 years old. Their lifespan can be as long as 450 years.",
+      "alignment": "Most Loxodons are lawful. They also tend to be good.",
+      "size": ["Loxodons are between 7 and 8 feet (≈2.5 meters) tall and weigh between 300(130kg) and 400 pounds(181kg). Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Constitution 2, Wisdom 1",
+      "languages": ["You can speak, read, and write Common and Loxodon.", "Common", "Loxodon"],
+      "racial feats": ["Powerful Build", "Loxodon Serenity", "Natural Armor-Loxodon", "Trunk", "Keen Smell"]
+    },
+  "Simic Hybrid": {
+      "description": "The Simic Combine uses magic to fuse different life forms together. In recent years, they have extended this research to humanoid subjects, magically transferring the traits of various animals into humans, elves, and vedalken. The goal of the so-called Guardian Project is to build a Simic army of superior soldiers, perfectly adapted to a variety of combat situations. These hyper-evolved specimens are called Simic hybrids, though they sometimes call themselves guardians.",
+      "age": "Simic Hybrids are created at adulthood as either humans, vedalkens, or elves. Their maximum life expectancy is probably reduced.",
+      "alignment": "Simic Hybrid's alignments vary from group to group.",
+      "size": ["Simic Hybrids are the same size of they race that they were created from. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Constitution 2, Any 1",
+      "languages": ["You can speak, read, and write Common and your choice of either Elven or Vedalken.", "Common", "CHOICE, Elven, Vedalken"],
+      "racial feats": ["Darkvision", "Animal Enhancements Level 1", "Animal Enhancements Level 5"]
+    },
+  "Vedalken": {
+      "description": "Vedalken are tall and slender, standing almost a head taller than humans but weighing about the same. Their hairless skin comes in a range of shades of blue. Their eyes are darker shades of blue or violet. They lack external ears, their noses are broad and flat, and they are partially amphibious.",
+      "age": "Vedalken mature slower than humans do. reaching maturity around age 40. Their life span is typically 350 years, with some living to the age of 500.",
+      "alignment": "Vedalken are usually lawful and non-evil.",
+      "size": ["Tall and slender, Vedalken stand around 6 to 6½ feet tall. They usually weigh around 200Ibs(90kg).They are medium creatures.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Intelligence 2, Wisdom 1",
+      "languages": ["You can speak, read, and write Common, Vedalken, and one language of your choice.", "Common", "Vedalken", "Any"],
+      "racial feats": ["Vedalken Dispassion", "Tireless Precision", "Partially Amphibious"]
+    },
+  "Leonin": {
+      "description": "The leonin guard the shining lands of Oreskos, a golden plain where even the gods rarely trespass. Prides of these nomadic, lion-like humanoids rarely interact with other peoples, having all they need in their shimmering homeland and knowing the treachery of strangers. Still, some leonin wonder what lies beyond Oreskos’s border mountains and seek to test themselves in a wider world.",
+      "age": " Leonin mature and age at about the same rate as humans.",
+      "alignment": "Leonin tend toward good alignments. Leonin who are focused on the pride lean toward lawful good.",
+      "size": ["Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 35 feet.", 35],
+      "subrace_tag": "N",
+      "ability score increase": "Constitution 2, Strength 1",
+      "languages": ["You can speak, read, and write Common and Leonin.", "Common", "Leonin"],
+      "racial feats": ["Darkvision", "Claws", "Hunter's Instincts", "Daunting Roar"]
+    },
+  "Satyr": {
+      "description": "Satyrs have a well-earned reputation for their good spirits, gregarious personalities, and love of revels. Most satyrs are driven by two simple desires; to see the world and to sample its every pleasure. While their spontaneity and whimsy sometimes put them at odds with more stoic peoples, satyrs rarely let the moodiness of others hinder their own happiness.",
+      "age": "Satyrs mature and age at about the same rate as humans.",
+      "alignment": "Satyrs delight in living a life free of the mantle of law. They gravitate toward being good, but some have devious streaks and enjoy causing dismay.",
+      "size": ["Satyrs range from just under 5 feet to about 6 feet in height, with generally slender builds. Your size is medium.", "Medium"],
+      "speed": ["Your base walking speed is 35 feet.", 35],
+      "subrace_tag": "N",
+      "ability score increase": "Charisma 2, Dexterity 1",
+      "languages": ["You can speak, read, and write Common and Sylvan.", "Common", "Sylvan"],
+      "racial feats": ["Fey", "Magic Resistance", "Mirthful Leaps", "Reveler"]
+    },
+  "Fairy": {
+      "description": "The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not\nnearly as much so as their pixie and sprite friends.\n\nInfused with the magic of the Feywild, fairies share a few commonalities with one another but\ncan differ widely in appearance, behavior, and attitude. Many fairies have a special physical\ncharacteristic that sets them apart from other creatures of their kind.",
+      "age": "Time works differently in the Feywild, no one knows how long a fairy truly lives",
+      "alignment": "Fairies tend towards chaotic alignments",
+      "size": ["Your size is Small.", "Small"],
+      "speed": ["Your walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Any 2, Any 1",
+      "languages": ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.", "Common", "Any"],
+      "racial feats": ["Fey", "Fairy Flight", "Fairy Magic", "Fey Passage"]
+    },
+  "Owlfolk": {
+      "description": "Distant kin of giant owls, owlfolk come in many shapes and sizes, from petite and fluffy to widewinged and majestic. Owlfolk have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.\nBecause of their ancestral tie to the Feywild, owlfolk can innately see the magic of their surroundings. Like owls, owlfolk are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.\nYour owlfolk character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.",
+      "age": "Owlfolk tend to live as long as humans",
+      "alignment": "Owlfolk tend to lean towards neutral alignments",
+      "size": ["You are Medium or Small. You choose the size when you gain this race.", "Medium"],
+      "speed": ["Your walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Any 2, Any 1",
+      "languages": ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.", "Common", "Any"],
+      "racial feats": ["Darkvision", "Magic Sight", "Nimble Flight", "Silent Feathers"]
+    },
+  "Rabbitfolk": {
+      "description": "Bounding across the wilds, rabbitfolk from the Feywild embody a spirit of freedom and travel.\nRabbitfolk are bipedal, with the characteristic long feet of the animal they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Rabbitfolk are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.",
+      "age": "Rabbitfolk tend to live a little shorter lives than humans",
+      "alignment": "Rabbitfolk tend towards good alignments",
+      "size": ["You are small", "Small"],
+      "speed": ["Your walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Any 2, Any 1",
+      "languages": ["You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.", "Common", "Any"],
+      "racial feats": ["Hare-Trigger", "Leporine Senses", "Lucky Footwork", "Rabbit Hop"]
+    },
+  "Bearfolkl": {
+      "description": "Bearfolk are not known for their calm natures. They are boisterous and loud, their minds unable to fathom nuanced emotions. They act extremely when faced with choices and can be hard, if not impossible, to convince once they have made up their minds. Their celebrations are filled with explosive passion, and their wrath is as raging as a forest fire.\n\nThese extreme reactions often lead to fighting, even amongst themselves. Luckily, bearfolk are a hardy people and consider scars to be an honorary reminder of a battle successfully fought, and it is not unusual to see two bearfolk get into a bloody scuffle, only to share a cask of ale moments later.",
+      "age": "Bearfolk reach maturity by age 11 and live for around 70 years.",
+      "alignment": "Their prowess and rashness in battle makes bearfolk lean towards a chaotic alignment.",
+      "size": ["Bearfolk grow to be about 7 feet tall when they reach adulthood. They are massive and hulking in form, weighing around 400 to 500 pounds. Your size is Medium.", "Medium"],
+      "speed": ["Your base walking speed is 30 feet.", 30],
+      "subrace_tag": "N",
+      "ability score increase": "Constitution 2, Strength 1",
+      "languages": ["You can speak, read and write Common and Giant.", "Common", "Giant"],
+      "racial feats": ["Keen Smell", "Bearfolk Weapon Training", "Bite", "Claws", "Powerful Build", "Fearless"]
+    },
+  }
+}

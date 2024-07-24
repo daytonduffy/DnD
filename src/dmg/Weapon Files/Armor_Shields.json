@@ -1,0 +1,127 @@
+{
+  "Armor": {
+    "Padded Armor": {
+      "ac": "11, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "Disadvantage",
+      "weight": "8 lbs",
+      "cost": "5 gp",
+      "type": "Light Armor"
+    },
+    "Leather Armor": {
+      "ac": "11, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "NA",
+      "weight": "10 lbs",
+      "cost": "10 gp",
+      "type": "Light Armor"
+    },
+    "Studded Armor": {
+      "ac": "12, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "NA",
+      "weight": "13 lbs",
+      "cost": "45 gp",
+      "type": "Light Armor"
+    },
+    "Hide Armor": {
+      "ac": "12, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "NA",
+      "weight": "12 lbs",
+      "cost": "10 gp",
+      "type": "Medium Armor"
+    },
+    "Chain Shirt": {
+      "ac": "13, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "NA",
+      "weight": "20 lbs",
+      "cost": "50 gp",
+      "type": "Medium Armor"
+    },
+    "Scale Mail": {
+      "ac": "14, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "Disadvantage",
+      "weight": "45 lbs",
+      "cost": "50 gp",
+      "type": "Medium Armor"
+    },
+    "Spiked Armor": {
+      "ac": "14, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "Disadvantage",
+      "weight": "45 lbs",
+      "cost": "75 gp",
+      "type": "Medium Armor"
+    },
+    "Breastplate": {
+      "ac": "14, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "NA",
+      "weight": "20 lbs",
+      "cost": "400 gp",
+      "type": "Medium Armor"
+    },
+    "Halfplate Armor": {
+      "ac": "15, Dexterity Modifier",
+      "strength": "NA",
+      "stealth": "Disadvantage",
+      "weight": "40 lbs",
+      "cost": "750 gp",
+      "type": "Medium Armor"
+    },
+    "Ring Mail Armor": {
+      "ac": "14",
+      "strength": "NA",
+      "stealth": "Disadvantage",
+      "weight": "40 lbs",
+      "cost": "30 gp",
+      "type": "Heavy Armor"
+    },
+    "Chain Mail Armor": {
+      "ac": "16",
+      "strength": "13",
+      "stealth": "Disadvantage",
+      "weight": "55 lbs",
+      "cost": "75 gp",
+      "type": "Heavy Armor"
+    },
+    "Splint Armor": {
+      "ac": "17",
+      "strength": "15",
+      "stealth": "Disadvantage",
+      "weight": "60 lbs",
+      "cost": "200 gp",
+      "type": "Heavy Armor"
+    },
+    "Plate": {
+      "ac": "18",
+      "strength": "15",
+      "stealth": "Disadvantage",
+      "weight": "65 lbs",
+      "cost": "1,500 gp",
+      "type": "Heavy Armor"
+    },
+    "Shield": {
+      "ac": "2",
+      "strength": "NA",
+      "stealth": "NA",
+      "weight": "6 lbs",
+      "cost": "10 gp",
+      "type": "Shield"
+    }
+  }
+}
+
+Medium Armor has a max bonus to AC from Dexterity
+
+"": {
+      "ac": "",
+      "strength": "",
+      "stealth": "Disadvantage",
+      "weight": "",
+      "cost": "",
+      "type": "Heavy Armor"
+    }

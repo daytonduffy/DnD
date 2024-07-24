@@ -1,0 +1,81 @@
+{
+  "playerName": "Dayton",
+  "characterName": "Test Player",
+  "level": 10,
+  "playerClass": "paladin",
+  "background": "criminal",
+  "race": "loxodon",
+  "alignment": "chaotic good",
+  "experiencePoints": -1,
+  "insparation": 1,
+  "proficiency": 3,
+  "ac": 18,
+  "initiative": 3,
+  "speed": [
+    {
+      "walking": 30,
+      "swiming": 15,
+      "climbing": 0,
+      "flying": 0,
+      "jumping": 10
+    }
+  ],
+  "hp": [
+    {
+      "maxHP": 88,
+      "currentHP": 88,
+      "tempHP": 0
+    }
+  ],
+  "hitDie": ["7d10", "1d8"],
+  "conditions": ["Grappled", "Exhaustion, Level 2"],
+  "deathSaves": [
+    {
+      "success": 0,
+      "failure": 0
+    }
+  ],
+  "proficiencies": ["Strength", "Charisma", "Arcana", "Medicine", "Nature"],
+  "featuresTraits": ["feature treats"],
+  "languages": ["Common", "Elvish"],
+  "stats": [
+    {
+      "strength": 10,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 18,
+      "wisdom": 7,
+      "charisma": 16
+    }
+  ],
+  "personalityTraits": ["person traits", "animal guy"],
+  "ideals": ["ideals"],
+  "bonds": ["bonds"],
+  "flaws": ["flaws"],
+  "weapons": ["weapon"],
+  "spells": ["spell"],
+  "coinPurse": [
+    {
+      "platinum": 20,
+      "gold": 387,
+      "silver": 12,
+      "copper": 42
+    }
+  ],
+  "inventory": ["inventory"],
+  "attunmentSlots": ["1", "2", "3"],
+  "equiptGear": [
+    {
+      "head": "temp",
+      "necklace": "temp",
+      "cloak": "temp",
+      "boots": "temp",
+      "armor": "temp",
+      "shield": "temp",
+      "hands": "temp",
+      "ring": "temp",
+      "focus": "temp",
+      "bracers": "temp"
+    }
+  ]
+}

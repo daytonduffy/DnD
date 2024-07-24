@@ -1,0 +1,20 @@
+{
+  "Strength": {
+    "skills": ["Athletics"]
+  },
+  "Dexterity": {
+    "skills": ["Acrobatics", "Sleight of Hand", "Stealth"]
+  },
+  "Constitution": {
+    "skills": ["NA"]
+  },
+  "Intelligence": {
+    "skills": ["Arcana", "History", "Investigation", "Nature", "Religion"]
+  },
+  "Wisdom": {
+    "skills": ["Animal Handling", "Insight", "Medicine", "Perception", "Survival"]
+  },
+  "Charisma": {
+    "skills": ["Deception", "Intimidation", "Performance", "Persuasion"]
+  }
+}

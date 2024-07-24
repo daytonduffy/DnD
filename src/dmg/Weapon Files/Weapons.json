@@ -1,0 +1,338 @@
+{
+  "Club": {
+    "cost": "1 sp",
+    "damage": "bludgeoning, 1d4",
+    "weight": "2 lbs",
+    "type": "Simple",
+    "properties": "Light"
+  },
+  "Dagger": {
+    "cost": "2 gp",
+    "damage": "piercing, 1d4",
+    "weight": "1 lbs",
+    "type": "Simple",
+    "properties": "Finesse, Light, Thrown (20/60)"
+  },
+  "Great-Club": {
+    "cost": "2 sp",
+    "damage": "bludgeoning, 1d8",
+    "weight": "10 lbs",
+    "type": "Simple",
+    "properties": "Two-Handed"
+  },
+  "Hand-Axe": {
+    "cost": "5 gp",
+    "damage": "slashing, 1d6",
+    "weight": "2 lbs",
+    "type": "Simple",
+    "properties": "Light, Thrown (20/60)"
+  },
+  "Javelin": {
+    "cost": "5 sp",
+    "damage": "piercing, 1d6",
+    "weight": "2 lbs",
+    "type": "Simple",
+    "properties": "Thrown (30/120)"
+  },
+  "Light Hammer": {
+    "cost": "2 gp",
+    "damage": "bludgeoning, 1d4",
+    "weight": "2 lbs",
+    "type": "Simple",
+    "properties": "Light, Thrown (20/60)"
+  },
+  "Mace": {
+    "cost": "5 gp",
+    "damage": "bludgeoning, 1d6",
+    "weight": "4 lbs",
+    "type": "Simple",
+    "properties": "NA"
+  },
+  "Quarterstaff": {
+    "cost": "2 sp",
+    "damage": "bludgeoning, 1d6, 1d8",
+    "weight": "4 lbs",
+    "type": "Simple",
+    "properties": "Versatile"
+  },
+  "Sickle": {
+    "cost": "1 gp",
+    "damage": "slashing, 1d4",
+    "weight": "2 lbs",
+    "type": "Simple",
+    "properties": "Light"
+  },
+  "Spear": {
+    "cost": "1 gp",
+    "damage": "piercing, 1d6, 1d8",
+    "weight": "3 lbs",
+    "type": "Simple",
+    "properties": "Thrown (20/60), Versatile"
+  },
+  "Light Crossbow": {
+    "cost": "25 gp",
+    "damage": "piercing, 1d8",
+    "weight": "5 lbs",
+    "type": "Simple Ranged",
+    "properties": "Ammunition, Range (80/320), Loading, Two-Handed"
+  },
+  "Dart": {
+    "cost": "5 cp",
+    "damage": "piercing, 1d4",
+    "weight": "1/4 lbs",
+    "type": "Simple Ranged",
+    "properties": "Finesse, Thrown (20/60)"
+  },
+  "Shortbow": {
+    "cost": "25 gp",
+    "damage": "piercing, 1d6",
+    "weight": "2 lbs",
+    "type": "Simple Ranged",
+    "properties": "Ammunition, Range (80/320), Two-Handed"
+  },
+  "Sling": {
+    "cost": "1 sp",
+    "damage": "piercing, 1d4",
+    "weight": "- lbs",
+    "type": "Simple Ranged",
+    "properties": "Ammunition, Range (30/120)"
+  },
+  "Battleaxe": {
+    "cost": "10 gp",
+    "damage": "slashing, 1d8, 1d10",
+    "weight": "4 lbs",
+    "type": "Martial",
+    "properties": "Versatile"
+  },
+  "Flail": {
+    "cost": "10 gp",
+    "damage": "bludgeoning, 1d8",
+    "weight": "2 lbs",
+    "type": "Martial",
+    "properties": "NA"
+  },
+  "Glaive": {
+    "cost": "20 gp",
+    "damage": "slashing, 1d10",
+    "weight": "6 lbs",
+    "type": "Martial",
+    "properties": "Heavy, Reach, Two-Handed"
+  },
+  "Greataxe": {
+    "cost": "30 gp",
+    "damage": "slashing, 1d12",
+    "weight": "7 lbs",
+    "type": "Martial",
+    "properties": "Heavy, Two-Handed"
+  },
+  "Great-Sword": {
+    "cost": "50 gp",
+    "damage": "slashing, 2d6",
+    "weight": "6 lbs",
+    "type": "Martial",
+    "properties": "Heavy, Two-Handed"
+  },
+  "Halberd": {
+    "cost": "20 gp",
+    "damage": "slashing, 1d10",
+    "weight": "6 lbs",
+    "type": "Martial",
+    "properties": "Heavy, Reach, Two-Handed"
+  },
+  "Lance": {
+    "cost": "10 gp",
+    "damage": "piercing, 1d12",
+    "weight": "6 lbs",
+    "type": "Martial",
+    "properties": "Reach, Special: Lance"
+  },
+  "Long-Sword": {
+    "cost": "15 gp",
+    "damage": "slashing, 1d8, 1d10",
+    "weight": "3 lbs",
+    "type": "Martial",
+    "properties": "Versatile"
+  },
+  "Maul": {
+    "cost": "10 gp",
+    "damage": "bludgeoning, 2d6",
+    "weight": "10 lbs",
+    "type": "Martial",
+    "properties": "Heavy, Two Handed"
+  },
+  "Morning-Star": {
+    "cost": "15 gp",
+    "damage": "piercing, 1d10",
+    "weight": "4 lbs",
+    "type": "Martial",
+    "properties": "NA"
+  },
+  "Pike": {
+    "cost": "5 gp",
+    "damage": "piercing, 1d10",
+    "weight": "18 lbs",
+    "type": "Martial",
+    "properties": "Heavy, Reach, Two-Handed"
+  },
+  "Rapier": {
+    "cost": "25 gp",
+    "damage": "piercing, 1d8",
+    "weight": "2 lbs",
+    "type": "Martial",
+    "properties": "Finesse"
+  },
+  "Scimitar": {
+    "cost": "25 gp",
+    "damage": "slashing, 1d6",
+    "weight": "3 lbs",
+    "type": "Martial",
+    "properties": "Finesse, Light"
+  },
+  "Short-Sword": {
+    "cost": "10 gp",
+    "damage": "piercing, 1d6",
+    "weight": "2 lbs",
+    "type": "Martial",
+    "properties": "Finesse, Light"
+  },
+  "Trident": {
+    "cost": "5 gp",
+    "damage": "piercing, 1d6, 1d8",
+    "weight": "4 lbs",
+    "type": "Martial",
+    "properties": "Thrown (20/60), Versatile"
+  },
+  "War Pick": {
+    "cost": "5 gp",
+    "damage": "piercing, 1d8",
+    "weight": "2 lbs",
+    "type": "Martial",
+    "properties": "NA"
+  },
+  "War-Hammer": {
+    "cost": "15 gp",
+    "damage": "bludgeoning, 1d8, 1d10",
+    "weight": "2 lbs",
+    "type": "Martial",
+    "properties": "Versatile"
+  },
+  "Whip": {
+    "cost": "2 gp",
+    "damage": "slashing, 1d4",
+    "weight": "3 lbs",
+    "type": "Martial",
+    "properties": "Finesse, Reach"
+  },
+  "Blowgun": {
+    "cost": "10 gp",
+    "damage": "piercing, 1",
+    "weight": "1 lbs",
+    "type": "Martial Ranged",
+    "properties": "Ammunition, Range (25/100), Loading"
+  },
+  "Hand Crossbow": {
+    "cost": "75 gp",
+    "damage": "piercing, 1d6",
+    "weight": "3 lbs",
+    "type": "Martial Ranged",
+    "properties": "Ammunition, Rang (30/120), Light, Loading"
+  },
+  "Heavy Crossbow": {
+    "cost": "50 gp",
+    "damage": "piercing, 1d10",
+    "weight": "18 lbs",
+    "type": "Martial Ranged",
+    "properties": "Ammunition, Range (100/400), Heavy, Loading, Two-Handed"
+  },
+  "Longbow": {
+    "cost": "50 gp",
+    "damage": "piercing, 1d8",
+    "weight": "2 lbs",
+    "type": "Martial Ranged",
+    "properties": "Ammunition, Range (150/600), Heavy, Two-Handed"
+  },
+  "Net": {
+    "cost": "1 gp",
+    "damage": "NA",
+    "weight": "3 lbs",
+    "type": "Martial Ranged",
+    "properties": "Thrown (5/15), Special: Net"
+  },
+  "Arquebus": {
+    "cost": "75 gp",
+    "damage": "piercing, 1d8",
+    "weight": "7 lbs",
+    "type": "Firearm",
+    "properties": "Range (80/320), Heavy, Two-Handed, reload 1, misfire 2"
+  },
+  "Bad News": {
+    "cost": "Crafted",
+    "damage": "piercing, 2d12",
+    "weight": "25 lbs",
+    "type": "Firearm",
+    "properties": "Range (200/800), Two-Handed, reload 1, misfire 3"
+  },
+  "Blunderbuss": {
+    "cost": "300 gp",
+    "damage": "piercing, 2d8",
+    "weight": "10 lbs",
+    "type": "Firearm",
+    "properties": "Range (200/800), Two-Handed, reload 1, misfire 2"
+  },
+  "Caliver": {
+    "cost": "150 gp",
+    "damage": "piercing, 1d10",
+    "weight": "9 lbs",
+    "type": "Firearm",
+    "properties": "Range (100/400), Heavy, Two-Handed, reload 2, misfire 2"
+  },
+  "Handgunne": {
+    "cost": "750 gp",
+    "damage": "bludgeoning, 3d6",
+    "weight": "15 lbs",
+    "type": "Firearm",
+    "properties": "Range (80/320), Two-Handed, Heavy, reload 1, misfire 4"
+  },
+  "Musket": {
+    "cost": "300 gp",
+    "damage": "piercing, 1d10",
+    "weight": "10 lbs",
+    "type": "Firearm",
+    "properties": "Range (120/480), Two-Handed, reload 1, misfire 2"
+  },
+  "Palm Pistol": {
+    "cost": "50 gp",
+    "damage": "piercing, 1d8",
+    "weight": "1 lbs",
+    "type": "Firearm",
+    "properties": "Range (40/160), Light, reload 1, misfire 1"
+  },
+  "Pepperbox": {
+    "cost": "250 gp",
+    "damage": "piercing, 1d10",
+    "weight": "5 lbs",
+    "type": "Firearm",
+    "properties": "Range (80/320), reload 6, misfire 2"
+  },
+  "Pistol": {
+    "cost": "150 gp",
+    "damage": "piercing, 1d10",
+    "weight": "3 lbs",
+    "type": "Firearm",
+    "properties": "Range (60/240), reload 4, misfire 1"
+  },
+  "Grenade": {
+    "cost": "150 gp",
+    "damage": "piercing, 3d6",
+    "weight": "1 lbs",
+    "type": "Explosion",
+    "properties": "Thrown (30/60), Radius (5)"
+  },
+  "Powder Keg": {
+    "cost": "250 gp",
+    "damage": "fire, 7d6",
+    "weight": "20 lbs",
+    "type": "Explosion",
+    "properties": "Radius (20)"
+  }
+}

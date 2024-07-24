@@ -1,0 +1,53 @@
+{
+    "Ammunition": {
+      "description": "You can use a weapon that has the Ammunition property to make a ranged Attack only if you have Ammunition to fire from the weapon. Each time you Attack with the weapon, you expend one piece of Ammunition. Drawing the Ammunition from a Quiver, case, or other container is part of the Attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended Ammunition by taking a minute to Search the battlefield. If you use a weapon that has the Ammunition property to make a melee Attack, you treat the weapon as an Improvised Weapon (see “Improvised Weapons” later in the section). A sling must be loaded to deal any damage when used in this way."
+   },
+    "Explosive": {
+      "description": "Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so."
+   },
+    "Finesse": {
+        "description": "When making an Attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the Attack and Damage Rolls. You must use the same modifier for both rolls."
+   },
+    "Heavy": {
+        "description": "Small creatures have disadvantage on Attack rolls with heavy Weapons. A heavy weapon’s size and bulk make it too large for a Small creature to use effectively."
+   },
+    "Light": {
+        "description": "A light weapon is small and easy to handle, making it ideal for use when Fighting with two Weapons."
+   },
+    "Loading": {
+        "description": "Because of the time required to load this weapon, you can fire only one piece of Ammunition from it when you use an action, Bonus Action, or Reaction to fire it, regardless of the number of attacks you can normally make."
+   },
+    "Misfire": {
+        "description": "Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon’s Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker’s Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at a quarter of the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon’s misfire score by 1."
+   },
+    "Radius": {
+      "description": "The weapon explodes forcing each Target within the radius to make a Dexterity Saving Throw or Take Damage From the Explosion (half on success)"
+    },
+    "Range": {
+        "description": "A weapon that can be used to make a ranged Attack has a range in parentheses after the Ammunition or thrown property. The range lists two numbers. The first is the weapon’s normal range in feet, and the second indicates the weapon’s long range. When attacking a target beyond normal range, you have disadvantage on the Attack roll. You can’t Attack a target beyond the weapon’s long range."
+   },
+    "Reach": {
+        "description": "This weapon adds 5 feet to your reach when you Attack with it, as well as when determining your reach for Opportunity Attacks with it."
+   },
+    "Reload": {
+        "description": "The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
+   },
+    "Thrown": {
+        "description": "If a weapon has the thrown property, you can throw the weapon to make a ranged Attack. If the weapon is a melee weapon, you use the same ability modifier for that Attack roll and damage roll that you would use for a melee Attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the finesse property."
+   },
+    "Two Handed": {
+        "description": "This weapon requires two hands when you Attack with it."
+   },
+    "Versatile": {
+        "description": "This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee Attack."
+   },
+    "Silvered Weapon": {
+        "description": "Some Monsters that have immunity or Resistance to nonmagical Weapons are susceptible to silver Weapons, so cautious Adventurers invest extra coin to plate their Weapons with silver. You can silver a single weapon or ten pieces of Ammunition for 100 gp. This cost represents not only the price of the silver, but the time and Expertise needed to add silver to the weapon without making it less effective."
+   },
+    "Special: Lance": {
+        "description": "You have disadvantage when you use a lance to Attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren’t mounted."
+   },
+    "Special: Net": {
+        "description": "A Large or smaller creature hit by a net is Restrained until it is freed. A net has no Effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, Ending the Effect and destroying the net. When you use an action, Bonus Action, or Reaction to Attack with a net, you can make only one Attack regardless of the number of attacks you can normally make."
+   }
+}

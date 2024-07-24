@@ -1,0 +1,90 @@
+[
+  {
+    "language": "Abyssal",
+    "description": "Commonly Spoken By Demons"
+  },
+  {
+    "language": "Aquan",
+    "description": "Commonly Spoken By Water Based Creatures"
+  },
+    {
+    "language": "Auran",
+    "description": "Commonly Spoken By Air Based Creatures"
+  },
+  {
+    "language": "Celestial",
+    "description": "Commonly Spoken By Celestials"
+  },
+  {
+    "language": "Common",
+    "description": "Commonly Spoken By Humans, Halflings, Hal-elves, Half-orcs"
+  },
+  {
+    "language": "Deep Speech",
+    "description": "Commonly Spoken By Mind Flayers, Beholders"
+  },
+  {
+    "language": "Draconic",
+    "description": "Commonly Spoken By Kobolds, Lizardfolk, Dragons, Dragonborn"
+  },
+  {
+    "language": "Druidic",
+    "description": "Commonly Spoken By Druids"
+  },
+  {
+    "language": "Dwarvish",
+    "description": "Commonly Spoken By Dwarves"
+  },
+  {
+    "language": "Elvish",
+    "description": "Commonly Spoken By Elves"
+  },
+  {
+    "language": "Giant",
+    "description": "Commonly Spoken By Giants, Ogres"
+  },
+  {
+    "language": "Gnomish",
+    "description": "Commonly Spoken By Gnomes"
+  },
+  {
+    "language": "Goblin",
+    "description": "Commonly Spoken By Goblinoids, Hobgoblins, Bugbears"
+  },
+  {
+    "language": "Gnoll",
+    "description": "Commonly Spoken By Gnolls"
+  },
+  {
+    "language": "Halfling",
+    "description": "Commonly Spoken By Halflings"
+  },
+  {
+    "language": "Ignan",
+    "description": "Commonly Spoken By Fire Based Creatures"
+  },
+  {
+    "language": "Infernal",
+    "description": "Commonly Spoken By Devils, Tieflings"
+  },
+  {
+    "language": "Orc",
+    "description": "Commonly Spoken By Orcs"
+  },
+  {
+    "language": "Primordial",
+    "description": "Commonly Spoken By Elementals"
+  },
+  {
+    "language": "Sylvan",
+    "description": "Commonly Spoken By Fey"
+  },
+  {
+    "language": "Terran",
+    "description": "Commonly Spoken By Earth Based Creatures"
+  },
+  {
+    "language": "Undercommon",
+    "description": "Commonly Spoken By Drow, Underdark Traders"
+  }
+]

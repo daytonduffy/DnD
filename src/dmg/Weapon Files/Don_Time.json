@@ -1,0 +1,20 @@
+{
+  "Time": {
+    "Light Armor": {
+      "don": "1 minute",
+      "doff": "1 minute"
+    },
+    "Medium Armor": {
+      "don": "5 minutes",
+      "doff": "1 minute"
+    },
+    "Heavy Armor": {
+      "don": "10 minutes",
+      "doff": "5 minutes"
+    },
+    "Shield": {
+      "don": "1 Action",
+      "doff": "1 Action"
+    }
+  }
+}
